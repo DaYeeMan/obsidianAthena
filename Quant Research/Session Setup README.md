@@ -36,6 +36,8 @@ Research themes:
 - volatility and options risk premia
 - crypto market structure
 - transaction-cost, slippage, and capacity modeling
+- cross-paper literature synthesis and framework discovery
+- selected adjacent-domain methods that can improve quant research design
 
 ## Core Obsidian Files
 
@@ -59,6 +61,13 @@ Important folders:
 - [[04 Backtest Specs/Backtest Spec Index|Backtest Specs]]
 - [[05 Implementation Notes/Implementation Index|Implementation Notes]]
 - [[06 Research Reviews/Research Review Index|Research Reviews]]
+- [[07 Literature Synthesis/Literature Synthesis Index|Literature Synthesis]]
+
+Literature synthesis views:
+
+- [[07 Literature Synthesis/Framework Candidate Registry|Framework Candidate Registry]]
+- [[07 Literature Synthesis/Open Research Questions|Open Research Questions]]
+- [[07 Literature Synthesis/Concept Bridge Maps/Concept Bridge Map Index|Concept Bridge Maps]]
 
 ## Hidden System Folder
 
@@ -120,6 +129,34 @@ Initial queue items included:
 - decision-aware covariance metrics for GMVP backtests
 - forecast-uncertainty-aware ML sizing
 
+## Literature Synthesis Layer
+
+The research system now includes a dedicated synthesis layer for ideas that are broader than one paper or strategy note.
+
+Purpose:
+
+- discover non-obvious cross-paper connections,
+- convert related notes into falsifiable framework candidates,
+- track open research questions,
+- import selected methods from adjacent domains when they improve quant research design,
+- avoid losing useful framework ideas inside daily review prose.
+
+Adjacent-domain material should be treated as **method/framework leads**, not trading evidence, unless it can be translated into a falsifiable market hypothesis with data, rules, validation design, and failure modes.
+
+Good adjacent domains include:
+
+- statistics and econometrics,
+- ML and representation learning,
+- signal processing,
+- control theory and operations research,
+- network science,
+- ecology and epidemiology,
+- physics / complex systems,
+- causal inference,
+- decision theory.
+
+Domain analogies that remain metaphorical should be rejected or quarantined.
+
 ## Scheduled Hermes Jobs
 
 Two cron jobs were created.
@@ -142,9 +179,9 @@ Purpose:
 - update the candidate registry,
 - update the coding queue when something becomes implementation-ready.
 
-### Weekly Strategy/Model Decay Review
+### Weekly Quant Synthesis and Strategy/Model Decay Review
 
-- Job name: `weekly-quant-strategy-decay-review`
+- Job name: `weekly-quant-synthesis-and-strategy-decay-review`
 - Job ID: `810de174cd0f`
 - Schedule: Sundays at 9:00 AM local time
 - Delivery: Discord
@@ -156,8 +193,14 @@ Purpose:
 - upgrade/downgrade candidates,
 - flag outdated strategies,
 - preserve foundational items,
+- identify cross-paper connections,
+- identify contradictions, missing validation methods, and framework candidates,
+- include selected adjacent-domain method leads where they can improve quant research design,
+- update the framework registry and open research questions,
 - adjust coding priorities,
 - update the coding queue.
+
+The weekly synthesis layer is intentionally combined with the weekly decay review rather than scheduled as a separate cron job.
 
 ## Source Ingestion
 
@@ -174,6 +217,38 @@ Verified feed sources:
 - arXiv q-fin trading / statistical finance / portfolio management query
 
 The feed scanner is a fallback/source-lead tool. Feed entries are not treated as evidence unless they pass the research-quality filters.
+
+The source-controlled daily pre-run script now also emits:
+
+- existing candidate-registry context,
+- framework-registry context,
+- open-research-question context,
+- recent source-note excerpts,
+- q-fin arXiv leads,
+- adjacent-domain arXiv leads,
+- SSRN query links,
+- seen-state fields from `.hermes/quant-research/state/state.json`.
+
+The source-controlled weekly pre-run script emits context for the combined synthesis + decay review, including recent reviews, source notes, strategy notes, framework registry, open questions, and adjacent-domain method leads.
+
+## Handling Pre-Framework Daily Runs
+
+The daily runs from 2026-06-28 and earlier on 2026-06-29 were generated before the literature-synthesis framework existed. Do **not** delete or overwrite them.
+
+Recommended handling:
+
+1. Keep them as historical evidence and ingestion records.
+2. Treat them as `pre-framework` reviews when comparing output quality over time.
+3. Do not rerun those daily jobs just to recreate the past; reruns could change source availability and produce misleading timestamps.
+4. Run a one-time backfill synthesis pass, or let the next weekly synthesis+decay cron absorb them, to extract:
+   - cross-paper connections,
+   - framework candidates,
+   - open research questions,
+   - decay/outdatedness warnings,
+   - coding queue implications.
+5. If useful, add a short note to each pre-framework review such as: `Generated before the 2026-06-29 literature-synthesis framework upgrade; included in the first synthesis backfill.`
+
+Preferred approach: preserve the old daily notes unchanged except for an optional provenance note, then create a separate synthesis/backfill note that references them. This keeps the audit trail clean while still extracting framework value.
 
 ## Blogwatcher-CLI Installation Notes
 
@@ -210,7 +285,11 @@ The system now has:
 - a research candidate registry,
 - a coding-ready queue,
 - daily research collection,
-- weekly decay review,
+- combined weekly synthesis and decay review,
+- a literature synthesis layer,
+- a framework candidate registry,
+- open research questions,
+- concept bridge maps,
 - source ingestion protocols,
 - data-source notes,
 - hidden protocol/template/system files,
@@ -225,4 +304,5 @@ Potential future additions:
 - add Dataview-compatible metadata views,
 - add detailed option/crypto data-vendor comparison notes,
 - create formal backtest specs for the top coding queue items,
+- run a one-time synthesis backfill over the 2026-06-28 and 2026-06-29 pre-framework daily reviews,
 - convert this operating procedure into a reusable Hermes skill.
