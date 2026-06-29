@@ -17,6 +17,7 @@ This is the user-facing entry point for the Hermes `quant-researcher` library.
 - [[04 Backtest Specs/Backtest Spec Index|Backtest Specs]] — coding-ready research designs
 - [[01 Sources/Source Index|Sources]] — paper/source notes
 - [[06 Research Reviews/Research Review Index|Daily Research Reviews]] — scheduled research collection logs
+- [[07 Literature Synthesis/Literature Synthesis Index|Literature Synthesis]] — cross-paper connections, framework candidates, and open research questions
 - [[05 Implementation Notes/Implementation Index|Implementation Notes]] — data, engineering, and coding-time support
 
 ## Current Highest-Priority Candidate

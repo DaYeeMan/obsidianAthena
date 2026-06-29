@@ -26,6 +26,20 @@ This note defines the source universe for Phase 2 continuous collection. The dai
   - related/recommended papers
 - SSRN / NBER / journal pages when accessible from web extraction.
 
+## Adjacent-Domain Sources for Connection Discovery
+
+Use a small portion of collection/synthesis time to scan adjacent fields when they may improve quant frameworks:
+
+- statistics / econometrics: causal inference, panel methods, multiple testing, uncertainty estimation
+- machine learning: representation learning, online learning, conformal prediction, graph learning, leakage-resistant validation
+- signal processing: filtering, change-point detection, spectral/wavelet methods
+- control theory / operations research: robust control, stochastic optimization, inventory/execution constraints
+- network science / ecology / epidemiology: contagion, resilience, regime transitions, dependency networks
+- physics / complex systems: heavy tails, critical transitions, agent-based models
+- decision theory: decision-aware evaluation, regret, utility, risk constraints
+
+Adjacent-domain material should be treated as method leads, not trading evidence, unless translated into a falsifiable market hypothesis.
+
 ## Practitioner Sources Worth Considering
 
 Only include practitioner work when methodology is transparent enough to reproduce or falsify.

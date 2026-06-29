@@ -6,6 +6,7 @@ implementation_class: ""
 importance: ""
 last_reviewed: ""
 tags: [quant-source]
+concepts: []
 ---
 
 # {{title}}
@@ -34,6 +35,24 @@ tags: [quant-source]
 
 ## Strategy Ideas Extracted
 
+
+## Connections to Existing Research
+
+### Reinforces
+
+### Contradicts / Weakens
+
+### Transfers Across Asset Classes or Domains
+
+### Missing Validation or Method Supplied
+
+## Framework Potential
+
+- Candidate framework:
+- Linked notes:
+- Testable composite hypothesis:
+- Minimum viable validation:
+- What would falsify this connection?
 
 ## Keep / Reject Decision
 

@@ -1,42 +1,44 @@
 ---
-type: periodic-decay-review-template
-tags: [quant-research, decay-review, template]
+type: weekly-synthesis-decay-review
+date: ""
+profile: quant-researcher
+tags: [weekly-review, synthesis, decay-review]
 ---
 
-# Periodic Strategy/Model Decay Review — {{date}}
+# Weekly Quant Synthesis and Strategy Decay Review — {{date}}
 
-## Scope
+## Executive Summary
 
-Review the [[01 Research Candidate Registry]] and identify candidates that should be upgraded, downgraded, preserved as foundational, moved to coding queue, or rejected.
 
-## Registry Changes
+## Framework Candidates Added / Updated
 
-| Candidate | Previous Status | New Status | Previous Practicality | New Practicality | Reason |
-|---|---|---|---|---|---|
+| Framework | Linked Notes | Change | Next Validation Step |
+|---|---|---|---|
 
-## Upgrade Candidates
+## Cross-Paper Connection Table
 
-Ideas whose evidence, practicality, or coding priority improved.
+| Source A | Source B / Existing Candidate | Connection Type | Framework Potential | Action |
+|---|---|---|---|---|
 
-## Downgrade / Outdated-Watch Candidates
+## Adjacent-Domain Imports Worth Tracking
 
-Ideas showing decay risk due to:
+| Idea | Domain | Quant Use | Evidence / Caveat | Next Step |
+|---|---|---|---|---|
 
-- post-publication alpha decay
-- crowding/arbitrage
-- obsolete market structure
-- costs/slippage overwhelming edge
-- inaccessible data/execution
-- overfitting or unnecessary complexity
-- stronger simple baselines
+## Registry Upgrades / Downgrades
 
-## Foundational Items to Keep
 
-Important references that should remain even if they are not direct trading candidates.
+## Decay / Outdatedness Decisions
+
 
 ## Coding Queue Changes
 
-Updates to [[09 Coding-Ready Backtest Queue]].
 
-## Next Actions
+## Open Research Questions Added / Retired
+
+
+## Notes Updated
+
+
+## Discord Summary Candidate
 
