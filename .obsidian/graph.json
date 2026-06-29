@@ -1,0 +1,22 @@
+{
+  "collapse-filter": true,
+  "search": "-path:\"Quant Research/_System\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.495841995841996,
+  "repelStrength": 11.995841995842,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7983099250746436,
+  "close": true
+}

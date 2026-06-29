@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "2c11dc22a3803337",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5b3941c6ad6ac11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fa5baf7ff5c349c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d23fb2020a04025",
+    "type": "split",
+    "children": [
+      {
+        "id": "d392b423f4162a40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ffe01ef7173e9b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "879c11a6aa65077e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b054110eee467c99",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a3174173b8defd6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdb6acc3b47678de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4913f83b9ce1a360",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f9ca6fed542e4600",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "45d80fc5e7617622",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c293f703c771d42a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b8f02f7e7b55cd20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "eba710f55d3498d3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "7fa5baf7ff5c349c",
+  "lastOpenFiles": [
+    "Quant Research/Session Setup README.md",
+    "Quant Research/README.md",
+    "Untitled.base",
+    "Welcome.md",
+    "Quant Research/06 Research Reviews/2026-06-28 Daily Quant Research Review.md",
+    "Quant Research/05 Implementation Notes/Data Source Notes.md",
+    "Quant Research/05 Implementation Notes/Blogwatcher CLI Install Notes.md",
+    "Quant Research/03 Event-to-Strategy Maps/Event-to-Strategy Index.md",
+    "Quant Research/05 Implementation Notes/Coding-Time Quant Research Workflow.md",
+    "Quant Research/05 Implementation Notes/Implementation Index.md",
+    "Quant Research/01 Sources/Sizing the Risk - Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options.md",
+    "Quant Research/02 Strategy Ideas/SPX Short-Dated Put-Writing with VIX and Fractional-Kelly Sizing.md",
+    "Quant Research/08 Candidate Registry/Research Candidate Registry.md",
+    "Quant Research/07 Model and Strategy Decay/Decay Review Framework.md",
+    "Quant Research/01 Sources/Source Index.md",
+    "Quant Research/01 Sources/Research Source Watchlist.md",
+    "Quant Research/01 Sources/Decision Geometry of Covariance Estimation for GMVP under Heavy Tails.md",
+    "Quant Research/00 Index.md",
+    "Quant Research/08 Candidate Registry/Registry Maintenance Protocol.md",
+    "Quant Research/08 Candidate Registry/README.md",
+    "Quant Research/08 Candidate Registry",
+    "Quant Research/04 Backtest Specs/Backtest Spec Index.md"
+  ]
+}
