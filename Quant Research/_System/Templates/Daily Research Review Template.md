@@ -1,12 +1,13 @@
 ---
 type: daily-quant-research-review
 date: ""
+run_time: ""
 profile: quant-researcher
 asset_focus: [equities, options, crypto]
 tags: [daily-quant-review]
 ---
 
-# Daily Quant Research Review — {{date}}
+# Daily Quant Research Review — {{date}} {{run_time}}
 
 ## Executive Summary
 

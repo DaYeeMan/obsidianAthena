@@ -35,14 +35,18 @@ The daily research collector runs as a triage process, not a content dump.
    - unrealistic costs/slippage/borrow/option spreads
    - inaccessible data/execution
    - unnecessary model complexity versus simple baselines
-7. Write a dated review note under `06 Research Reviews`.
+7. Write a distinct timestamped review note under `06 Research Reviews` for each collector run.
 8. Create/update source or strategy notes only when the candidate is worth preserving.
 9. Update [[Quant Research/01 Research Candidate Registry|Research Candidate Registry]] for any candidate that is worth tracking, reclassified, rejected as a recurring bad idea, or newly flagged as outdated.
 10. Send Discord summary only for high-signal items or to confirm the review was saved.
 
 ## Daily Note Naming
 
-`YYYY-MM-DD Daily Quant Research Review.md`
+`YYYY-MM-DD HHMM Daily Quant Research Review.md`
+
+Example: `2026-06-30 1435 Daily Quant Research Review.md`
+
+Each collector run should create a distinct review note. Multiple same-day runs must not overwrite or merge into the first daily review unless the user explicitly asks for consolidation. If a timestamp collision occurs, append `-2`, `-3`, etc.
 
 ## Minimum Useful Daily Output
 
