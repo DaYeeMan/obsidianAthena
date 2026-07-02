@@ -1,7 +1,7 @@
 ---
 type: research-candidate-registry
 created: 2026-06-28
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 tags: [quant-research, candidate-registry, phase-2]
 ---
 
@@ -29,6 +29,8 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 
 | Candidate | Asset Class | Strategy / Method Family | Status | Practicality | Coding Priority | Decay Risk | Last Reviewed | Primary Note | Next Action |
 |---|---|---|---|---|---|---|---|---|---|
+| AI-agent guarded anomaly replication and decay audit | Equities / AI agents / factor research | Backtest governance; anomaly decay; replication audit | Evidence-backed as practitioner replication/governance warning | foundational | Reference | High for published equity anomalies: post-publication decay, survivorship bias, construction errors, and agent-generated implementation mistakes can create false positives | 2026-06-30 | [[Guardrails Make the Researcher - AI Agent Replication of Nine Equity Anomalies]] | Add replication guardrail block before coding old anomaly papers: survivorship-free data, post-publication split, implementation review, costs, and error traps. |
+| AI consumption beta / AI premium proxy factor | Equities / thematic asset pricing | Alternative-data factor; AI exposure; long-short equity | Plausible but untested | institutional-only as written / retail-adaptable via public proxies | Low/Medium | High: proprietary data, tech/momentum confounding, narrative crowding, publication decay, and possible lookahead in public proxies | 2026-06-30 | [[AI Premium]] | Do not code until a timestamped public AI-exposure proxy and sector/factor-neutral validation design are specified. |
 | Sign-vs-magnitude decomposition for short-horizon return predictability | Equities / crypto / microstructure | Return predictability diagnostic; short-horizon reversal validation | Evidence-backed as diagnostic | foundational / retail-adaptable | Medium | High for naïve lag-1 reversal: apparent autocorrelation may be bid/ask bounce, stale pricing, or magnitude shrinkage rather than directional alpha | 2026-06-30 | [[The Bounce Has No Direction - Sign Magnitude and Microstructure of Equity Return Predictability]] | Add sign-vs-magnitude decomposition before testing ETF/crypto short-horizon reversal; require spread/slippage-aware profitability. |
 | Distributional-output-first ML forecasting under fat tails | Equities / crypto / ML | Forecast uncertainty; density prediction; model validation | Evidence-backed as methodology | foundational / retail-adaptable | Medium | Medium: improved calibration can fail to improve downstream post-cost portfolio decisions; mixture heads may overfit limited tail samples | 2026-06-30 | [[Heads Not Backbones - Output Heads Dominate Architectures on Fat-Tailed Returns]] | Compare point vs Gaussian/mixture/quantile/conformal outputs with CRPS, coverage, and downstream sizing utility before adding complex backbones. |
 | Liquidity-demand audit for strategy backtests | Equities / crypto / options execution | Transaction costs; liquidity consumption; capacity audit | Plausible but untested | foundational / retail-adaptable | Medium | Medium/High: daily proxies may miss intraday execution; liquidity-demand estimates can be noisy but unmodeled liquidity costs can erase edge | 2026-06-30 | [[Liquidity-Based Audit of Algorithmic Trading Strategies]] | Add simplified liquidity-consumption/provider diagnostics to backtest reports; test whether strategy profits coincide with costly liquidity-demand states. |
@@ -40,6 +42,9 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 | Continuous heavy-tail HMMs for equity return simulation and regime-conditional VaR | Equities / portfolio / risk | Regime models; synthetic data; risk modeling | Plausible but untested | foundational / retail-adaptable | Medium | Medium: predictive value may be limited even if stylized-fact fit is strong; risk of complexity without downstream decision gain | 2026-06-29 | [[Continuous Hidden Markov Models for Equity Returns]] | Use as simulation/risk baseline first; compare against EWMA vol and simple regime filters before any strategy deployment. |
 | Crypto Granger-causality interaction networks | Crypto | Lead-lag / network features | Speculative | retail-adaptable only at slower horizons | Low/Medium | High: multiple testing, latency, fees, delistings, nonstationarity | 2026-06-28 | [[2026-06-28 Daily Quant Research Review]] | Only test with false-discovery controls and slow-horizon proxy; otherwise deprioritize. |
 | Square-root law of market impact in U.S. large-cap equity | Equities / microstructure | Slippage/capacity model | Evidence-backed as execution-cost reference | institutional-only / foundational | Medium | Low as concept; direct ITCH/metaorder inference not retail-practical | 2026-06-28 | [[2026-06-28 Daily Quant Research Review]] | Use as cost-model reference, not alpha. Consider square-root participation penalty when scaling strategies. |
+| Regime-conditional distributional strategy evaluation | Equities / options / crypto / portfolio | Strategy validation; regime-aware performance diagnostics | Evidence-backed as methodology | foundational / retail-adaptable | Medium | Medium: regime slicing can become data mining; flexible distributional models can overfit fold-level metrics; costs must be included before declaring conditional dominance | 2026-07-01 | [[Regime-Conditional Distributional Comparison of Trading Strategies]] | Add fold-level, regime-conditioned net performance diagnostics to future backtests before promoting ML, short-vol, crypto, or allocation strategies. |
+| Prediction-market settlement manipulation diagnostics | Crypto / prediction markets / microstructure | Event study; market-design risk; settlement-window reversal | Evidence-backed at abstract level | foundational / retail-adaptable | Low/Medium | High: effect may decay after platform design changes; minute-level execution, fees, exchange fragmentation, and latency can erase tradability | 2026-07-01 | [[Settlement Manipulation in Prediction Markets]] | If data are available, test BTC settlement-window order-flow/reversal against matched non-settlement windows and longer contract horizons; use first as a risk filter. |
+| Cost-aware execution policy for statistical arbitrage | Equities / stat arb / execution | Path-dependent signal execution; turnover and impact control | Plausible but untested | foundational / retail-adaptable | Low/Medium | Medium/High: pair selection leakage, path-feature overfit, borrow/spread costs, and accounting-only outperformance can create false edge | 2026-07-01 | [[Signature-Based Optimal Execution for Statistical Arbitrage]] | Keep as execution-design reference; only code after defining a pairs universe, walk-forward pair selection, simple baselines, and realistic cost model. |
 
 ## Sorting Views
 
@@ -48,15 +53,20 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 1. [[SPX Short-Dated Put-Writing with VIX and Fractional-Kelly Sizing]] — High priority, but only if option-chain data with bid/ask are available.
 2. Decision-aware covariance metrics — Medium priority, useful across portfolio/risk backtests.
 3. Forecast-uncertainty-aware ML sizing and distributional-output validation — Medium priority, useful when ML scores are introduced.
-4. Liquidity-demand audit and sign-vs-magnitude decomposition — Medium priority as validation layers before promoting short-horizon strategies.
+4. Regime-conditional distributional strategy evaluation — Medium priority as a validation layer for ML, short-vol, crypto, and allocation backtests.
+5. Liquidity-demand audit and sign-vs-magnitude decomposition — Medium priority as validation layers before promoting short-horizon strategies.
 
 ### Outdated / Decay Watch
 
+- Published equity anomaly replications without survivorship-free data, post-publication splits, transaction costs, and independent implementation checks.
+- Public AI-theme factor claims that fail sector/momentum/mega-cap concentration controls or rely on inaccessible proprietary alternative data.
 - Pure price-only deep learning for crypto forecasting.
 - Crowded short-dated option-selling strategies, especially 0DTE-era variants.
 - High-frequency crypto lead-lag/network claims without fee/latency/multiple-testing controls.
 - Naïve lag-1 ETF/crypto reversal claims that do not separate directional predictability from magnitude shrinkage, stale pricing, or bid/ask bounce.
 - Return-only LLM trading-agent benchmarks without time-gated inputs, transaction costs, and auditable decision trails.
+- Ultra-short-horizon prediction-market contracts settling on manipulable underlying prices, especially when settlement-time order flow and post-settlement reversal are present.
+- Stat-arb accounting outperformance that optimizes signal thresholds while ignoring execution path, turnover, inventory liquidation, borrow, and market impact.
 
 ### Foundational References to Keep
 
@@ -65,6 +75,9 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 - Square-root market impact / capacity modeling.
 - Liquidity-demand audit and microstructure-aware predictability decomposition.
 - Cost-aware, time-gated evaluation of LLM portfolio agents.
+- Regime-conditional distributional strategy evaluation.
+- Prediction-market settlement manipulation diagnostics.
+- Cost-aware execution policy design for statistical arbitrage.
 
 ## Maintenance Rules
 

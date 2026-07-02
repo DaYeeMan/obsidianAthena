@@ -15,7 +15,7 @@ Create falsifiable research frameworks from multiple papers, strategy notes, sou
 
 Review:
 
-1. [[Research Candidate Registry]]
+1. [[01 Research Candidate Registry|Research Candidate Registry]]
 2. [[09 Coding-Ready Backtest Queue]]
 3. recent daily research reviews
 4. source notes and strategy notes

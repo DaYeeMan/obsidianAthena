@@ -5,7 +5,7 @@ tags: [quant-research, candidate-registry, phase-2]
 
 # Registry Maintenance Protocol
 
-Use this protocol to keep [[Research Candidate Registry]] useful as the central sorting/filtering layer.
+Use this protocol to keep [[01 Research Candidate Registry|Research Candidate Registry]] useful as the central sorting/filtering layer.
 
 ## When to Add a Candidate
 

@@ -5,7 +5,9 @@ tags: [quant-research, rss, sources]
 
 # Feed Watchlist
 
-The direct feed scanner uses `_System/Scripts/feed_scan.py` and currently checks:
+The primary feed scanner uses `blogwatcher-cli` with database `C:/Users/enson/.hermes/quant-research/state/blogwatcher-cli.db`. The stdlib `_System/Scripts/feed_scan.py` remains only as a degraded fallback if blogwatcher-cli is unavailable or failing.
+
+The configured feed set currently checks:
 
 - Quantocracy — practitioner aggregator
 - Alpha Architect — practitioner / factor research

@@ -74,7 +74,7 @@ No immediate alpha promotion. Candidate test: compare lag-1 and lag-3 reversal/m
 
 ## Framework Potential
 
-- Candidate framework: [[Microstructure-aware predictability decomposition]]
+- Candidate framework: Microstructure-aware predictability decomposition
 - Linked notes: square-root impact reference, [[CryptoGAT - Are Time Series Models Effective for Cryptocurrency Forecasting]], [[Liquidity-Based Audit of Algorithmic Trading Strategies]]
 - Testable composite hypothesis: many short-horizon return-predictability signals lose directional content once decomposed into sign, magnitude, and cost channels.
 - Minimum viable validation: daily/intraday liquid ETFs and crypto majors, lag decomposition, post-cost long/short rules.

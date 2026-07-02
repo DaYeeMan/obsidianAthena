@@ -12,17 +12,23 @@ Use this protocol to improve source discovery beyond ad hoc paper search.
 The daily collector should combine:
 
 1. arXiv / Semantic Scholar paper discovery,
-2. direct RSS/feed scan using `_System/Scripts/feed_scan.py`,
+2. persistent RSS/feed state from `blogwatcher-cli`,
 3. credible practitioner research blogs when available,
 4. existing registry gaps and coding queue needs.
 
-## Feed Scan Script
+## Feed Collection Path
 
-Script path:
+Primary feed collector:
+
+`blogwatcher-cli` with database `C:/Users/enson/.hermes/quant-research/state/blogwatcher-cli.db`
+
+Hermes cron runs `C:/Users/enson/.hermes/quant-research/scripts/quant_research_collect_sources.py`, which initializes configured feeds in blogwatcher, scans them, and emits `blogwatcher_feed_leads` in the pre-run JSON. The collector should treat feed entries as leads, not evidence.
+
+Fallback script:
 
 `C:/Users/enson/Documents/Obsidian Vault/Quant Research/_System/Scripts/feed_scan.py`
 
-The script is intentionally stdlib-only and can run even though `blogwatcher-cli` is not installed. It prints recent feed entries as JSON. The collector should treat feed entries as leads, not evidence.
+The stdlib fallback script exists only for degraded operation if `blogwatcher-cli` is unavailable or failing. If fallback output is used, record that plainly in the review note instead of implying persistent feed-state coverage.
 
 ## Quality Filter
 

@@ -37,8 +37,10 @@ The daily research collector runs as a triage process, not a content dump.
    - unnecessary model complexity versus simple baselines
 7. Write a distinct timestamped review note under `06 Research Reviews` for each collector run.
 8. Create/update source or strategy notes only when the candidate is worth preserving.
-9. Update [[Quant Research/01 Research Candidate Registry|Research Candidate Registry]] for any candidate that is worth tracking, reclassified, rejected as a recurring bad idea, or newly flagged as outdated.
-10. Send Discord summary only for high-signal items or to confirm the review was saved.
+9. Use Obsidian wikilinks only for notes that already exist or are created in the same run. If an item is only a concept, framework label, or watch-only method lead, use plain text instead of `[[wikilinks]]` unless you intentionally create the corresponding note in the correct Quant Research folder.
+10. Update [[Quant Research/01 Research Candidate Registry|Research Candidate Registry]] for any candidate that is worth tracking, reclassified, rejected as a recurring bad idea, or newly flagged as outdated.
+11. Before finalizing, run link/file hygiene checks: verify each new wikilink target exists or is intentionally unresolved, verify newly created source-note titles match links exactly, and check for zero-byte markdown files at the vault root caused by unresolved-link creation.
+12. Send Discord summary only for high-signal items or to confirm the review was saved.
 
 ## Daily Note Naming
 
