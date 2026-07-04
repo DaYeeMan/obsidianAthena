@@ -1,7 +1,7 @@
 ---
 type: research-candidate-registry
 created: 2026-06-28
-last_updated: 2026-07-01
+last_updated: 2026-07-03
 tags: [quant-research, candidate-registry, phase-2]
 ---
 
@@ -45,6 +45,12 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 | Regime-conditional distributional strategy evaluation | Equities / options / crypto / portfolio | Strategy validation; regime-aware performance diagnostics | Evidence-backed as methodology | foundational / retail-adaptable | Medium | Medium: regime slicing can become data mining; flexible distributional models can overfit fold-level metrics; costs must be included before declaring conditional dominance | 2026-07-01 | [[Regime-Conditional Distributional Comparison of Trading Strategies]] | Add fold-level, regime-conditioned net performance diagnostics to future backtests before promoting ML, short-vol, crypto, or allocation strategies. |
 | Prediction-market settlement manipulation diagnostics | Crypto / prediction markets / microstructure | Event study; market-design risk; settlement-window reversal | Evidence-backed at abstract level | foundational / retail-adaptable | Low/Medium | High: effect may decay after platform design changes; minute-level execution, fees, exchange fragmentation, and latency can erase tradability | 2026-07-01 | [[Settlement Manipulation in Prediction Markets]] | If data are available, test BTC settlement-window order-flow/reversal against matched non-settlement windows and longer contract horizons; use first as a risk filter. |
 | Cost-aware execution policy for statistical arbitrage | Equities / stat arb / execution | Path-dependent signal execution; turnover and impact control | Plausible but untested | foundational / retail-adaptable | Low/Medium | Medium/High: pair selection leakage, path-feature overfit, borrow/spread costs, and accounting-only outperformance can create false edge | 2026-07-01 | [[Signature-Based Optimal Execution for Statistical Arbitrage]] | Keep as execution-design reference; only code after defining a pairs universe, walk-forward pair selection, simple baselines, and realistic cost model. |
+| End-to-end AI portfolio policies versus simple rules | Futures / ETFs / portfolio / ML | Cross-asset timing; parametric portfolio policies; AI benchmark design | Evidence-backed at abstract level as model-evaluation study | foundational / retail-adaptable | Medium | Medium/High: deep policies may overfit differentiable Sharpe, hidden leverage/turnover, roll assumptions, and pooled metrics; costs can erase LSTM-style gross gains | 2026-07-02 | [[End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing]] | Use as benchmark design for any allocation ML: compare equal weight, risk parity, time-series momentum, and linear policies before LSTM/transformer; require turnover/cost/regime stress. |
+| Liquidity-tail-aware market impact and price discovery | Equities / futures / crypto microstructure | Market impact; liquidity shocks; order-flow interpretation; cost stress | Evidence-backed as theory | foundational | Reference | Medium: theory may be hard to identify empirically; liquidity-tail proxies can be noisy and regime-dependent, but ignoring state-dependent impact can understate costs | 2026-07-02 | [[When Large Trades Are Not News - Liquidity Tail Risk and Price Discovery]] | Add liquidity-tail/large-order state diagnostics to cost models before interpreting volume spikes as informed alpha or assuming constant slippage. |
+| Microstructure-conditioned short-term trend decay audit | Futures / ETFs / trend-following | Trend-following decay; tick-size/liquidity stratification; market-impact feedback | Evidence-backed at abstract level | foundational / retail-adaptable | Medium | High for short-speed trend: post-2009 decay, HFT market-making changes, small-tick execution costs, and pooling across contracts can hide nonstationarity | 2026-07-03 | [[Is Trend Still Your Friend - Microstructural Demise of Short-Term Trend-Following]] | Add tick-size/liquidity buckets and post-2009 net-of-cost splits before coding short-term trend-following or trend/reversal hybrids. |
+| Monthly liquidity-impact premium proxy | Equities | Liquidity premium; order-flow/price-impact asset pricing; cross-sectional returns | Plausible but untested | retail-adaptable / foundational | Low/Medium | High: 2020–2025 sample is short; signed order-flow may be inaccessible; small-cap liquidity premia can disappear after spreads, impact, delistings, and factor controls | 2026-07-03 | [[Liquidity Premium and Investment Horizons]] | Test only as a conservative lagged liquidity-stress proxy with survivorship-free data, factor controls, and strict liquidity/cost filters. |
+| Cap-axis factor-model diagnostic | Equities / factor research | Factor model validation; cap-rank residual alpha; anomaly replication guardrail | Evidence-backed at abstract level as methodology | foundational | Reference | Medium: requires clean CRSP-style data; cap-rank effects can be microcap/cost artifacts; diagnostic should not become a fitted objective | 2026-07-03 | [[A Cap-Axis Integral Diagnostic of Factor Models]] | Add size/cap-rank residual diagnostics to anomaly replication before treating factor Sharpe or t-stats as robust evidence. |
+| Regime-routed volatility specialist forecasts | ETFs / options / crypto risk | Volatility forecasting; state-dependent specialist routing; risk throttling | Plausible but untested | foundational / retail-adaptable | Medium | Medium: small ETF panel; gating can overfit regimes; forecast-loss gains may not improve downstream net utility or may increase turnover | 2026-07-03 | [[Risk-Sensitive Specialist Routing for Volatility Forecasting]] | Consider as a risk-control module for SPX put-writing/ML allocation after EWMA/GARCH/rolling-realized-vol baselines are implemented. |
 
 ## Sorting Views
 
@@ -54,7 +60,9 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 2. Decision-aware covariance metrics — Medium priority, useful across portfolio/risk backtests.
 3. Forecast-uncertainty-aware ML sizing and distributional-output validation — Medium priority, useful when ML scores are introduced.
 4. Regime-conditional distributional strategy evaluation — Medium priority as a validation layer for ML, short-vol, crypto, and allocation backtests.
-5. Liquidity-demand audit and sign-vs-magnitude decomposition — Medium priority as validation layers before promoting short-horizon strategies.
+5. End-to-end AI portfolio policies versus simple rules — Medium priority as a benchmark design for allocation ML, but only after a clean futures/ETF universe and cost model are specified.
+6. Liquidity-demand audit, liquidity-tail diagnostics, sign-vs-magnitude decomposition, and microstructure-conditioned short-term trend decay — Medium priority as validation layers before promoting short-horizon strategies.
+7. Regime-routed volatility specialist forecasts — Medium priority as a risk-control module after EWMA/GARCH/rolling-realized-vol baselines exist.
 
 ### Outdated / Decay Watch
 
@@ -67,6 +75,11 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 - Return-only LLM trading-agent benchmarks without time-gated inputs, transaction costs, and auditable decision trails.
 - Ultra-short-horizon prediction-market contracts settling on manipulable underlying prices, especially when settlement-time order flow and post-settlement reversal are present.
 - Stat-arb accounting outperformance that optimizes signal thresholds while ignoring execution path, turnover, inventory liquidation, borrow, and market impact.
+- AI portfolio policies that beat simple rules only gross of costs, only through high turnover/leverage, or only in pooled metrics without regime/sub-asset robustness.
+- Volume-spike or large-trade signals that assume large trades are always informed rather than possibly heavy-tailed liquidity shocks.
+- Short-speed trend-following claims that pool contracts across tick-size/liquidity regimes or rely on pre-2009 gross performance without market-structure and cost splits.
+- Liquidity-premium implementations concentrated in illiquid/small-cap names without spread, delisting, borrow, and capacity controls.
+- Volatility forecast routers that improve average forecast loss but fail to improve downstream net utility, turnover, or drawdown control.
 
 ### Foundational References to Keep
 
@@ -78,6 +91,11 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 - Regime-conditional distributional strategy evaluation.
 - Prediction-market settlement manipulation diagnostics.
 - Cost-aware execution policy design for statistical arbitrage.
+- Simple-rule benchmark-first evaluation of AI portfolio policies.
+- Liquidity-tail-aware market impact and price-discovery modeling.
+- Microstructure-conditioned trend decay and tick-size/liquidity stratification.
+- Cap-axis and size-rank residual diagnostics for factor/anomaly validation.
+- Regime-routed volatility specialist forecasts as risk-control modules.
 
 ## Maintenance Rules
 

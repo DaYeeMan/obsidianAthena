@@ -19,6 +19,10 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Which ideas from adjacent fields — epidemiology, ecology, control theory, signal processing, network science, operations research, physics, and causal inference — translate into falsifiable market hypotheses rather than metaphors?
 - Can regime-conditional distributional evaluation distinguish genuinely robust strategies from strategies that only win in narrow volatility/trend/liquidity states after costs?
 - Are ultra-short prediction-market settlement windows systematically associated with manipulable underlying order-flow pressure and post-settlement reversal, and does longer contract horizon remove the effect?
+- When do end-to-end AI portfolio policies beat equal weight, risk parity, and time-series momentum after transaction costs, turnover caps, margin/roll assumptions, and regime-conditional validation?
+- Can liquidity-tail-risk proxies improve backtest cost stress by identifying states where large trades are less informative but spreads, impact, and adverse-selection premia remain elevated?
+- Does volatility-normalized tick size or another accessible microstructure proxy explain which futures/ETF trend-following speeds still survive after post-2009 costs?
+- Can lagged liquidity-impact proxies produce an implementable equity liquidity premium after excluding microcap/spread/capacity traps and controlling for standard factors?
 
 ## Maintenance Rules
 
