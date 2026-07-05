@@ -4,6 +4,8 @@ Daily and periodic research collection notes live here.
 
 ## Daily Reviews
 
+- [[2026-07-05 0803 Daily Quant Research Review]]
+- [[2026-07-04 0802 Daily Quant Research Review]]
 - [[2026-07-03 0802 Daily Quant Research Review]]
 - [[2026-07-02 0801 Daily Quant Research Review]]
 - [[2026-07-01 1200 Daily Quant Research Review]]
@@ -14,4 +16,4 @@ Daily and periodic research collection notes live here.
 
 ## Periodic Reviews
 
-Future weekly/monthly decay reviews should be linked here.
+- [[2026-07-05 Weekly Quant Synthesis and Strategy Decay Review]]

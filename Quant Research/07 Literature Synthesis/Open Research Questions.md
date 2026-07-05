@@ -23,6 +23,8 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can liquidity-tail-risk proxies improve backtest cost stress by identifying states where large trades are less informative but spreads, impact, and adverse-selection premia remain elevated?
 - Does volatility-normalized tick size or another accessible microstructure proxy explain which futures/ETF trend-following speeds still survive after post-2009 costs?
 - Can lagged liquidity-impact proxies produce an implementable equity liquidity premium after excluding microcap/spread/capacity traps and controlling for standard factors?
+- Can cross-audit or value-of-information methods improve strategy validation decisions by estimating when more validation data, option-chain history, or alternative data are worth acquiring before coding?
+- Can an online risk-monitor / kill-switch framework detect when a live strategy, model, or AI research agent leaves its validated regime using only time-gated verifier signals?
 
 ## Maintenance Rules
 

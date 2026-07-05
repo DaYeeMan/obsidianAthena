@@ -1,7 +1,7 @@
 ---
 type: coding-ready-backtest-queue
 created: 2026-06-28
-last_updated: 2026-06-28
+last_updated: 2026-07-05
 tags: [quant-research, backtest-queue, coding]
 ---
 
@@ -15,7 +15,8 @@ This queue tracks ideas that are ready or nearly ready to implement. It is separ
 |---|---|---|---|---|---|---|---|
 | SPX/SPXW short-dated put-writing with VIX and fractional-Kelly sizing | Options / equities | High | Research spec needed | Historical SPX/SPXW option chains with bid/ask, SPX, VIX, rates, fees/margin assumptions | Data availability and realistic fill/margin modeling | [[SPX Short-Dated Put-Writing with VIX and Fractional-Kelly Sizing]] | Create fixed-risk baseline backtest spec before adding VIX/Kelly sizing. |
 | Decision-aware covariance metrics for GMVP backtests | Equities / crypto / ETFs | Medium | Method integration | Daily returns for test universes; covariance estimators | Need define benchmark/oracle/regret metrics | [[Decision Geometry of Covariance Estimation for GMVP under Heavy Tails]] | Add decision-regret metrics to any portfolio-construction backtest. |
-| Forecast-uncertainty-aware ML sizing | Equities / crypto | Medium | Method integration | ML forecast distributions or bootstrap/ensemble predictions | Need existing ML forecast pipeline | [[2026-06-28 Daily Quant Research Review]] | Create source note and apply uncertainty shrinkage only after a baseline model exists. |
+| Forecast-uncertainty-aware ML sizing | Equities / crypto | Medium | Method integration | ML forecast distributions or bootstrap/ensemble predictions | Need existing ML forecast pipeline | [[Forecast-uncertainty-aware ML asset pricing]] | Apply uncertainty shrinkage only after a baseline model exists; compare against volatility targeting, inverse-vol, and linear baselines. |
+| Standard cost/regime/liquidity/decision audit block for backtests | Equities / options / crypto / futures / portfolio | Medium | Ready to code as reusable report module | Backtest trades/weights, asset prices/returns, turnover, spread or liquidity proxies, fold metrics, baseline returns, regime covariates | Integrate into a backtest harness and define minimal proxy defaults when bid/ask or intraday data are unavailable | [[2026-07-05 Weekly Quant Synthesis and Strategy Decay Review]]; [[Framework Candidate Registry]] | Implement a report block with TimeGate/leakage checklist, survivorship/replication guardrails, turnover/cost stress, liquidity-demand/tail proxies, regime-conditioned fold metrics, simple baselines, and decision-regret outputs. |
 
 ## Status Definitions
 
