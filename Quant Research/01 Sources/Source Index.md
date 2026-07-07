@@ -17,14 +17,17 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Settlement Manipulation in Prediction Markets]]
   - [[Signature-Based Optimal Execution for Statistical Arbitrage]]
   - [[When Large Trades Are Not News - Liquidity Tail Risk and Price Discovery]]
+  - [[Order Splitting and Liquidity Replenishment for Square-Root Market Impact]]
 - Options / volatility
   - [[Sizing the Risk - Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options]]
 - Crypto market structure
   - [[Settlement Manipulation in Prediction Markets]]
 - Strategy evaluation / validation
   - [[Regime-Conditional Distributional Comparison of Trading Strategies]]
+  - [[Look-Ahead-Freedom as Temporal Non-Interference]]
 - ML/AI forecasting
   - [[Risk-Sensitive Specialist Routing for Volatility Forecasting]]
+  - [[Forecasting Realized Volatility with Time Series Foundation Models]]
   - [[Forecast-uncertainty-aware ML asset pricing]]
   - [[CryptoGAT - Are Time Series Models Effective for Cryptocurrency Forecasting]]
   - [[Heads Not Backbones - Output Heads Dominate Architectures on Fat-Tailed Returns]]

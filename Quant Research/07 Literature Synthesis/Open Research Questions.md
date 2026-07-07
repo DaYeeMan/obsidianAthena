@@ -25,6 +25,8 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can lagged liquidity-impact proxies produce an implementable equity liquidity premium after excluding microcap/spread/capacity traps and controlling for standard factors?
 - Can cross-audit or value-of-information methods improve strategy validation decisions by estimating when more validation data, option-chain history, or alternative data are worth acquiring before coding?
 - Can an online risk-monitor / kill-switch framework detect when a live strategy, model, or AI research agent leaves its validated regime using only time-gated verifier signals?
+- Can formal look-ahead-freedom checks using availability time, reference time, and decision time catch practical leakage in local backtests beyond conventional train/test splits and manual point-in-time checks?
+- Do time-series foundation models improve realized-volatility-driven sizing or risk throttles after Log-HAR/EWMA/GARCH baselines, Mincer-Zarnowitz recalibration, per-asset loss analysis, and downstream cost-aware utility tests?
 
 ## Maintenance Rules
 

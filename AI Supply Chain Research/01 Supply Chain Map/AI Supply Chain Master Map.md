@@ -2,7 +2,7 @@
 type: supply-chain-map
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 confidence: medium
 ---
 
@@ -88,7 +88,7 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, In
 
 | Bottleneck | Current research question | Related segments | Evidence status |
 |---|---|---|---|
-| HBM | Is HBM still the binding constraint for accelerator shipments, and which vendor has incremental share/pricing power? | [[03 Segments/HBM and Memory]], [[03 Segments/Accelerators and Custom Silicon]] | Ongoing |
+| HBM | Is HBM still the binding constraint for accelerator shipments, and which vendor has incremental share/pricing power? | [[03 Segments/HBM and Memory]], [[03 Segments/Accelerators and Custom Silicon]] | Primary Micron HBM4 production evidence; volume/share still unknown |
 | Advanced packaging | Is CoWoS/advanced-packaging capacity easing fast enough to unlock AI accelerator supply? | [[03 Segments/Foundry Advanced Packaging and Substrates]] | Ongoing |
 | Datacenter power | Are power/interconnection constraints becoming a more important limiter than chip availability? | [[03 Segments/Datacenter Power Cooling and Construction]] | Ongoing |
 | Networking/optics | Are cluster scale and inference growth shifting value to Ethernet, optics, and switching? | [[03 Segments/Networking Optics and Interconnect]] | Ongoing |
@@ -98,4 +98,5 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, In
 
 | Date | Change | Evidence |
 |---|---|---|
+| 2026-07-07 | Added Micron HBM4 production for NVIDIA Vera Rubin as a primary historical baseline for HBM bottleneck monitoring. | [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin]]; Micron primary sources. |
 | 2026-07-05 | Initial broad-stack AI supply-chain map created. | User-approved setup. |

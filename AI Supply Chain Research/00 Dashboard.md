@@ -2,7 +2,7 @@
 type: dashboard
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # AI Supply Chain Dashboard
@@ -40,3 +40,4 @@ _Add manually or by the daily maintenance job when an event materially changes t
 
 | Date | Event | Segment(s) | Why it matters | Status |
 |---|---|---|---|---|
+| 2026-07-07 | [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin|Micron HBM4 in high-volume production for NVIDIA Vera Rubin]] | HBM, Accelerators, Advanced packaging | Primary historical baseline that Micron has production-stage HBM4 tied to NVIDIA Vera Rubin; share/volume economics still need verification. | active; no Discord alert because event is historical, not a new high-signal development today. |

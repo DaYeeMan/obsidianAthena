@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Networking, Optics, and Interconnect
@@ -24,6 +24,8 @@ NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, optical module makers where 
 
 _Add material event backlinks here._
 
+- [[04 Events/2026/2026-06-09 Arista 1.6T AI Fabric Portfolio|2026-06-09: Arista introduces 1.6T AI fabric portfolio]] — primary product-cycle signal for AI Ethernet scale-out/scale-up fabrics; monitor for customer/order evidence.
+
 ## Current assessment
 
-_Update as evidence accumulates._
+Current evidence supports monitoring Ethernet/optics as a potential AI cluster value-shift layer, but available primary evidence is still product-cycle level rather than shipment, backlog, or bottleneck evidence.

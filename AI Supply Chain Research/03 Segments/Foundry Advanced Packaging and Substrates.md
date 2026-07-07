@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # Foundry, Advanced Packaging, and Substrates
@@ -24,6 +24,8 @@ TSMC, Samsung Foundry, Intel Foundry, ASE, Amkor, Ibiden, Unimicron, AT&S, Shink
 
 _Add material event backlinks here._
 
+- [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin|2026-03-16: Micron HBM4 in high-volume production for NVIDIA Vera Rubin]] — HBM4 12-high production and 16-high sampling point to advanced stacking/packaging as an important enabling layer for next-generation AI accelerators.
+
 ## Current assessment
 
-_Update as evidence accumulates._
+HBM4 production and 16-high sampling evidence reinforces the need to monitor advanced memory stacking, packaging yield, and related equipment capacity as AI accelerators move to higher memory bandwidth and capacity per package.
