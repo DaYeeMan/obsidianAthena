@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-05
+last_updated: 2026-07-10
 ---
 
 # Company Index
@@ -37,6 +37,8 @@ Use this as a curated index of public and material private entities in the AI su
 | Amazon | AMZN | Cloud/custom silicon | AWS AI infrastructure. |
 | Meta | META | Hyperscaler demand | Large AI cluster buyer. |
 | Oracle | ORCL | Cloud/AI infrastructure | GPU cloud and datacenter expansion. |
+| Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Helios campus has primary evidence of delivered CoreWeave critical IT load and large approved power runway. |
+| Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 210 MW Delta Forge 2 hyperscaler lease and multi-campus contracted AI datacenter portfolio. |
 
 ## Material private / indirect entities
 

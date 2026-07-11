@@ -2,7 +2,7 @@
 type: supply-chain-map
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-07
+last_updated: 2026-07-11
 confidence: medium
 ---
 
@@ -27,14 +27,14 @@ Representative public exposures: MSFT, GOOGL, AMZN, META, ORCL, CRM, NOW, ADBE, 
 - Hyperscalers control capex cadence, custom silicon roadmaps, and infrastructure utilization.
 - Neo-cloud and GPU-cloud providers can amplify near-term server/GPU demand but may carry financing and customer-concentration risk.
 
-Key entities: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Nebius, Microsoft Azure, Google Cloud, AWS, Oracle Cloud.
+Key entities: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Nebius, Galaxy/Helios, Applied Digital, Microsoft Azure, Google Cloud, AWS, Oracle Cloud.
 
 ### 3. Datacenter physical infrastructure
 
 - Site selection, power availability, grid interconnection queues, substations, transformers, backup power, cooling, racks, UPS, switchgear, and datacenter construction capacity.
 - Bottlenecks can shift from chips to power, cooling, permitting, and construction lead times.
 
-Representative public exposures: VRT, ETN, SU.PA, ABB, SMCI, DELL, HPE, MOD, PWR, Quanta/Inventec/Wistron/Wiwynn/Foxconn where listed.
+Representative public exposures: GLXY, APLD, VRT, ETN, SU.PA, ABB, SMCI, DELL, HPE, MOD, PWR, Quanta/Inventec/Wistron/Wiwynn/Foxconn where listed.
 
 ### 4. AI servers, ODMs, and system integration
 
@@ -90,13 +90,17 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, In
 |---|---|---|---|
 | HBM | Is HBM still the binding constraint for accelerator shipments, and which vendor has incremental share/pricing power? | [[03 Segments/HBM and Memory]], [[03 Segments/Accelerators and Custom Silicon]] | Primary Micron HBM4 production evidence; volume/share still unknown |
 | Advanced packaging | Is CoWoS/advanced-packaging capacity easing fast enough to unlock AI accelerator supply? | [[03 Segments/Foundry Advanced Packaging and Substrates]] | Ongoing |
-| Datacenter power | Are power/interconnection constraints becoming a more important limiter than chip availability? | [[03 Segments/Datacenter Power Cooling and Construction]] | Ongoing |
+| Datacenter power | Are power/interconnection constraints becoming a more important limiter than chip availability? | [[03 Segments/Datacenter Power Cooling and Construction]] | Primary TeraWulf/Anthropic 401 MW lease evidence, Galaxy/Helios 133 MW delivered critical IT load to CoreWeave, and Applied Digital 210 MW Delta Forge 2 hyperscaler lease; execution milestones still needed |
 | Networking/optics | Are cluster scale and inference growth shifting value to Ethernet, optics, and switching? | [[03 Segments/Networking Optics and Interconnect]] | Ongoing |
-| Export controls | Are restrictions changing regional demand, inventory, or China-local substitution? | [[03 Segments/Policy Geopolitics and Logistics]] | Ongoing |
+| Export controls | Are restrictions changing regional demand, inventory, or China-local substitution? | [[03 Segments/Policy Geopolitics and Logistics]] | Primary Federal Register evidence that BIS moved some advanced-computing exports, including H200/equivalents, from presumption of denial to case-by-case review subject to supply/capacity/security/testing conditions; actual licenses and shipment impact still unknown. |
 
 ## Change log
 
 | Date | Change | Evidence |
 |---|---|---|
+| 2026-07-11 | Added BIS January 2026 advanced-computing export license-review rule as a primary-sourced historical policy datapoint for China/Macau H200-class accelerator demand and foundry-capacity allocation monitoring. | [[04 Events/2026/2026-01-15 BIS Advanced Computing Export License Review Policy]]; Federal Register 91 FR 1684. |
+| 2026-07-10 | Added Applied Digital / Delta Forge 2 as another primary-sourced AI datacenter MW lease datapoint and added APLD to the direct public-exposure set for the campus lease theme. | [[04 Events/2026/2026-06-08 Applied Digital Delta Forge 2 Hyperscaler Lease]]; Applied Digital SEC-filed Exhibit 99.1. |
+| 2026-07-09 | Added Galaxy Helios Phase I / CoreWeave 133 MW delivery as operational evidence that power-ready campuses are converting into revenue-generating AI/HPC capacity. | [[04 Events/2026/2026-07-06 Galaxy Helios Phase I CoreWeave Delivery]]; Galaxy primary press release. |
+| 2026-07-08 | Added TeraWulf/Anthropic 401 MW AI campus lease as high-signal evidence that model-lab demand is converting into long-duration power/datacenter commitments. | [[04 Events/2026/2026-07-06 TeraWulf Anthropic Justified Data Campus Lease]]; TeraWulf SEC 8-K. |
 | 2026-07-07 | Added Micron HBM4 production for NVIDIA Vera Rubin as a primary historical baseline for HBM bottleneck monitoring. | [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin]]; Micron primary sources. |
 | 2026-07-05 | Initial broad-stack AI supply-chain map created. | User-approved setup. |

@@ -2,7 +2,7 @@
 type: event-registry
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-07
+last_updated: 2026-07-11
 ---
 
 # Event Registry
@@ -22,5 +22,9 @@ Permanent index of material AI supply-chain events. Event notes should live unde
 
 | Date | Event | Status | Segments | Companies | Materiality | Notes |
 |---|---|---|---|---|---|---|
+| 2026-01-15 | [[04 Events/2026/2026-01-15 BIS Advanced Computing Export License Review Policy|BIS revises license review policy for advanced computing commodities]] | active | [[03 Segments/Policy Geopolitics and Logistics]], [[03 Segments/Accelerators and Custom Silicon]], [[03 Segments/Foundry Advanced Packaging and Substrates]] | Bureau of Industry and Security, NVIDIA | high | Primary Federal Register rule changed review policy for certain China/Macau advanced-computing exports from presumption of denial to case-by-case, including NVIDIA H200/equivalents subject to supply, foundry-capacity, security, and testing conditions; historical discovery, no alert. |
+| 2026-07-06 | [[04 Events/2026/2026-07-06 Galaxy Helios Phase I CoreWeave Delivery|Galaxy delivers 133 MW of critical IT load to CoreWeave at Helios Phase I]] | active | [[03 Segments/Demand Model Labs and Cloud]], [[03 Segments/Datacenter Power Cooling and Construction]] | Galaxy Digital, CoreWeave | high | Primary Galaxy evidence of Phase I delivery, rent commencement, 133 MW critical IT load, 526 MW CoreWeave commitment across Phases I-III, and >$1B expected average annual revenue; high-signal AI datacenter capacity conversion event. |
+| 2026-07-06 | [[04 Events/2026/2026-07-06 TeraWulf Anthropic Justified Data Campus Lease|TeraWulf signs 401 MW Anthropic lease at Justified Data Campus]] | active | [[03 Segments/Demand Model Labs and Cloud]], [[03 Segments/Datacenter Power Cooling and Construction]] | TeraWulf, Anthropic, Fluidstack | high | Primary 8-K evidence of 401 MW, 20-year AI infrastructure lease expected to generate ~$19B over initial term; high-signal demand/power/campus construction event. |
+| 2026-06-08 | [[04 Events/2026/2026-06-08 Applied Digital Delta Forge 2 Hyperscaler Lease|Applied Digital signs 210 MW Delta Forge 2 hyperscaler lease]] | active | [[03 Segments/Demand Model Labs and Cloud]], [[03 Segments/Datacenter Power Cooling and Construction]] | Applied Digital | high | Primary SEC-filed exhibit evidence of a 210 MW critical-IT-load, 15-year take-or-pay AI campus lease with an unnamed U.S. investment-grade hyperscaler, ~$5.2B base-term contracted revenue, and Q1 2028 initial-operations target; historical discovery, no alert. |
 | 2026-03-16 | [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin|Micron HBM4 in high-volume production for NVIDIA Vera Rubin]] | active | [[03 Segments/HBM and Memory]], [[03 Segments/Accelerators and Custom Silicon]], [[03 Segments/Foundry Advanced Packaging and Substrates]] | Micron Technology, NVIDIA | medium | Primary historical baseline for HBM4 production tied to NVIDIA Vera Rubin; volume/share economics still unquantified, so no alert. |
 | 2026-06-09 | [[04 Events/2026/2026-06-09 Arista 1.6T AI Fabric Portfolio|Arista introduces 1.6T AI fabric portfolio]] | active | [[03 Segments/Networking Optics and Interconnect]], [[03 Segments/AI Servers ODMs and System Integration]] | Arista Networks | medium | Primary product-cycle signal for AI Ethernet fabrics; no customer/order volume yet, so no alert. |

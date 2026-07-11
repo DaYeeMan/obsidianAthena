@@ -27,6 +27,13 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can an online risk-monitor / kill-switch framework detect when a live strategy, model, or AI research agent leaves its validated regime using only time-gated verifier signals?
 - Can formal look-ahead-freedom checks using availability time, reference time, and decision time catch practical leakage in local backtests beyond conventional train/test splits and manual point-in-time checks?
 - Do time-series foundation models improve realized-volatility-driven sizing or risk throttles after Log-HAR/EWMA/GARCH baselines, Mincer-Zarnowitz recalibration, per-asset loss analysis, and downstream cost-aware utility tests?
+- Can RL execution or market-making policies that appear profitable in nonlinear-impact simulators be automatically flagged for manipulation-like round trips, impact-artifact exploitation, and out-of-regime fragility before they contaminate agentic trading evaluations?
+- Do uncertainty-calibrated covariance/eigenstructure risk-state triggers improve drawdown control or allocation utility versus raw absorption-ratio thresholds, volatility targeting, and drawdown filters after turnover costs?
+- Can arbitrage-consistent option-implied risk-neutral tail metrics improve SPX/SPXW short-volatility sizing or risk throttles versus VIX, IV-rank, and simple skew filters after quote-cleaning and bid/ask costs?
+- Can dependence-aware bootstrap and adaptive conformal intervals improve forecast sizing, kill-switches, or strategy go/no-go decisions versus IID intervals, simple volatility targeting, and fixed risk thresholds after turnover costs?
+- Can high-dimensional global-factor-count diagnostics near the BBP transition add robust risk-state information beyond absorption ratio, leading eigenvalue share, volatility, and drawdown filters?
+- Can structural prediction-market volatility variables — probability level, time-to-resolution, spread/volume, event category, and venue/resolution design — improve settlement-window risk filters versus generic GARCH or simply avoiding near-resolution contracts?
+- Can action-attribution diagnostics distinguish useful uncertainty-aware risk throttles from over-robust policies that reduce drawdowns only by missing profitable trades, especially in illiquid states?
 
 ## Maintenance Rules
 
