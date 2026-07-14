@@ -1,7 +1,7 @@
 ---
 type: coding-ready-backtest-queue
 created: 2026-06-28
-last_updated: 2026-07-05
+last_updated: 2026-07-12
 tags: [quant-research, backtest-queue, coding]
 ---
 
@@ -13,10 +13,10 @@ This queue tracks ideas that are ready or nearly ready to implement. It is separ
 
 | Strategy / Spec | Asset Class | Priority | Implementation Status | Data Needed | Main Blocker | Linked Research | Next Coding Step |
 |---|---|---|---|---|---|---|---|
-| SPX/SPXW short-dated put-writing with VIX and fractional-Kelly sizing | Options / equities | High | Research spec needed | Historical SPX/SPXW option chains with bid/ask, SPX, VIX, rates, fees/margin assumptions | Data availability and realistic fill/margin modeling | [[SPX Short-Dated Put-Writing with VIX and Fractional-Kelly Sizing]] | Create fixed-risk baseline backtest spec before adding VIX/Kelly sizing. |
+| SPX/SPXW short-dated put-writing with VIX and fractional-Kelly sizing | Options / equities | High | Research spec needed / data blocked | Historical SPX/SPXW option chains with bid/ask, SPX, VIX, rates, fees/margin assumptions | Data availability and realistic fill/margin modeling, especially in the 0DTE era | [[SPX Short-Dated Put-Writing with VIX and Fractional-Kelly Sizing]]; [[2026-07-12 Weekly Quant Synthesis and Strategy Decay Review]] | Create fixed-risk baseline backtest spec before adding VIX/Kelly, option-implied SDF, or specialist-volatility routing. |
 | Decision-aware covariance metrics for GMVP backtests | Equities / crypto / ETFs | Medium | Method integration | Daily returns for test universes; covariance estimators | Need define benchmark/oracle/regret metrics | [[Decision Geometry of Covariance Estimation for GMVP under Heavy Tails]] | Add decision-regret metrics to any portfolio-construction backtest. |
 | Forecast-uncertainty-aware ML sizing | Equities / crypto | Medium | Method integration | ML forecast distributions or bootstrap/ensemble predictions | Need existing ML forecast pipeline | [[Forecast-uncertainty-aware ML asset pricing]] | Apply uncertainty shrinkage only after a baseline model exists; compare against volatility targeting, inverse-vol, and linear baselines. |
-| Standard cost/regime/liquidity/decision audit block for backtests | Equities / options / crypto / futures / portfolio | Medium | Ready to code as reusable report module | Backtest trades/weights, asset prices/returns, turnover, spread or liquidity proxies, fold metrics, baseline returns, regime covariates | Integrate into a backtest harness and define minimal proxy defaults when bid/ask or intraday data are unavailable | [[2026-07-05 Weekly Quant Synthesis and Strategy Decay Review]]; [[Framework Candidate Registry]] | Implement a report block with TimeGate/leakage checklist, survivorship/replication guardrails, turnover/cost stress, liquidity-demand/tail proxies, regime-conditioned fold metrics, simple baselines, and decision-regret outputs. |
+| Standard cost/regime/liquidity/decision audit block for backtests | Equities / options / crypto / futures / portfolio | Medium/High | Ready to code as reusable report module | Backtest trades/weights, asset prices/returns, turnover, spread or liquidity proxies, fold metrics, baseline returns, regime covariates, availability/reference/decision timestamps where available | Integrate into a backtest harness and define minimal proxy defaults when bid/ask or intraday data are unavailable | [[2026-07-05 Weekly Quant Synthesis and Strategy Decay Review]]; [[2026-07-12 Weekly Quant Synthesis and Strategy Decay Review]]; [[Framework Candidate Registry]] | Implement a report block with TimeGate/leakage checklist, planted-leak controls where possible, survivorship/replication guardrails, turnover/cost stress, liquidity-demand/tail proxies, manipulation-like RL/execution diagnostics, action-attribution for risk filters, dependence-aware interval/fold uncertainty, regime-conditioned fold metrics, simple baselines, and decision-regret outputs. |
 
 ## Status Definitions
 

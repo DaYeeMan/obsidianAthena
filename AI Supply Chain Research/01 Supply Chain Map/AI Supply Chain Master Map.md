@@ -2,7 +2,7 @@
 type: supply-chain-map
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 confidence: medium
 ---
 
@@ -92,12 +92,13 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, In
 | Advanced packaging | Is CoWoS/advanced-packaging capacity easing fast enough to unlock AI accelerator supply? | [[03 Segments/Foundry Advanced Packaging and Substrates]] | Ongoing |
 | Datacenter power | Are power/interconnection constraints becoming a more important limiter than chip availability? | [[03 Segments/Datacenter Power Cooling and Construction]] | Primary TeraWulf/Anthropic 401 MW lease evidence, Galaxy/Helios 133 MW delivered critical IT load to CoreWeave, and Applied Digital 210 MW Delta Forge 2 hyperscaler lease; execution milestones still needed |
 | Networking/optics | Are cluster scale and inference growth shifting value to Ethernet, optics, and switching? | [[03 Segments/Networking Optics and Interconnect]] | Ongoing |
-| Export controls | Are restrictions changing regional demand, inventory, or China-local substitution? | [[03 Segments/Policy Geopolitics and Logistics]] | Primary Federal Register evidence that BIS moved some advanced-computing exports, including H200/equivalents, from presumption of denial to case-by-case review subject to supply/capacity/security/testing conditions; actual licenses and shipment impact still unknown. |
+| Export controls | Are restrictions changing regional demand, inventory, or China-local substitution? | [[03 Segments/Policy Geopolitics and Logistics]] | Primary Federal Register evidence that BIS moved some China/Macau advanced-computing exports to case-by-case review, plus primary BIS evidence that UAE reclassified to A:5 with license-free advanced-computing access for approved UAE recipients; actual licenses, approved entities, and shipment impact still unknown. |
 
 ## Change log
 
 | Date | Change | Evidence |
 |---|---|---|
+| 2026-07-12 | Added BIS UAE export-control easing as a primary-sourced Gulf AI infrastructure demand/policy datapoint: UAE was reclassified to A:5 and approved UAE recipients may receive advanced computing items license-free, including AI chips and servers. | [[04 Events/2026/2026-07-10 BIS UAE Export Control Easing]]; BIS primary announcement. |
 | 2026-07-11 | Added BIS January 2026 advanced-computing export license-review rule as a primary-sourced historical policy datapoint for China/Macau H200-class accelerator demand and foundry-capacity allocation monitoring. | [[04 Events/2026/2026-01-15 BIS Advanced Computing Export License Review Policy]]; Federal Register 91 FR 1684. |
 | 2026-07-10 | Added Applied Digital / Delta Forge 2 as another primary-sourced AI datacenter MW lease datapoint and added APLD to the direct public-exposure set for the campus lease theme. | [[04 Events/2026/2026-06-08 Applied Digital Delta Forge 2 Hyperscaler Lease]]; Applied Digital SEC-filed Exhibit 99.1. |
 | 2026-07-09 | Added Galaxy Helios Phase I / CoreWeave 133 MW delivery as operational evidence that power-ready campuses are converting into revenue-generating AI/HPC capacity. | [[04 Events/2026/2026-07-06 Galaxy Helios Phase I CoreWeave Delivery]]; Galaxy primary press release. |

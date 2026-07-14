@@ -34,6 +34,9 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can high-dimensional global-factor-count diagnostics near the BBP transition add robust risk-state information beyond absorption ratio, leading eigenvalue share, volatility, and drawdown filters?
 - Can structural prediction-market volatility variables — probability level, time-to-resolution, spread/volume, event category, and venue/resolution design — improve settlement-window risk filters versus generic GARCH or simply avoiding near-resolution contracts?
 - Can action-attribution diagnostics distinguish useful uncertainty-aware risk throttles from over-robust policies that reduce drawdowns only by missing profitable trades, especially in illiquid states?
+- Can prediction-powered active testing, design-based exposure tests, or other value-of-information methods prioritize scarce validation effort — option-chain quote cleaning, point-in-time/leak audits, manual label checks, event-study exposure definitions, or data-vendor reviews — better than random/manual audit order before expensive strategy coding?
+- Do quarter-hour crypto futures order-imbalance effects survive fees, funding, spread/slippage stress, non-overlapping walk-forward inference, and baselines such as momentum/reversal, funding/carry, time-of-day seasonality, and pre-event liquidity state?
+- Can pre-event liquidity-state baselines explain when crypto order-flow signals matter, and do expensive L2 features add incremental decision value beyond coarse spread/depth/volume state proxies?
 
 ## Maintenance Rules
 

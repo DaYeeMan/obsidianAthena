@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Demand, Model Labs, and Cloud
@@ -27,10 +27,11 @@ Public: MSFT, GOOGL, AMZN, META, ORCL. Private/material: OpenAI, Anthropic, xAI,
 
 ## Recent event links
 
+- [[04 Events/2026/2026-07-10 BIS UAE Export Control Easing|2026-07-10: BIS eases export controls for UAE advanced computing items]] — policy-driven demand signal for approved UAE AI-chip/server recipients and matching U.S. AI digital infrastructure commitments.
 - [[04 Events/2026/2026-07-06 Galaxy Helios Phase I CoreWeave Delivery|2026-07-06: Galaxy delivers 133 MW of critical IT load to CoreWeave at Helios Phase I]] — CoreWeave-linked delivery/rent-commencement milestone with primary disclosure of 133 MW delivered critical IT load and 526 MW committed across Phases I-III.
 - [[04 Events/2026/2026-07-06 TeraWulf Anthropic Justified Data Campus Lease|2026-07-06: TeraWulf signs 401 MW Anthropic lease at Justified Data Campus]] — Anthropic-linked long-duration AI infrastructure lease with primary disclosure of approximately 401 MW and ~$19B expected contracted revenue over the initial term.
 - [[04 Events/2026/2026-06-08 Applied Digital Delta Forge 2 Hyperscaler Lease|2026-06-08: Applied Digital signs 210 MW Delta Forge 2 hyperscaler lease]] — unnamed U.S. investment-grade hyperscaler commitment with primary disclosure of 210 MW critical IT load, 15-year take-or-pay structure, and ~$5.2B base-term contracted revenue.
 
 ## Current assessment
 
-Frontier model-lab, GPU-cloud, and hyperscaler demand is converting into long-duration datacenter leasing commitments and delivered capacity, not only cloud GPU purchase signals. The TeraWulf/Anthropic lease, Galaxy/CoreWeave Helios delivery, and Applied Digital/unnamed hyperscaler Delta Forge 2 lease provide primary benchmarks for MW-scale demand and support monitoring model labs/GPU clouds/hyperscalers as direct drivers of power-rich campuses, financing structures, and supplier backlogs.
+Frontier model-lab, GPU-cloud, hyperscaler, and sovereign/Gulf AI demand is converting into policy-backed procurement pathways, long-duration datacenter leasing commitments, and delivered capacity. The TeraWulf/Anthropic lease, Galaxy/CoreWeave Helios delivery, and Applied Digital/unnamed hyperscaler Delta Forge 2 lease provide primary benchmarks for MW-scale demand, while the BIS UAE action adds a policy channel to monitor for approved AI-chip/server recipients and follow-on U.S./UAE infrastructure orders.

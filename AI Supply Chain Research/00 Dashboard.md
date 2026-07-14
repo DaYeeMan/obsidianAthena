@@ -2,7 +2,7 @@
 type: dashboard
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 ---
 
 # AI Supply Chain Dashboard
@@ -40,6 +40,7 @@ _Add manually or by the daily maintenance job when an event materially changes t
 
 | Date | Event | Segment(s) | Why it matters | Status |
 |---|---|---|---|---|
+| 2026-07-12 | [[04 Events/2026/2026-07-10 BIS UAE Export Control Easing|BIS eases export controls for UAE advanced computing items]] | Policy/export controls, Accelerators, Demand/cloud | Primary BIS evidence that UAE was moved toward a more permissive EAR posture and that the UAE Government/certain companies may receive advanced computing items license-free, including AI chips and servers; relevant to Gulf AI infrastructure demand and U.S.-UAE digital infrastructure commitments. | active; no Discord alert because the event was discovered after announcement date rather than as a same-day catalyst. |
 | 2026-07-11 | [[04 Events/2026/2026-01-15 BIS Advanced Computing Export License Review Policy|BIS revises license review policy for advanced computing commodities]] | Policy/export controls, Accelerators | Historical primary Federal Register evidence that BIS moved certain China/Macau advanced-computing exports, including H200/equivalents, from presumption of denial to case-by-case review subject to supply, capacity, security, and testing conditions. | active; no Discord alert because the event is historical discovery rather than a new same-day catalyst. |
 | 2026-07-10 | [[04 Events/2026/2026-06-08 Applied Digital Delta Forge 2 Hyperscaler Lease|Applied Digital signs 210 MW Delta Forge 2 hyperscaler lease]] | Demand/cloud, Datacenter power/construction | Historical primary SEC evidence adds APLD as another direct public exposure to MW-scale AI campus leases: 210 MW critical IT load, 15-year take-or-pay structure, ~$5.2B base-term contracted revenue, Q1 2028 initial operations. | active; no Discord alert because the event is historical discovery rather than a new same-day catalyst. |
 | 2026-07-09 | [[04 Events/2026/2026-07-06 Galaxy Helios Phase I CoreWeave Delivery|Galaxy delivers 133 MW of critical IT load to CoreWeave at Helios Phase I]] | Demand/cloud, Datacenter power/construction | Primary Galaxy evidence that Helios Phase I delivered 133 MW of critical IT load to CoreWeave and entered revenue-generating operations; adds a second high-signal MW-scale AI campus datapoint after TeraWulf/Anthropic. | active; Discord alert sent because this is a high-signal AI infrastructure delivery/capacity event. |

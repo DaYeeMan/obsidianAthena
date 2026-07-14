@@ -21,6 +21,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Order Splitting and Liquidity Replenishment for Square-Root Market Impact]]
   - [[Can Reinforcement Learning Efficiently Discover Price Manipulation]]
   - [[Robustness in Sequential Decision Making under Evolving Uncertainty]]
+  - [[Herding and Liquidity in Order-Book Markets - A Robust Liquidity-Stress Crossover]]
 - Options / volatility
   - [[Sizing the Risk - Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options]]
   - [[Arbitrage-Free Multi-Maturity Risk-Neutral Marginals]]
@@ -28,6 +29,8 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Settlement Manipulation in Prediction Markets]]
   - [[Volatility in Prediction Markets - A Structural Approach]]
   - [[SoK - Market Microstructure for Decentralized Prediction Markets]]
+  - [[The Quarter-Hour Effect - Periodic Algorithmic Trading and Return Predictability in Cryptocurrency Futures]]
+  - [[When Does Order Flow Matter - State-Dependent L2 Liquidity-State Transitions in Crypto Futures]]
 - Strategy evaluation / validation
   - [[Regime-Conditional Distributional Comparison of Trading Strategies]]
   - [[Look-Ahead-Freedom as Temporal Non-Interference]]
@@ -42,6 +45,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
 - Portfolio/risk construction
   - [[Continuous Hidden Markov Models for Equity Returns]]
   - [[Decision Geometry of Covariance Estimation for GMVP under Heavy Tails]]
+  - [[Dynamic Causal Portfolio Choice - Hedging the Rotation of the Common-Driver Manifold]]
   - [[End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing]]
   - [[Error Propagation in Spectral Functionals of Shrinkage Covariance Estimators]]
   - [[Iterative Detection of Global Factors near the BBP Phase Transition]]
