@@ -9,6 +9,7 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 
 ## Current Questions
 
+- Can directional ML/foundation-model forecasts beat base-rate and always-up benchmarks across held-out assets, regimes, and costs, or are high hit rates mostly class-imbalance artifacts?
 - Can forecast uncertainty be used to throttle position sizing in options risk-premia strategies more robustly than point forecasts or naive Kelly sizing?
 - Can heavy-tail regime models improve risk-control or stress-test design for short-volatility and portfolio-allocation strategies versus simple VIX/EWMA/drawdown filters?
 - Can graph/network methods in crypto add value after fees, delisting controls, and simple momentum/funding/basis baselines?
@@ -37,6 +38,13 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can prediction-powered active testing, design-based exposure tests, or other value-of-information methods prioritize scarce validation effort — option-chain quote cleaning, point-in-time/leak audits, manual label checks, event-study exposure definitions, or data-vendor reviews — better than random/manual audit order before expensive strategy coding?
 - Do quarter-hour crypto futures order-imbalance effects survive fees, funding, spread/slippage stress, non-overlapping walk-forward inference, and baselines such as momentum/reversal, funding/carry, time-of-day seasonality, and pre-event liquidity state?
 - Can pre-event liquidity-state baselines explain when crypto order-flow signals matter, and do expensive L2 features add incremental decision value beyond coarse spread/depth/volume state proxies?
+- Do public sentiment-extremity states predict crypto spread/slippage/liquidity stress beyond volatility, drawdown, funding, and exchange-specific liquidity proxies, and can they improve sizing or trade-skipping net of fees?
+- Can feature-aware anytime quantile-calibration audits detect forecast-model regime failure earlier than fixed-window coverage checks without causing excessive turnover or over-conservative de-risking?
+- Do exchange-quality anomaly flags — transaction-count/volume divergence, average trade-size collapse, return-volume decoupling, entropy/complexity shifts, and venue-specific spread/depth stress — predict when crypto order-flow, momentum, funding, or liquidity signals are unreliable after costs?
+- Do continuous-input / ordinal-output sequence models improve downstream trading or sizing utility beyond tabular LightGBM/logistic baselines once likelihood gains are converted into cost-aware decisions across held-out assets and regimes?
+- Can cost-aware RL/PINN allocation policies improve ETF/futures allocation after replacing oracle signals with time-gated public signals and beating equal-weight, inverse-vol/risk-parity, myopic, and linear policies net of turnover and impact costs?
+- Can public 10-K full-text or Item 1A sentiment improve realized-volatility forecasts or risk-sizing decisions beyond lagged volatility, sector, size, and momentum controls when filing timestamps and aggregation levels are handled point-in-time?
+- Can power-calibrated PSI/Jensen-Shannon/KL drift alarms improve model/data kill-switch decisions versus simple volatility/drawdown filters after accounting for false alarms, missed breaks, and missed-opportunity costs?
 
 ## Maintenance Rules
 

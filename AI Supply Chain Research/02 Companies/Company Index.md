@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-10
+last_updated: 2026-07-17
 ---
 
 # Company Index
@@ -27,6 +27,7 @@ Use this as a curated index of public and material private entities in the AI su
 | Tokyo Electron | 8035.T | Equipment | Semiconductor equipment exposure. |
 | KLA | KLAC | Inspection/metrology | Yield and process control exposure. |
 | Arista | ANET | Datacenter switching | AI networking exposure. |
+| 3M | MMM | Optical connectivity / data-center materials | Early primary evidence of Microsoft Azure deploying 3M Expanded Beam Optical technology in AI data centers; monitor for scale, revenue, and additional hyperscaler adoption. |
 | Vertiv | VRT | Power/cooling infrastructure | Datacenter power/thermal exposure. |
 | Eaton | ETN | Electrical equipment | Datacenter power infrastructure exposure. |
 | Schneider Electric | SU.PA | Electrical/cooling infrastructure | Global datacenter infrastructure exposure. |
@@ -38,7 +39,8 @@ Use this as a curated index of public and material private entities in the AI su
 | Meta | META | Hyperscaler demand | Large AI cluster buyer. |
 | Oracle | ORCL | Cloud/AI infrastructure | GPU cloud and datacenter expansion. |
 | Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Helios campus has primary evidence of delivered CoreWeave critical IT load and large approved power runway. |
-| Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 210 MW Delta Forge 2 hyperscaler lease and multi-campus contracted AI datacenter portfolio. |
+| Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 210 MW Delta Forge 2 hyperscaler lease, 75 MW Polaris Forge 1 Building 2 operational delivery, and multi-campus contracted AI datacenter portfolio. |
+| CleanSpark | CLSK | Power-rich datacenter developer / former bitcoin-mining infrastructure owner | Primary SEC evidence of a 175 MW Sandersville infrastructure lease with a confidential global technology tenant and 885 MW Texas portfolio exclusivity. |
 
 ## Material private / indirect entities
 
