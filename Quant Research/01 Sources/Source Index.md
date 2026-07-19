@@ -10,6 +10,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Guardrails Make the Researcher - AI Agent Replication of Nine Equity Anomalies]]
   - [[A Cap-Axis Integral Diagnostic of Factor Models]]
   - [[Estimating the Stochastic Discount Factor from Option Prices and Predicting the Equity Premium]]
+  - [[Two Accounting Anomalies - Accruals May Be Risk, PEAD May Be Mispricing]]
 - Market microstructure
   - [[The Bounce Has No Direction - Sign Magnitude and Microstructure of Equity Return Predictability]]
   - [[Is Trend Still Your Friend - Microstructural Demise of Short-Term Trend-Following]]
@@ -63,3 +64,4 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Iterative Detection of Global Factors near the BBP Phase Transition]]
   - [[Low-Turnover Rebalancing for Sparse Index Tracking]]
 - Reproducible practitioner research
+  - [[Commodity Crisis Analysis - How Portfolios React to Commodity Shocks]]

@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 ---
 
 # Company Index
@@ -41,6 +41,9 @@ Use this as a curated index of public and material private entities in the AI su
 | Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Helios campus has primary evidence of delivered CoreWeave critical IT load and large approved power runway. |
 | Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 210 MW Delta Forge 2 hyperscaler lease, 75 MW Polaris Forge 1 Building 2 operational delivery, and multi-campus contracted AI datacenter portfolio. |
 | CleanSpark | CLSK | Power-rich datacenter developer / former bitcoin-mining infrastructure owner | Primary SEC evidence of a 175 MW Sandersville infrastructure lease with a confidential global technology tenant and 885 MW Texas portfolio exclusivity. |
+| MARA Holdings | MARA | Power-rich digital infrastructure / former bitcoin-mining infrastructure owner | Primary SEC evidence of a Matagorda County, Texas powered-site acquisition with utility LOA rights for up to 2 GW of power capacity and potential HPC tenant targeting; no signed tenant yet. |
+| ACS Group | ACS.MC | Construction / datacenter infrastructure delivery | High-quality DCD evidence that ACS/GIP-linked Coravel has a 1.7 GW datacenter development portfolio and a ~140 MW hyperscaler agreement at Dallas-Fort Worth, with ACS subsidiary Turner Construction leading campus delivery; monitor for primary ACS filings and backlog economics. |
+| BlackRock / Global Infrastructure Partners | BLK | Infrastructure sponsor / datacenter platform capital | GIP-backed Coravel adds an infrastructure-fund route into hyperscaler datacenter platforms; BLK exposure is indirect and likely less pure than ACS/Turner or dedicated datacenter developers. |
 
 ## Material private / indirect entities
 

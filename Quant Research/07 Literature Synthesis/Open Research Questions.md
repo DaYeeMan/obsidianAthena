@@ -45,6 +45,8 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can cost-aware RL/PINN allocation policies improve ETF/futures allocation after replacing oracle signals with time-gated public signals and beating equal-weight, inverse-vol/risk-parity, myopic, and linear policies net of turnover and impact costs?
 - Can public 10-K full-text or Item 1A sentiment improve realized-volatility forecasts or risk-sizing decisions beyond lagged volatility, sector, size, and momentum controls when filing timestamps and aggregation levels are handled point-in-time?
 - Can power-calibrated PSI/Jensen-Shannon/KL drift alarms improve model/data kill-switch decisions versus simple volatility/drawdown filters after accounting for false alarms, missed breaks, and missed-opportunity costs?
+- Do accrual and PEAD accounting anomalies split into risk-compensation versus delayed-information/mispricing buckets after adding an accounting/fundamental hedge factor, cap/liquidity diagnostics, post-publication splits, point-in-time availability checks, and realistic long-short transaction/borrow costs?
+- Can sequentially calibrated secondary goodness-of-fit/deployment-gate tests improve intraday, crypto, option, and ML strategy validation by decomposing first rejection into cost, base-rate, regime, calibration, liquidity, or turnover failure modes without inflating Type I error or creating bureaucratic overfit?
 
 ## Maintenance Rules
 

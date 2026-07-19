@@ -2,7 +2,7 @@
 type: dashboard
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-16
+last_updated: 2026-07-19
 ---
 
 # AI Supply Chain Dashboard
@@ -40,6 +40,8 @@ _Add manually or by the daily maintenance job when an event materially changes t
 
 | Date | Event | Segment(s) | Why it matters | Status |
 |---|---|---|---|---|
+| 2026-07-19 | [[04 Events/2026/2026-07-16 Coravel ACS GIP Hyperscaler Data Center Platform|Coravel launches ACS-GIP datacenter platform with 140 MW hyperscaler customer at Dallas-Fort Worth campus]] | Demand/cloud, Datacenter power/construction | Historical high-quality industry evidence adds ACS/Turner and BlackRock/GIP-linked Coravel as another public/trackable route into AI datacenter campus delivery: 1.7 GW development portfolio / 1.2 GW IT load, 150 MW under construction, and first hyperscaler agreement for ~140 MW critical IT load plus ~100 MW expansion at Dallas-Fort Worth; delivery timing and economics undisclosed. | active; no Discord alert because this was a historical database-gap discovery and detailed fields were secondary-source validated rather than parsed from a primary filing/release. |
+| 2026-07-18 | [[04 Events/2026/2026-07-09 MARA HIF Matagorda Powered Land Site|MARA acquires HIF Matagorda powered land site for up to 2 GW digital infrastructure campus]] | Demand/cloud, Datacenter power/construction | Historical primary SEC evidence adds MARA as another direct public exposure to the power-rich AI/HPC campus pipeline: Matagorda County site with utility LOA rights for 2 GW of power capacity, initial 1 GW targeted by October 2027 and 2 GW by April 2028; no signed HPC tenant yet. | active; no Discord alert because this was a historical database-gap discovery rather than a same-day announcement. |
 | 2026-07-16 | [[04 Events/2026/2026-07-16 TSMC Q2 AI Leading Edge Demand|TSMC Q2 results confirm strong leading-edge/HPC demand and higher 2026 outlook]] | Foundry/advanced packaging, Semicap, Accelerators | Primary TSMC evidence reinforces leading-edge/HPC demand: Q2 revenue +36% YoY, HPC 66% of net revenue and +20% QoQ, advanced-node wafer revenue 77%, 2026 USD revenue growth expected slightly above 40%, and Q2 capex NT$496B. | active; no Discord alert because this was an earnings/model update, not a discrete new capacity/procurement/export-control shock. |
 | 2026-07-14 | [[04 Events/2026/2026-07-14 CleanSpark Sandersville Global Tech Lease|CleanSpark signs 175 MW Sandersville lease with global technology company]] | Demand/cloud, Datacenter power/construction | Primary SEC evidence adds CLSK as a direct public exposure to MW-scale AI/HPC campus leases: 175 MW critical IT load, 20-year triple-net structure, ~$6.6B initial-term contracted revenue, Q4 2027 delivery start, and 885 MW Texas exclusivity option. | active; Discord alert sent because this is a high-signal same-day AI infrastructure procurement/capacity event. |
 | 2026-07-15 | [[04 Events/2026/2026-07-01 Applied Digital Polaris Forge 1 Building 2 Delivery|Applied Digital delivers 75 MW at Polaris Forge 1 Building 2]] | Demand/cloud, Datacenter power/construction | Historical primary company evidence of an operational Ready-for-Service milestone: 75 MW of AI capacity delivered on schedule, lifting Polaris Forge 1 live capacity to 175 MW against 400 MW contracted full buildout. | active; no Discord alert because this was a historical database-gap discovery rather than a same-day announcement. |

@@ -1,7 +1,7 @@
 ---
 type: research-candidate-registry
 created: 2026-06-28
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 tags: [quant-research, candidate-registry, phase-2]
 ---
 
@@ -79,6 +79,8 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 | Cost-aware SciPhyRL portfolio policy evaluation | ETFs / portfolio / ML/RL | Reinforcement-learning allocation; cost-aware decision policy; HJB/PINN benchmark | Plausible but untested at abstract level | foundational / retail-adaptable; institutional-style as written | Medium | Medium/High: engineered oracle signal, PINN/RL complexity, cost-coefficient misspecification, turnover, and ETF-universe dependence can create false gains versus simple rules | 2026-07-17 | [[SciPhy Reinforcement Learning for Portfolio Optimization]] | Use as a governance/design reference before coding AI allocation policies: require equal weight, inverse-vol/risk parity, myopic/linear baselines, walk-forward folds, cost/turnover stress, and no oracle-signal leakage. |
 | Aggregation-aware 10-K sentiment for volatility/risk forecasting | Equities / text / volatility | Regulatory-disclosure sentiment; supervised text features; volatility forecasting | Plausible but untested at abstract level | retail-adaptable / foundational | Low/Medium | Medium/High: Nasdaq-100 tech-only sample, survivorship, filing-timestamp leakage, supervised-lexicon overfit, and weak return link can undermine alpha claims | 2026-07-17 | [[How Much of a 10-K Matters - Aggregation-Dependent Value of Full-Text versus Risk-Factor Sentiment]] | Test first as a point-in-time realized-volatility or risk-sizing feature using filing acceptance times, sector controls, lagged-volatility baselines, and full-text versus Item 1A aggregation splits. |
 | Power-calibrated divergence monitoring for model and data drift | Equities / options / crypto / risk models | Feature drift; model monitoring; PSI/JSD/KL divergence; kill-switch calibration | Evidence-backed at abstract level as methodology | foundational / retail-adaptable | Medium | Medium: drift alarms can duplicate volatility filters, overfire in benign regimes, miss tail breaks at small samples, or hurt net utility unless tied to action attribution | 2026-07-17 | [[Statistical Properties and Power Analysis of Divergence Measures for Credit Risk Model Monitoring]] | Add PSI/JSD/KL power and false-alarm diagnostics to ML/data-quality monitoring; compare alarms against rolling coverage, volatility/drawdown filters, and action-attribution net utility before using as kill-switches. |
+| Benchmark-first accounting-anomaly reclassification | Equities / factor research / event studies | Accrual anomaly; PEAD; omitted-risk benchmark; post-publication decay audit | Evidence-backed as practitioner-reviewed paper summary | retail-adaptable / foundational | Medium | High: accruals and PEAD are old, crowded anomalies; data availability, announcement timing, microcap concentration, shorting/borrow, and benchmark choice can flip mispricing claims into risk compensation or disappear net of costs | 2026-07-18 | [[Two Accounting Anomalies - Accruals May Be Risk, PEAD May Be Mispricing]] | Inspect the original Penman-Zhu paper, replicate accrual and PEAD separately with point-in-time data, add accounting hedge-factor/cap/liquidity diagnostics, and prioritize PEAD only if it survives post-publication and cost controls. |
+| Commodity-shock scenario-conditioned portfolio stress tests | Commodities / equities / options / portfolio | Scenario analysis; regime-conditional stress testing; sector/commodity shock validation | Plausible but untested | retail-adaptable / foundational | Medium | Medium: hand-picked crisis windows can create narrative/lookback bias; commodity shock labels must be ex ante or frozen before validation; sector ETFs embed equity/factor exposures and turnover/costs can erase timing value | 2026-07-19 | [[Commodity Crisis Analysis - How Portfolios React to Commodity Shocks]] | Add positive/negative commodity-shock state tags to portfolio, short-vol, and sector backtests; compare conditional net distributions versus VIX, EWMA volatility, drawdown, and broad equity bear-market filters before treating commodity regimes as a sizing signal. |
 
 ## Sorting Views
 
@@ -90,7 +92,7 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 4. Regime-conditional distributional strategy evaluation — Medium priority as a validation layer for ML, short-vol, crypto, and allocation backtests.
 5. End-to-end AI portfolio policies versus simple rules — Medium priority as a benchmark design for allocation ML, but only after a clean futures/ETF universe and cost model are specified.
 6. Liquidity-demand audit, liquidity-tail diagnostics, sign-vs-magnitude decomposition, and microstructure-conditioned short-term trend decay — Medium priority as validation layers before promoting short-horizon strategies.
-7. Standard cost/regime/liquidity/decision audit block — Medium priority as a reusable coding-support artifact before promoting high-risk backtests; now should include formal look-ahead-freedom availability checks, action-attribution, manipulation-like RL/execution diagnostics, dependence-aware uncertainty intervals, and calibrated covariance/risk-state bands.
+7. Standard cost/regime/liquidity/decision audit block — High priority as the reusable coding-support artifact before promoting high-risk backtests; now should include formal look-ahead-freedom availability checks, base-rate/simple-rule baselines, OHLCV deployment gates, action-attribution, manipulation-like RL/execution diagnostics, venue/data-quality flags, PSI/JSD/KL drift power checks, feature-aware calibration, dependence-aware uncertainty intervals, and calibrated covariance/risk-state bands.
 8. Regime-routed volatility specialist forecasts and TSFM-vs-Log-HAR realized-vol benchmarks — Medium priority as risk-control modules after EWMA/GARCH/rolling-realized-vol baselines exist.
 9. Calibrated spectral covariance and absorption-ratio risk diagnostics — Medium priority once a portfolio/risk dashboard exists; compare calibrated thresholds against simple volatility/drawdown filters.
 10. Dependence-aware bootstrap/conformal forecast validation and high-dimensional global-factor detection — Medium priority as validation/risk-dashboard modules once baseline forecast/allocation pipelines exist; not standalone alpha.
@@ -98,8 +100,10 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 12. Crypto exchange-quality complexity diagnostics — Medium priority as a required data-quality/cost audit before crypto trade-count/order-flow signals; not standalone alpha.
 13. Continuous-input ordinal-return sequence modeling — Low/Medium priority as an ML benchmark design; only useful after it improves downstream net utility beyond LightGBM/logistic/simple rules after costs.
 14. Cost-aware SciPhyRL portfolio policy evaluation — Medium priority as a design/governance reference for allocation ML/RL; do not implement before simple-rule baselines, realistic turnover/cost stress, and non-oracle signals are specified.
-15. Power-calibrated divergence monitoring — Medium priority as a reusable model/data-drift monitoring block for ML, crypto venue quality, and option-chain data-quality pipelines.
+15. Power-calibrated divergence monitoring — Medium priority as a reusable model/data-drift monitoring block for ML, crypto venue quality, and option-chain data-quality pipelines; implement inside the standard audit block before using as a live kill-switch.
 16. Aggregation-aware 10-K sentiment — Low/Medium priority as a filing-based volatility/risk feature only after point-in-time EDGAR parsing and sector/lagged-volatility baselines exist.
+17. Benchmark-first accounting-anomaly reclassification — Medium research priority; PEAD is the more promising leg, but only after original-paper rule extraction, point-in-time announcement/accounting data, hedge-factor/cap/liquidity diagnostics, post-publication splits, and cost/borrow controls.
+18. Commodity-shock scenario-conditioned stress tests — Medium priority as a validation/reporting layer for portfolio and options strategies; not a standalone alpha until ex ante shock labels, baselines, and go/no-go rules are specified.
 
 ### Outdated / Decay Watch
 
@@ -128,6 +132,7 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 - Cost-aware RL/PINN allocation models that rely on engineered oracle signals, unstressed impact coefficients, or omit simple-rule/myopic/linear policy baselines.
 - Regulatory-filing sentiment claims that ignore point-in-time filing availability, aggregation level, target choice, survivorship, sector concentration, and lagged-volatility baselines.
 - Fixed PSI/KL/Jensen-Shannon drift-monitor thresholds used as kill-switches without sample-size/power analysis, false-alarm costs, and action-attribution evidence.
+- All-weather, sector-rotation, or short-volatility claims that pool commodity-led inflation/geopolitical shocks with ordinary equity drawdowns and never report commodity-shock conditional performance.
 
 ### Foundational References to Keep
 
@@ -157,6 +162,7 @@ This is the cross-library sorting/filtering table for research ideas. Daily revi
 - Cost-aware SciPhyRL/HJB-style portfolio policy evaluation as a governance reference for AI allocation models, not standalone alpha evidence.
 - Aggregation-aware regulatory-disclosure sentiment as a volatility/risk feature design warning.
 - Power-calibrated divergence monitoring for feature/model/data drift and kill-switch calibration.
+- Commodity-shock scenario analysis as a practical regime-conditional stress-test layer for portfolio, sector, and options-risk backtests.
 
 ## Maintenance Rules
 

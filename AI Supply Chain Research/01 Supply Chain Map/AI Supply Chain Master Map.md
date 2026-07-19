@@ -2,7 +2,7 @@
 type: supply-chain-map
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 confidence: medium
 ---
 
@@ -27,14 +27,14 @@ Representative public exposures: MSFT, GOOGL, AMZN, META, ORCL, CRM, NOW, ADBE, 
 - Hyperscalers control capex cadence, custom silicon roadmaps, and infrastructure utilization.
 - Neo-cloud and GPU-cloud providers can amplify near-term server/GPU demand but may carry financing and customer-concentration risk.
 
-Key entities: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Nebius, Galaxy/Helios, Applied Digital, CleanSpark, Microsoft Azure, Google Cloud, AWS, Oracle Cloud.
+Key entities: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Nebius, Galaxy/Helios, Applied Digital, CleanSpark, MARA, Coravel/ACS/GIP, Microsoft Azure, Google Cloud, AWS, Oracle Cloud.
 
 ### 3. Datacenter physical infrastructure
 
 - Site selection, power availability, grid interconnection queues, substations, transformers, backup power, cooling, racks, UPS, switchgear, and datacenter construction capacity.
 - Bottlenecks can shift from chips to power, cooling, permitting, and construction lead times.
 
-Representative public exposures: GLXY, APLD, CLSK, VRT, ETN, SU.PA, ABB, SMCI, DELL, HPE, MOD, PWR, Quanta/Inventec/Wistron/Wiwynn/Foxconn where listed.
+Representative public exposures: GLXY, APLD, CLSK, MARA, ACS.MC, BLK/GIP where material, VRT, ETN, SU.PA, ABB, SMCI, DELL, HPE, MOD, PWR, Quanta/Inventec/Wistron/Wiwynn/Foxconn where listed.
 
 ### 4. AI servers, ODMs, and system integration
 
@@ -90,7 +90,7 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, MM
 |---|---|---|---|
 | HBM | Is HBM still the binding constraint for accelerator shipments, and which vendor has incremental share/pricing power? | [[03 Segments/HBM and Memory]], [[03 Segments/Accelerators and Custom Silicon]] | Primary Micron HBM4 production evidence; volume/share still unknown |
 | Advanced packaging / leading-edge foundry | Is CoWoS/advanced-packaging capacity easing fast enough to unlock AI accelerator supply, and how fast is leading-edge wafer capacity being absorbed by AI/HPC demand? | [[03 Segments/Foundry Advanced Packaging and Substrates]] | TSMC Q2 2026 primary evidence confirms strong leading-edge/HPC demand, 77% advanced-node wafer revenue, HPC at 66% of net revenue and +20% QoQ, and a steep 2nm ramp; CoWoS/advanced-packaging capacity still not quantified. |
-| Datacenter power | Are power/interconnection constraints becoming a more important limiter than chip availability? | [[03 Segments/Datacenter Power Cooling and Construction]] | Primary TeraWulf/Anthropic 401 MW lease evidence, Galaxy/Helios 133 MW delivered critical IT load to CoreWeave, Applied Digital 210 MW Delta Forge 2 hyperscaler lease, CleanSpark 175 MW Sandersville lease plus 885 MW Texas exclusivity, and Applied Digital 75 MW Polaris Forge 1 operational delivery; execution milestones still needed for future phases |
+| Datacenter power | Are power/interconnection constraints becoming a more important limiter than chip availability? | [[03 Segments/Datacenter Power Cooling and Construction]] | Primary TeraWulf/Anthropic 401 MW lease evidence, Galaxy/Helios 133 MW delivered critical IT load to CoreWeave, Applied Digital 210 MW Delta Forge 2 hyperscaler lease, CleanSpark 175 MW Sandersville lease plus 885 MW Texas exclusivity, Applied Digital 75 MW Polaris Forge 1 operational delivery, MARA/HIF Matagorda 2 GW powered-site pipeline, and high-quality DCD evidence of Coravel/ACS/GIP's 140 MW hyperscaler DFW agreement and 1.7 GW development portfolio; execution milestones still needed for future phases and site-control/platform events without primary economics are lower-certainty than SEC-filed signed leases/deliveries. |
 | Networking/optics | Are cluster scale and inference growth shifting value to Ethernet, optics, switching, and physical optical-connectivity layers? | [[03 Segments/Networking Optics and Interconnect]] | Arista 1.6T portfolio is product-cycle evidence; 3M/Microsoft EBO is early named-hyperscaler optical-connectivity deployment evidence, but volume/value and bottleneck impact remain unquantified. |
 | Export controls | Are restrictions changing regional demand, inventory, or China-local substitution? | [[03 Segments/Policy Geopolitics and Logistics]] | Primary Federal Register evidence that BIS moved some China/Macau advanced-computing exports to case-by-case review, plus primary BIS evidence that UAE reclassified to A:5 with license-free advanced-computing access for approved UAE recipients; actual licenses, approved entities, and shipment impact still unknown. |
 
@@ -98,6 +98,8 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, MM
 
 | Date | Change | Evidence |
 |---|---|---|
+| 2026-07-19 | Added Coravel/ACS/GIP as a high-quality secondary-sourced AI datacenter platform/campus datapoint: 1.7 GW development portfolio, 1.2 GW IT load, 150 MW under construction, and first hyperscaler agreement for ~140 MW critical IT load at Dallas-Fort Worth; treated below SEC-filed lease evidence because delivery timing/economics and primary-source MW fields remain unverified. | [[04 Events/2026/2026-07-16 Coravel ACS GIP Hyperscaler Data Center Platform]]; Data Center Dynamics July 16, 2026 article; Coravel website. |
+| 2026-07-18 | Added MARA/HIF Matagorda as a primary-sourced 2 GW powered-site pipeline datapoint for AI/HPC campus monitoring; no signed HPC tenant yet, so this is a power/site-control signal rather than confirmed AI lease or delivered capacity. | [[04 Events/2026/2026-07-09 MARA HIF Matagorda Powered Land Site]]; MARA July 9, 2026 Form 8-K and Exhibit 99.1. |
 | 2026-07-17 | Added 3M/Microsoft Expanded Beam Optical deployment as an early named-hyperscaler physical optical-connectivity signal for AI data centers; materiality is medium because no volume/value or cluster-level capacity impact was disclosed. | [[04 Events/2026/2026-07-15 3M Microsoft EBO Azure Data Centers]]; 3M primary press release. |
 | 2026-07-16 | Added TSMC Q2 2026 primary earnings materials as a leading-edge foundry/HPC demand datapoint: Q2 revenue +36% YoY, advanced technologies 77% of wafer revenue, HPC 66% of net revenue and +20% QoQ, Q3 guide US$44.6-45.8B, 2026 USD revenue growth expected slightly above 40%, and Q2 capex NT$496B. | [[04 Events/2026/2026-07-16 TSMC Q2 AI Leading Edge Demand]]; TSMC Q2 2026 quarterly results materials. |
 | 2026-07-15 | Added Applied Digital's Polaris Forge 1 Building 2 Phase 1 Ready-for-Service milestone as a historical operational-delivery datapoint: 75 MW delivered on schedule, lifting live campus capacity to 175 MW against 400 MW contracted full buildout. | [[04 Events/2026/2026-07-01 Applied Digital Polaris Forge 1 Building 2 Delivery]]; Applied Digital primary press release. |
