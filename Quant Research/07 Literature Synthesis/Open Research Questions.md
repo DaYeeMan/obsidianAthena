@@ -25,9 +25,13 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Does volatility-normalized tick size or another accessible microstructure proxy explain which futures/ETF trend-following speeds still survive after post-2009 costs?
 - Can lagged liquidity-impact proxies produce an implementable equity liquidity premium after excluding microcap/spread/capacity traps and controlling for standard factors?
 - Can cross-audit or value-of-information methods improve strategy validation decisions by estimating when more validation data, option-chain history, or alternative data are worth acquiring before coding?
-- Can an online risk-monitor / kill-switch framework detect when a live strategy, model, or AI research agent leaves its validated regime using only time-gated verifier signals?
+- Can online risk-monitor / kill-switch framework detect when a live strategy, model, or AI research agent leaves its validated regime using only time-gated verifier signals?
+- Do autocorrelation-aware online changepoint alarms reduce false exits and delayed crisis exits versus IID drift tests, PSI/JSD/KL divergence thresholds, CUSUM/Page-Hinkley rules, and simple volatility/drawdown filters?
+- Can crypto futures ADL/liquidation/venue-stress proxies identify states where apparent funding, momentum, or clock-phase order-flow edges should be de-levered or disabled before forced exchange-level risk controls dominate realized PnL?
 - Can formal look-ahead-freedom checks using availability time, reference time, and decision time catch practical leakage in local backtests beyond conventional train/test splits and manual point-in-time checks?
 - Do time-series foundation models improve realized-volatility-driven sizing or risk throttles after Log-HAR/EWMA/GARCH baselines, Mincer-Zarnowitz recalibration, per-asset loss analysis, and downstream cost-aware utility tests?
+- Can observable matrix dynamics / correlation-geometry states add out-of-sample risk-control value beyond VIX, realized volatility, drawdown, absorption ratio, and leading-eigenvalue filters after turnover and missed-rebound costs?
+- Can benchmark-derived option volatility surfaces identify stale or unreliable illiquid option quotes well enough to improve retail option backtest realism without introducing non-executable proxy-IV bias?
 - Can RL execution or market-making policies that appear profitable in nonlinear-impact simulators be automatically flagged for manipulation-like round trips, impact-artifact exploitation, and out-of-regime fragility before they contaminate agentic trading evaluations?
 - Do uncertainty-calibrated covariance/eigenstructure risk-state triggers improve drawdown control or allocation utility versus raw absorption-ratio thresholds, volatility targeting, and drawdown filters after turnover costs?
 - Can arbitrage-consistent option-implied risk-neutral tail metrics improve SPX/SPXW short-volatility sizing or risk throttles versus VIX, IV-rank, and simple skew filters after quote-cleaning and bid/ask costs?
@@ -47,6 +51,11 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can power-calibrated PSI/Jensen-Shannon/KL drift alarms improve model/data kill-switch decisions versus simple volatility/drawdown filters after accounting for false alarms, missed breaks, and missed-opportunity costs?
 - Do accrual and PEAD accounting anomalies split into risk-compensation versus delayed-information/mispricing buckets after adding an accounting/fundamental hedge factor, cap/liquidity diagnostics, post-publication splits, point-in-time availability checks, and realistic long-short transaction/borrow costs?
 - Can sequentially calibrated secondary goodness-of-fit/deployment-gate tests improve intraday, crypto, option, and ML strategy validation by decomposing first rejection into cost, base-rate, regime, calibration, liquidity, or turnover failure modes without inflating Type I error or creating bureaucratic overfit?
+- Do Brier/Winkler-calibrated LLM or agentic financial forecasts improve position sizing, risk throttling, or go/no-go decisions versus base-rate, volatility-only, and simple tabular baselines after costs and action-attribution?
+- Do anchor-quality and one-sided-liquidity proxies explain when short-horizon order-flow/trend/reversal signals become non-tradable after costs beyond simple volatility, drawdown, spread, and depth filters?
+- In prediction markets, do AMM/market-maker structural variables — probability bucket, time-to-resolution, fee/subsidy design, quote depth, and settlement-risk exposure — explain spread capture and volatility better than generic time-series models?
+- In DeFi/AMM execution, do information-timely route-quality diagnostics — support-constrained/full-venue/gas-aware shortfall, stale-state delay, sandwich/MEV flags, and trade-size buckets — explain which apparent DEX strategy edges survive realistic execution?
+- Does Bitcoin realized-volatility roughness improve volatility-targeting, leverage throttling, or drawdown control after EWMA/HAR/GARCH, realized-volatility, funding, drawdown, and venue-stress baselines?
 
 ## Maintenance Rules
 

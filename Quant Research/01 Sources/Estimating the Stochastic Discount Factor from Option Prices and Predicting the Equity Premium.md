@@ -4,7 +4,7 @@ source_kind: paper
 asset_classes: [options, equities, volatility, asset-pricing]
 implementation_class: foundational / retail-adaptable
 importance: high
-last_reviewed: "2026-07-10"
+last_reviewed: "2026-07-24"
 tags: [quant-source, options, stochastic-discount-factor, equity-premium, volatility-risk-premium, return-prediction]
 concepts: [option-implied-sdf, equity-premium-forecasting, martin-bounds, volatility-scaled-sdf, risk-neutral-density]
 ---
@@ -13,7 +13,7 @@ concepts: [option-implied-sdf, equity-premium-forecasting, martin-bounds, volati
 
 ## Citation / Link
 
-Kenichiro Shiraya, Tomohisa Yamakami, Akira Yamazaki, “Estimating the Stochastic Discount Factor from Option Prices and Predicting the Equity Premium,” arXiv:2607.08500v1, 2026-07-09. https://arxiv.org/abs/2607.08500v1
+Kenichiro Shiraya, Tomohisa Yamakami, Akira Yamazaki, “Estimating the Stochastic Discount Factor from Option Prices and Predicting the Equity Premium,” arXiv:2607.08500v2, updated 2026-07-23. https://arxiv.org/abs/2607.08500v2
 
 ## Summary
 

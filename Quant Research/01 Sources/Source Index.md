@@ -11,6 +11,8 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[A Cap-Axis Integral Diagnostic of Factor Models]]
   - [[Estimating the Stochastic Discount Factor from Option Prices and Predicting the Equity Premium]]
   - [[Two Accounting Anomalies - Accruals May Be Risk, PEAD May Be Mispricing]]
+  - [[Retail Traders Ruin - Anatomy of Popular Signal Failure]]
+  - [[Quantum Kernels and the Cross-Section of Stock Returns - Vanishing Advantage]]
 - Market microstructure
   - [[The Bounce Has No Direction - Sign Magnitude and Microstructure of Equity Return Predictability]]
   - [[Is Trend Still Your Friend - Microstructural Demise of Short-Term Trend-Following]]
@@ -24,9 +26,12 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Can Reinforcement Learning Efficiently Discover Price Manipulation]]
   - [[Robustness in Sequential Decision Making under Evolving Uncertainty]]
   - [[Herding and Liquidity in Order-Book Markets - A Robust Liquidity-Stress Crossover]]
+  - [[Herding and Liquidity in Order-Book Markets II - Fundamental Anchoring and Liquidity Resilience]]
+  - [[DEX Routing Sub-Optimality - Information-Timely Gas-Aware AMM Execution]]
 - Options / volatility
   - [[Sizing the Risk - Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options]]
   - [[Arbitrage-Free Multi-Maturity Risk-Neutral Marginals]]
+  - [[Illiquid-Asset Option Pricing via Liquid Benchmark Volatility Surfaces]]
 - Crypto market structure
   - [[Settlement Manipulation in Prediction Markets]]
   - [[Volatility in Prediction Markets - A Structural Approach]]
@@ -36,10 +41,15 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[The Extremity Premium - Sentiment Regimes and Adverse Selection in Cryptocurrency Markets]]
   - [[Causal Effects of Protocol-Fee Changes on Liquidity Provision in Automated Market Makers]]
   - [[Detecting Unusual Trading Patterns on Cryptocurrency Exchanges by Complexity Measures]]
+  - [[Risk-Based Auto-Deleveraging]]
+  - [[Prediction-Market AMM and Market-Making Design - Uniform-Loss and Optimal Quoting]]
+  - [[DEX Routing Sub-Optimality - Information-Timely Gas-Aware AMM Execution]]
 - Strategy evaluation / validation
   - [[Regime-Conditional Distributional Comparison of Trading Strategies]]
   - [[Look-Ahead-Freedom as Temporal Non-Interference]]
   - [[Statistical Properties and Power Analysis of Divergence Measures for Credit Risk Model Monitoring]]
+  - [[ARp-Focus Online Changepoint Detection under Autocorrelation]]
+  - [[Predictive Extrema Unprofitable Policies - Binance Spot Timing Audit]]
 - ML/AI forecasting
   - [[How Much of a 10-K Matters - Aggregation-Dependent Value of Full-Text versus Risk-Factor Sentiment]]
   - [[When Directional Accuracy Lies - Base-Rate-Honest TimesFM Equity Forecasting]]
@@ -52,7 +62,12 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Heads Not Backbones - Output Heads Dominate Architectures on Fat-Tailed Returns]]
   - [[CLQT Cost-Aware Benchmark for LLM Portfolio-Management Agents]]
   - [[VAIOM Continuous-Input Discrete-Output Financial Sequence Modeling]]
+  - [[FinBench - Time-Gated Calibration and Uncertainty Benchmarking for Agentic Financial Forecasting]]
 - Portfolio/risk construction
+  - [[The Science and Practice of Trend-Following Systems]]
+  - [[Observable Matrix Dynamics of Stocks]]
+  - [[Mixing-Law Uncertainty for Robust Heavy-Tail Portfolio Decisions]]
+  - [[Pathwise Roughness of Bitcoin Realized Volatility]]
   - [[SciPhy Reinforcement Learning for Portfolio Optimization]]
   - [[Learning Predictive Ambiguity Sets for Decision-Focused DRO]]
   - [[Continuous Hidden Markov Models for Equity Returns]]

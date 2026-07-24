@@ -4,7 +4,7 @@ source_kind: paper
 asset_classes: [crypto, futures, market-microstructure, return-predictability]
 implementation_class: retail-adaptable
 importance: high
-last_reviewed: "2026-07-13"
+last_reviewed: "2026-07-20"
 tags: [quant-source, crypto-futures, market-microstructure, periodicity, order-flow, return-predictability]
 concepts: [quarter-hour-effect, periodic-algorithmic-trading, clock-phase-autocorrelation, order-imbalance]
 ---
@@ -13,11 +13,11 @@ concepts: [quarter-hour-effect, periodic-algorithmic-trading, clock-phase-autoco
 
 ## Citation / Link
 
-Chan Kim, Peter Reinhard Hansen, “The Quarter-Hour Effect: Periodic Algorithmic Trading and Return Predictability in Cryptocurrency Futures,” arXiv:2607.09426v1, 2026-07-10. https://arxiv.org/abs/2607.09426v1
+Chan Kim, Peter Reinhard Hansen, “The Quarter-Hour Effect: Periodic Algorithmic Trading and Return Predictability in Cryptocurrency Futures,” arXiv:2607.09426v2, updated 2026-07-16. https://arxiv.org/abs/2607.09426v2
 
 ## Summary
 
-The paper documents periodic bursts in volatility and volume at one-, five-, and especially quarter-hour marks in six Binance perpetual futures contracts. The abstract links these bursts to algorithmic participation using trade-size roundness and introduces an Autocorrelation Map that resolves clock-phase-specific serial dependence in order flow and returns. The reported key alpha-relevant claim is that quarter-hour opening order imbalance is predictable out of sample and forecasts four-to-twelve-hour returns, with weaker effects at finer clock marks.
+The paper documents periodic bursts in volatility and volume at one-, five-, and especially quarter-hour marks in six Binance perpetual futures contracts. The abstract links these bursts to algorithmic participation using trade-size roundness, which declines sharply during bursts, and introduces an Autocorrelation Map that resolves clock-phase-specific serial dependence in order flow and returns. The reported key alpha-relevant claim is that quarter-hour opening returns are predictable out of sample and that quarter-hour opening order imbalance forecasts four-to-twelve-hour returns, with weaker effects at finer clock-time frequencies.
 
 ## Core Contribution
 
