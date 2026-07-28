@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-21
+last_updated: 2026-07-27
 ---
 
 # Company Index
@@ -13,12 +13,12 @@ Use this as a curated index of public and material private entities in the AI su
 
 | Company | Ticker / listing | Primary AI supply-chain role | Notes |
 |---|---|---|---|
-| NVIDIA | NVDA | GPUs, networking, systems/software | Key upstream demand driver for HBM, CoWoS, substrates, networking. |
+| NVIDIA | NVDA | GPUs, networking, systems/software | Key upstream demand driver for HBM, CoWoS, substrates, networking; July 2026 primary releases add Korea DSX/Vera Rubin/Blackwell AI factory partnerships with NAVER/Brookfield and SK Group/SK Telecom/SK Hynix. |
 | AMD | AMD | GPUs, CPUs, AI accelerators | Alternative merchant accelerator exposure. |
 | Broadcom | AVGO | Custom ASICs, networking silicon | Hyperscaler custom silicon and networking exposure. |
 | Marvell | MRVL | Custom silicon, networking/optics DSPs | AI custom silicon and interconnect exposure. |
 | TSMC | TSM / 2330.TW | Leading-edge foundry, advanced packaging | Critical wafer and CoWoS/packaging node. |
-| SK Hynix | 000660.KS | HBM/DRAM | Key HBM supplier. |
+| SK Hynix | 000660.KS | HBM/DRAM | Key HBM supplier; NVIDIA/SK Group July 2026 release describes a planned long-term AI memory partnership to secure/codevelop next-generation AI memory, including HBM, for Vera Rubin-scale AI factories. |
 | Micron | MU | HBM/DRAM/NAND | US-listed memory exposure. |
 | Samsung Electronics | 005930.KS | Memory, foundry, advanced packaging | HBM and foundry contender. |
 | ASML | ASML | Lithography | Leading-edge semiconductor capacity enabler. |
@@ -47,6 +47,9 @@ Use this as a curated index of public and material private entities in the AI su
 | American Electric Power / AEP Texas | AEP | Utility / electric delivery service for datacenter campuses | Hut 8 disclosed Beacon Point's 1,000 MW utility capacity is secured under an interconnection agreement with AEP Texas; track energization, grid/interconnection constraints, and regulated utility exposure. |
 | ACS Group | ACS.MC | Construction / datacenter infrastructure delivery | High-quality DCD evidence that ACS/GIP-linked Coravel has a 1.7 GW datacenter development portfolio and a ~140 MW hyperscaler agreement at Dallas-Fort Worth, with ACS subsidiary Turner Construction leading campus delivery; monitor for primary ACS filings and backlog economics. |
 | BlackRock / Global Infrastructure Partners | BLK | Infrastructure sponsor / datacenter platform capital | GIP-backed Coravel adds an infrastructure-fund route into hyperscaler datacenter platforms; BLK exposure is indirect and likely less pure than ACS/Turner or dedicated datacenter developers. |
+| NAVER | 035420.KS | Sovereign AI factory / cloud infrastructure | Primary NVIDIA evidence of proposed GAK Sejong DSX AI factory expansion from 55 MW to 200 MW by 2028, stated 1 GW path, conditional $1B NVIDIA investment, and up to $9B Brookfield nonbinding financing term sheet. |
+| SK Telecom | 017670.KS | Sovereign AI cloud / AI factory operator | Primary NVIDIA/SK Group evidence of planned up-to-2 GW NVIDIA Vera Rubin DSX AI Factory / AI Cloud in Korea, with first AI factory planned online in 2027; LOI-stage execution risk remains. |
+| Brookfield / BAM / BN | BN / BAM | Infrastructure capital / AI datacenter financing | Primary NVIDIA/NAVER release says Brookfield entered a nonbinding term sheet to fund up to $9B of NAVER's Korea AI factory expansion; monitor for committed financing and project-close evidence. |
 
 ## Material private / indirect entities
 

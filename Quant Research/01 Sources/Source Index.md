@@ -44,6 +44,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Risk-Based Auto-Deleveraging]]
   - [[Prediction-Market AMM and Market-Making Design - Uniform-Loss and Optimal Quoting]]
   - [[DEX Routing Sub-Optimality - Information-Timely Gas-Aware AMM Execution]]
+  - [[Crypto Bubble Diagnostics - LPPL and PSY Tests for Bitcoin and Ether]]
 - Strategy evaluation / validation
   - [[Regime-Conditional Distributional Comparison of Trading Strategies]]
   - [[Look-Ahead-Freedom as Temporal Non-Interference]]
@@ -54,6 +55,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[How Much of a 10-K Matters - Aggregation-Dependent Value of Full-Text versus Risk-Factor Sentiment]]
   - [[When Directional Accuracy Lies - Base-Rate-Honest TimesFM Equity Forecasting]]
   - [[Risk-Sensitive Specialist Routing for Volatility Forecasting]]
+  - [[Susceptible Reservoir Architectures for Regime-Conditional Volatility Forecasting]]
   - [[Forecasting Realized Volatility with Time Series Foundation Models]]
   - [[tsbootstrap - Distribution-Free Uncertainty Quantification and Conformal Prediction for Time Series]]
   - [[Bet on Features - Anytime-Valid and Feature-Aware Auditing of Conditional Quantile Forecasters]]

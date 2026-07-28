@@ -28,6 +28,7 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - Can online risk-monitor / kill-switch framework detect when a live strategy, model, or AI research agent leaves its validated regime using only time-gated verifier signals?
 - Do autocorrelation-aware online changepoint alarms reduce false exits and delayed crisis exits versus IID drift tests, PSI/JSD/KL divergence thresholds, CUSUM/Page-Hinkley rules, and simple volatility/drawdown filters?
 - Can crypto futures ADL/liquidation/venue-stress proxies identify states where apparent funding, momentum, or clock-phase order-flow edges should be de-levered or disabled before forced exchange-level risk controls dominate realized PnL?
+- Can LPPL/PSY-style crypto bubble diagnostics add risk-throttle value beyond simple realized-volatility, drawdown, moving-average, funding, and basis filters across 2017, 2020-2021, 2022, and ETF/perpetual-dominated regimes after fees?
 - Can formal look-ahead-freedom checks using availability time, reference time, and decision time catch practical leakage in local backtests beyond conventional train/test splits and manual point-in-time checks?
 - Do time-series foundation models improve realized-volatility-driven sizing or risk throttles after Log-HAR/EWMA/GARCH baselines, Mincer-Zarnowitz recalibration, per-asset loss analysis, and downstream cost-aware utility tests?
 - Can observable matrix dynamics / correlation-geometry states add out-of-sample risk-control value beyond VIX, realized volatility, drawdown, absorption ratio, and leading-eigenvalue filters after turnover and missed-rebound costs?
@@ -56,6 +57,8 @@ These questions guide future daily collection, weekly synthesis, and coding-time
 - In prediction markets, do AMM/market-maker structural variables — probability bucket, time-to-resolution, fee/subsidy design, quote depth, and settlement-risk exposure — explain spread capture and volatility better than generic time-series models?
 - In DeFi/AMM execution, do information-timely route-quality diagnostics — support-constrained/full-venue/gas-aware shortfall, stale-state delay, sandwich/MEV flags, and trade-size buckets — explain which apparent DEX strategy edges survive realistic execution?
 - Does Bitcoin realized-volatility roughness improve volatility-targeting, leverage throttling, or drawdown control after EWMA/HAR/GARCH, realized-volatility, funding, drawdown, and venue-stress baselines?
+- Can excluded-pool coverage audits detect missed alpha, missed data-quality failures, or survivorship introduced by research-candidate screens, option-chain filters, feed triage, and model-feature selection better than included-only validation?
+- Can pre-treatment path reference distributions improve event-study inference for PEAD, prediction-market settlement windows, AMM protocol-fee changes, commodity shocks, and crypto venue events versus standard parallel-trend or placebo tests?
 
 ## Maintenance Rules
 

@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-23
+last_updated: 2026-07-27
 ---
 
 # Accelerators and Custom Silicon
@@ -26,6 +26,7 @@ NVDA, AMD, INTC, AVGO, MRVL, ARM, hyperscaler internal silicon teams, Cerebras, 
 _Add material event backlinks here._
 
 - [[04 Events/2026/2026-07-22 Alphabet AI Infrastructure Financing and Capex|2026-07-22: Alphabet raises capital and discloses sharply higher AI infrastructure commitments]] — primary Google Cloud evidence that TPU-system revenue began in Q2 2026 for specialized high-scale on-premises infrastructure agreements, with most revenue expected in 2027; useful custom-silicon commercialization signal, but customer identities, volumes, foundry/packaging allocation, and competitive impact versus merchant GPUs remain undisclosed.
+- [[04 Events/2026/2026-07-24 NVIDIA Korea AI Factory Partnerships|2026-07-24: NVIDIA announces Korea AI factory partnerships with NAVER/Brookfield and SK Group]] — primary NVIDIA evidence of planned DSX AI factory demand tied to Vera Rubin and Blackwell platforms, including NAVER's proposed 200 MW expansion and SK Telecom's up-to-2 GW Vera Rubin DSX plan; material platform-demand signal but still partly conditional/LOI-stage.
 - [[04 Events/2026/2026-07-21 Supermicro Q4 2026 Preliminary Orders Backlog|2026-07-21: Supermicro reports record backlog and over $60B of Q4 new orders despite low-end revenue]] — primary AI-server backlog evidence that could pull through accelerators and related components over future quarters, but order firmness and delivery cadence are not yet verified.
 - [[04 Events/2026/2026-07-20 IREN AI Cloud Customer Contracts|2026-07-20: IREN signs $2.8B AI cloud contracts and raises 2026 ARR target above $4B]] — primary GPU-cloud demand evidence with customer prepayments around 45% of associated GPU capex; useful accelerator-demand signal, but GPU models, unit counts, allocation, and supplier timing are not disclosed.
 - [[04 Events/2026/2026-07-16 TSMC Q2 AI Leading Edge Demand|2026-07-16: TSMC Q2 results confirm strong leading-edge/HPC demand and higher 2026 outlook]] — indirect accelerator/custom-silicon demand confirmation through TSMC's strong leading-edge and HPC revenue mix; not a shipment-volume disclosure for NVDA/AMD/ASIC vendors.
@@ -35,4 +36,4 @@ _Add material event backlinks here._
 
 ## Current assessment
 
-TSMC's Q2 2026 HPC/leading-edge mix is supportive indirect evidence for accelerator and custom-silicon demand, IREN's SEC-filed AI cloud contracts add downstream GPU-capex demand evidence via customer prepayments, and Alphabet's Q2 filings add a primary TPU-system commercialization signal with most revenue expected in 2027. None of these disclosures establishes vendor-specific shipment volumes or removes HBM/packaging as possible constraints. Micron's HBM4 production claim is a useful platform-transition signal for NVIDIA Vera Rubin, but volume/share economics remain unquantified. Export controls remain a parallel demand-allocation variable: policy movement toward case-by-case China/Macau review and license-free UAE access for approved recipients can affect regional revenue expectations, but shipment impact must be verified through approvals, company commentary, order data, and channel checks.
+TSMC's Q2 2026 HPC/leading-edge mix is supportive indirect evidence for accelerator and custom-silicon demand, IREN's SEC-filed AI cloud contracts add downstream GPU-capex demand evidence via customer prepayments, Alphabet's Q2 filings add a primary TPU-system commercialization signal with most revenue expected in 2027, and NVIDIA's Korea AI factory releases add a primary DSX/Vera Rubin/Blackwell platform-demand signal at planned 200 MW and up-to-2 GW scale. None of these disclosures establishes vendor-specific shipment volumes or removes HBM/packaging as possible constraints. Micron's HBM4 production claim and NVIDIA/SK Hynix memory partnership language are useful platform-transition signals for NVIDIA Vera Rubin, but volume/share economics remain unquantified. Export controls remain a parallel demand-allocation variable: policy movement toward case-by-case China/Macau review and license-free UAE access for approved recipients can affect regional revenue expectations, but shipment impact must be verified through approvals, company commentary, order data, and channel checks.
