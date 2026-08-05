@@ -4,6 +4,7 @@ Daily and periodic research collection notes live here.
 
 ## Daily Reviews
 
+- [[2026-08-05 1621 Daily Quant Research Review]]
 - [[2026-08-04 1226 Daily Quant Research Review]]
 - [[2026-08-03 1356 Daily Quant Research Review]]
 - [[2026-08-02 1940 Daily Quant Research Review]]

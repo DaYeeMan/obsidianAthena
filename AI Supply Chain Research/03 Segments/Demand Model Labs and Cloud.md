@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 ---
 
 # Demand, Model Labs, and Cloud
@@ -27,6 +27,7 @@ Public: MSFT, GOOGL, AMZN, META, ORCL, AMD, NAVER, SK Telecom. Private/material:
 
 ## Recent event links
 
+- [[04 Events/2026/2026-08-05 TeraWulf Galaxy Q2 2026 AI Datacenter Operational Updates|2026-08-05: TeraWulf and Galaxy Q2 results show AI datacenter capacity moving from leases into delivered load, revenue, and new powered-site pipelines]] — primary SEC evidence that Fluidstack/Google-supported Lake Mariner capacity and CoreWeave-leased Helios capacity are now contributing revenue-generating critical IT load; also adds WULF's Muskie/Kentucky Power 1 GW platform and GLXY's >5.7 GW Texas AI datacenter pipeline as lower-certainty future demand/power optionality.
 - [[04 Events/2026/2026-08-04 Bitdeer Tydal Norway AI HPC Data Center Lease|2026-08-04: Bitdeer announces $4.7B 16-year AI/HPC data center lease for Tydal, Norway campus]] — company press release evidence that Volta leased 121 IT MW / estimated 133 gross MW at Bitdeer's Tydal, Norway campus for NVIDIA GPU-configured AI/HPC capacity serving a leading AI lab, with Dell as technology provider and approximately $4.7B base-term revenue; useful demand evidence but end-customer identity and SEC-filed contract details remain open.
 - [[04 Events/2026/2026-07-28 Core Scientific AMD AI Infrastructure Partnership|2026-07-28: Core Scientific and AMD announce AI infrastructure partnership for 530 MW initial capacity]] — primary SEC evidence that AMD secured more than 500 MW / about 530 MW of U.S. AI-ready infrastructure beginning in 2027, including 377 MW direct AMD leases, 152 MW Neocloud leases with AMD credit support, and reservation rights for an additional 1,925 MW through December 2028.
 - [[04 Events/2026/2026-07-31 Amazon AWS AI Infrastructure Commitments and Capex|2026-07-31: Amazon discloses AWS AI infrastructure commitments, capex, and OpenAI/Anthropic chip-linked contracts]] — primary SEC evidence that AWS AI demand is converting into large cloud commitments, investments, capex, and custom-chip-linked obligations: AWS sales +37% YoY to $42.2B, ~$496B primarily AWS long-term performance obligations, $100B+ / $100B OpenAI and Anthropic AWS commitment expansions tied to AWS-chip performance obligations, Q2 cash capex of $53.1B, H1 cash capex of $96.3B, $137.214B leases not yet commenced, and $650.034B total principal commitments.
@@ -51,6 +52,8 @@ Public: MSFT, GOOGL, AMZN, META, ORCL, AMD, NAVER, SK Telecom. Private/material:
 - [[04 Events/2026/2026-04-23 Applied Digital Delta Forge 1 Hyperscaler Lease|2026-04-23: Applied Digital signs 300 MW Delta Forge 1 hyperscaler lease]] — new U.S. investment-grade hyperscaler commitment with primary SEC disclosure of 300 MW critical IT load, ~$7.5B contracted value, and mid-2027 initial-operations target.
 
 ## Current assessment
+
+2026-08-05 update: TeraWulf/Galaxy adds demand-conversion evidence: Fluidstack/Google-supported Lake Mariner capacity and CoreWeave-leased Helios capacity have moved into revenue-generating critical IT load, while Anthropic/Justified, TeraWulf Muskie, Galaxy Phase II, and Galaxy's expanded Texas pipeline provide future tenanting/construction checks. The strongest fields are WULF's 102 MW online, 336 MW under construction, $600M Google credit-support activation, and GLXY's 133 MW in service with expected ~$80M quarterly leasing revenue. The caveat is that new Muskie/Merlin/Caspian/Selene pipeline MW remain lower-quality demand evidence until signed tenants, interconnection approvals, financing, and delivery dates are confirmed.
 
 2026-08-04 update: Bitdeer/Tydal adds BTDR and Volta to the direct AI campus lease monitoring set and broadens the model geographically into European renewable-power AI factories. The strongest demand fields are 121 IT MW, NVIDIA GPU configuration, leading-AI-lab end-customer language, Dell technology-provider role, $4.7B base-term contracted revenue, and expected LC credit support. The main caveat is that the end customer is unnamed and no same-day SEC-filed lease exhibit was located during review.
 

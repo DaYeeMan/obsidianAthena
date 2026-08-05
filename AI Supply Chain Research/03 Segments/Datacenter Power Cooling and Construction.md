@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 ---
 
 # Datacenter Power, Cooling, and Construction
@@ -23,6 +23,7 @@ Vertiv, Eaton, Schneider Electric, ABB, Siemens, MOD, PWR, Prysmian/PRY.MI, Atko
 
 ## Recent event links
 
+- [[04 Events/2026/2026-08-05 TeraWulf Galaxy Q2 2026 AI Datacenter Operational Updates|2026-08-05: TeraWulf and Galaxy Q2 results show AI datacenter capacity moving from leases into delivered load, revenue, and new powered-site pipelines]] — primary SEC evidence that WULF has 102 MW revenue-generating critical IT online, 336 MW under construction, activated $600M Google credit support for Fluidstack obligations, and acquired a 1 GW Muskie/Kentucky Power platform; GLXY has 133 MW Helios Phase I fully in service, expected ~$80M quarterly leasing revenue from Q3, closed $3.5B Phase II financing, and expanded its Texas AI datacenter power pipeline to >5.7 GW.
 - [[04 Events/2026/2026-08-04 Bitdeer Tydal Norway AI HPC Data Center Lease|2026-08-04: Bitdeer announces $4.7B 16-year AI/HPC data center lease for Tydal, Norway campus]] — company press release evidence of a 121 IT MW / estimated 133 gross MW Norway AI/HPC lease configured for NVIDIA GPUs for a leading AI lab, with Dell as technology provider, approximately $4.7B base-term contracted revenue, anticipated $1.3B LC credit support, about $500M remaining capex, and Phase 1 targeted for Dec. 31, 2026; monitor SEC/IR validation and construction/financing execution.
 - [[04 Events/2026/2026-08-03 Atkore Prysmian Electrical Infrastructure Acquisition|2026-08-03: Atkore agrees to be acquired by Prysmian as AI-driven datacenter electrification demand consolidates suppliers]] — primary SEC evidence that Prysmian agreed to acquire Atkore for $95/share cash / about $3.8B enterprise value while citing electrification, AI-driven data centers, and digitalization; Atkore Q3 Electrical segment sales grew 10.9% YoY.
 - [[04 Events/2026/2026-07-28 Core Scientific AMD AI Infrastructure Partnership|2026-07-28: Core Scientific and AMD announce AI infrastructure partnership for 530 MW initial capacity]] — primary SEC evidence of a named accelerator-vendor capacity procurement: more than 500 MW / about 530 MW of U.S. AI-ready infrastructure beginning in 2027, 15-year lease terms, direct AMD and AMD-supported Neocloud capacity, and reservation rights for an additional 1,925 MW through December 2028.
@@ -48,6 +49,8 @@ Vertiv, Eaton, Schneider Electric, ABB, Siemens, MOD, PWR, Prysmian/PRY.MI, Atko
 - [[04 Events/2026/2026-04-23 Applied Digital Delta Forge 1 Hyperscaler Lease|2026-04-23: Applied Digital signs 300 MW Delta Forge 1 hyperscaler lease]] — primary SEC evidence of a 300 MW critical-IT-load lease with a new U.S. high-investment-grade hyperscaler, ~$7.5B contracted value, and mid-2027 initial-operations target.
 
 ## Current assessment
+
+2026-08-05 update: TeraWulf/Galaxy adds same-day primary evidence that the power-rich AI datacenter developer theme is moving from announced leases and financed construction into delivered critical IT load, rent/revenue, and credit-support activation. WULF reported 102 MW revenue-generating critical IT online at Lake Mariner after CB-3 delivery, 336 MW under construction, $600M Google credit support for Fluidstack lease obligations activated, Muskie/Kentucky Power agreements for up to 1 GW of contracted electric service, and a 250-500 MW annual contracting target. GLXY reported 133 MW Helios Phase I fully in service by quarter-end, expected ~$80M quarterly Phase I leasing revenue beginning Q3, closed $3.5B Phase II financing, and expanded the Texas AI datacenter power pipeline to >5.7 GW. Weight delivered/rent-commencement fields above untenantable pipeline MW; treat Muskie, Merlin, Caspian, and Selene as material but lower-certainty until tenanting, interconnection, financing, and construction milestones are visible.
 
 2026-08-04 update: Bitdeer/Tydal adds a European renewable-power AI factory lease datapoint to the power-rich developer theme: 121 IT MW / 133 gross MW in Norway, 100% renewable energy, PUE around 1.1, NVIDIA GPU configuration, Dell technology-provider role, $4.7B base-term contracted revenue, and expected $1.3B LC support. Weight this below SEC-filed lease exhibits until Bitdeer files a 6-K/exhibit or provides more detail on conditions, LC finalization, capex funding, GPU procurement, and Phase 1 delivery, but above generic AI datacenter announcements because it includes MW, TCV, economics, credit-support, and delivery fields.
 

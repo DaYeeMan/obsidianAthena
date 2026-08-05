@@ -60,6 +60,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Fill-Side Behavioral Concentration on Polymarket - Attribution Limits]]
   - [[Optimal Dynamic Fees in Automated Market Makers]]
   - [[Axient Leveraged Event Markets - Credit and Finality Design]]
+  - [[AMM Mandate Portfolios - Verifiable Band Rebalancing]]
 - Strategy evaluation / validation
   - [[Regime-Conditional Distributional Comparison of Trading Strategies]]
   - [[Look-Ahead-Freedom as Temporal Non-Interference]]
@@ -83,6 +84,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[CLQT Cost-Aware Benchmark for LLM Portfolio-Management Agents]]
   - [[VAIOM Continuous-Input Discrete-Output Financial Sequence Modeling]]
   - [[FinBench - Time-Gated Calibration and Uncertainty Benchmarking for Agentic Financial Forecasting]]
+  - [[Proper-Score Observation-Driven Filters for Robust Forecast Validation]]
 - Portfolio/risk construction
   - [[Conformal Kelly - Uncertainty-Scaled Fractional Position Sizing]]
   - [[Drawdown Risk Beyond Brownian Motion - Non-Gaussian and Long-Memory Stress Tables]]

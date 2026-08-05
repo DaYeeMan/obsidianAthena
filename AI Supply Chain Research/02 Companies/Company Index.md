@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 ---
 
 # Company Index
@@ -41,7 +41,8 @@ Use this as a curated index of public and material private entities in the AI su
 | Meta | META | Hyperscaler demand | Large AI cluster buyer. |
 | Oracle | ORCL | Cloud/AI infrastructure | GPU cloud and datacenter expansion. |
 | IREN | IREN | AI cloud provider / power-rich datacenter developer | Primary SEC evidence of $2.8B new AI cloud contracts, >$4B 2026 AI Cloud ARR target ~85% contracted, customer prepayments around 45% of associated GPU capex, 480 MW being delivered in 2026, and 1.2 GW targeted for 2027. |
-| Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Helios campus has primary evidence of delivered CoreWeave critical IT load and large approved power runway. |
+| Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Primary SEC evidence now shows Helios Phase I's 133 MW critical IT load fully in service by Q2 2026 quarter-end, expected ~$80M quarterly Phase I leasing revenue beginning Q3, closed $3.5B Phase II financing, CoreWeave's 526 MW contracted critical IT load across phases, and an expanded Texas AI/HPC datacenter power pipeline above 5.7 GW. |
+| TeraWulf | WULF | Power-rich AI/HPC datacenter developer | Primary SEC evidence now shows 102 MW revenue-generating critical IT capacity online at Lake Mariner, 336 MW under construction, $600M Google credit support for Fluidstack lease obligations activated after CB-3 delivery, the 401 MW Anthropic Justified lease, Muskie/Kentucky Power agreements for up to 1 GW of contracted electric service, and a 250-500 MW annual incremental critical-IT contracting target. |
 | Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 1.41 GW contracted critical-IT-load portfolio, MW-specific project financing for Polaris Forge 2 and Polaris Forge 1 Building 4, 75 MW Polaris Forge 1 Building 2 operational delivery, and multi-campus contracted AI datacenter portfolio. |
 | ChronoScale | CHRN | Accelerated-compute platform / APLD cloud-services spinout | Introduced via APLD's FY2026 release; APLD owns ~96%, so track only when ChronoScale contracts, GPU capex, financing, or customer concentration materially affects APLD or public AI infrastructure demand. |
 | Babcock & Wilcox | BW | Power-generation equipment / services | Introduced via APLD's Base Electron power initiative; track only if primary filings/releases confirm scope, financing, equipment orders, or COD timing for the proposed ~1.2 GW Dakota generation project. |
