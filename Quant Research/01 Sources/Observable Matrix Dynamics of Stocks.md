@@ -11,6 +11,12 @@ concepts: [observable-matrix-dynamics, correlation-geometry, effective-dimension
 
 # Observable Matrix Dynamics of Stocks
 
+## 2026-07-31 Follow-Up
+
+A follow-up/strategy-facing preprint by the same author, “Are Three Matrices All You Need To Beat the Market? Observable Matrix Dynamics for Portfolio Optimization,” arXiv:2607.27461v1, extends OMD from crisis/regime diagnostics toward dynamic portfolio management using three fixed-size matrices from daily prices, volumes, and market capitalizations: a return-correlation distance matrix plus Markov-chain transition matrices for monthly trailing-return and trailing-volatility ranks. The abstract reports that volatility rank is forecastable while return rank is close to unforecastable, and that a momentum long-short plus opportunistic long-only sleeve beat the market on 2022–2024 and 2025–2026 out-of-sample windows net of 5 bps trading cost.
+
+Library treatment remains conservative: this strengthens OMD as a portfolio/risk-method lead, but does not make it coding-ready. Require point-in-time S&P 500 membership, delisting controls, 5 bps sensitivity, borrow/shorting feasibility, turnover/capacity checks, sector/factor attribution, and comparison against simple momentum, low-volatility, volatility-managed market, equal weight, inverse-vol, and risk-parity baselines before treating the three-matrix portfolio as alpha evidence.
+
 ## Citation / Link
 
 Igor Halperin, “Observable Matrix Dynamics of Stocks,” arXiv:2607.19005v2, updated 2026-07-22. https://arxiv.org/abs/2607.19005v2

@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-07-27
+last_updated: 2026-08-04
 ---
 
 # Company Index
@@ -14,13 +14,13 @@ Use this as a curated index of public and material private entities in the AI su
 | Company | Ticker / listing | Primary AI supply-chain role | Notes |
 |---|---|---|---|
 | NVIDIA | NVDA | GPUs, networking, systems/software | Key upstream demand driver for HBM, CoWoS, substrates, networking; July 2026 primary releases add Korea DSX/Vera Rubin/Blackwell AI factory partnerships with NAVER/Brookfield and SK Group/SK Telecom/SK Hynix. |
-| AMD | AMD | GPUs, CPUs, AI accelerators | Alternative merchant accelerator exposure. |
+| AMD | AMD | GPUs, CPUs, AI accelerators | Alternative merchant accelerator exposure; July 2026 Core Scientific partnership gives AMD access to more than 500 MW / about 530 MW of U.S. AI-ready infrastructure beginning in 2027, with additional reservation rights up to 1,925 MW through December 2028. |
 | Broadcom | AVGO | Custom ASICs, networking silicon | Hyperscaler custom silicon and networking exposure. |
 | Marvell | MRVL | Custom silicon, networking/optics DSPs | AI custom silicon and interconnect exposure. |
 | TSMC | TSM / 2330.TW | Leading-edge foundry, advanced packaging | Critical wafer and CoWoS/packaging node. |
-| SK Hynix | 000660.KS | HBM/DRAM | Key HBM supplier; NVIDIA/SK Group July 2026 release describes a planned long-term AI memory partnership to secure/codevelop next-generation AI memory, including HBM, for Vera Rubin-scale AI factories. |
+| SK Hynix | 000660.KS | HBM/DRAM | Key HBM supplier; Q2 2026 primary results showed record AI-memory economics, HBM4 mass shipments beginning in Q2, HBM4E samples completed in H1, long-term agreements with around 10 key customers, and demand exceeding supply capabilities. NVIDIA/SK Group July 2026 release also describes a planned long-term AI memory partnership to secure/codevelop next-generation AI memory, including HBM, for Vera Rubin-scale AI factories. |
 | Micron | MU | HBM/DRAM/NAND | US-listed memory exposure. |
-| Samsung Electronics | 005930.KS | Memory, foundry, advanced packaging | HBM and foundry contender. |
+| Samsung Electronics | 005930.KS | Memory, foundry, advanced packaging | HBM and foundry contender; Q2 2026 primary results showed record Memory revenue/profit, scaled-up HBM4 sales, first HBM4E samples to major customers, continuing supply constraints, and foundry demand from HBM base dies. |
 | ASML | ASML | Lithography | Leading-edge semiconductor capacity enabler. |
 | Applied Materials | AMAT | Equipment | Foundry/memory/packaging capex exposure. |
 | Lam Research | LRCX | Equipment | Memory/foundry equipment exposure. |
@@ -28,8 +28,10 @@ Use this as a curated index of public and material private entities in the AI su
 | KLA | KLAC | Inspection/metrology | Yield and process control exposure. |
 | Arista | ANET | Datacenter switching | AI networking exposure. |
 | 3M | MMM | Optical connectivity / data-center materials | Early primary evidence of Microsoft Azure deploying 3M Expanded Beam Optical technology in AI data centers; monitor for scale, revenue, and additional hyperscaler adoption. |
-| Vertiv | VRT | Power/cooling infrastructure | Datacenter power/thermal exposure. |
+| Vertiv | VRT | Power/cooling infrastructure | Datacenter power/thermal exposure; July 2026 primary SEC evidence shows Q2 net sales +24% YoY / 18% organic growth, adjusted operating profit +51%, adjusted margin +410 bps, FY2026 guide raised to ~$14B sales / 31% organic growth at midpoint, capacity expansion underway, and temporary supply-chain congestion/multi-phase execution timing effects. |
 | Eaton | ETN | Electrical equipment | Datacenter power infrastructure exposure. |
+| Prysmian | PRY.MI / BIT: PRY | Cable, energy, and digital/electrical infrastructure solutions | Primary August 2026 SEC evidence via Atkore filings: Prysmian agreed to acquire Atkore for about $3.8B EV, citing electrification, AI-driven data centers, and digitalization as infrastructure-investment drivers; monitor integration, synergy, leverage/funding mix, and datacenter/electrification reporting. |
+| Atkore | ATKR | Electrical infrastructure products | Target of Prysmian's August 2026 all-cash acquisition agreement at $95/share / about $3.8B EV; keep as standalone exposure until closing, then treat as Prysmian-owned supplier exposure. |
 | Schneider Electric | SU.PA | Electrical/cooling infrastructure | Global datacenter infrastructure exposure. |
 | Dell | DELL | AI servers | OEM/infrastructure deployment exposure. |
 | Super Micro Computer | SMCI | AI servers | System-integration exposure; monitor governance/customer risks. |
@@ -40,10 +42,14 @@ Use this as a curated index of public and material private entities in the AI su
 | Oracle | ORCL | Cloud/AI infrastructure | GPU cloud and datacenter expansion. |
 | IREN | IREN | AI cloud provider / power-rich datacenter developer | Primary SEC evidence of $2.8B new AI cloud contracts, >$4B 2026 AI Cloud ARR target ~85% contracted, customer prepayments around 45% of associated GPU capex, 480 MW being delivered in 2026, and 1.2 GW targeted for 2027. |
 | Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Helios campus has primary evidence of delivered CoreWeave critical IT load and large approved power runway. |
-| Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 210 MW Delta Forge 2 hyperscaler lease, 75 MW Polaris Forge 1 Building 2 operational delivery, and multi-campus contracted AI datacenter portfolio. |
+| Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 1.41 GW contracted critical-IT-load portfolio, MW-specific project financing for Polaris Forge 2 and Polaris Forge 1 Building 4, 75 MW Polaris Forge 1 Building 2 operational delivery, and multi-campus contracted AI datacenter portfolio. |
+| ChronoScale | CHRN | Accelerated-compute platform / APLD cloud-services spinout | Introduced via APLD's FY2026 release; APLD owns ~96%, so track only when ChronoScale contracts, GPU capex, financing, or customer concentration materially affects APLD or public AI infrastructure demand. |
+| Babcock & Wilcox | BW | Power-generation equipment / services | Introduced via APLD's Base Electron power initiative; track only if primary filings/releases confirm scope, financing, equipment orders, or COD timing for the proposed ~1.2 GW Dakota generation project. |
 | CleanSpark | CLSK | Power-rich datacenter developer / former bitcoin-mining infrastructure owner | Primary SEC evidence of a 175 MW Sandersville infrastructure lease with a confidential global technology tenant and 885 MW Texas portfolio exclusivity. |
 | MARA Holdings | MARA | Power-rich digital infrastructure / former bitcoin-mining infrastructure owner | Primary SEC evidence of a Matagorda County, Texas powered-site acquisition with utility LOA rights for up to 2 GW of power capacity and potential HPC tenant targeting; no signed tenant yet. |
 | Hut 8 | HUT | Power-rich AI datacenter developer / former bitcoin-mining infrastructure owner | Primary SEC evidence of a second 352 MW Beacon Point AI datacenter lease, 704 MW total tenant capacity at the campus, 1,000 MW utility capacity secured through AEP Texas, and $26.6B aggregate base-term value across contracted AI datacenter portfolio. |
+| Core Scientific | CORZ | Power-rich AI datacenter developer / high-density colocation | Primary SEC evidence of July 2026 AMD partnership: about 530 MW initial AI-ready leased capacity, including 377 MW direct AMD leases plus 152 MW Neocloud leases with AMD credit support, 15-year terms, and AMD reservation rights for an additional 1,925 MW through December 2028. |
+| Bitdeer Technologies Group | BTDR | AI/HPC datacenter developer / AI cloud infrastructure | August 2026 company press release via GlobeNewswire/StockTitan says Bitdeer/Tydal signed a 16-year Volta lease for 121 IT MW / estimated 133 gross MW at Tydal, Norway, configured for NVIDIA GPUs for a leading AI lab, with Dell Technologies as technology provider, approximately $4.7B base-term contracted revenue, anticipated $1.3B LC support, about $500M remaining capex, and Phase 1 targeted for Dec. 31, 2026; monitor SEC 6-K/exhibit validation and capex/financing execution. |
 | American Electric Power / AEP Texas | AEP | Utility / electric delivery service for datacenter campuses | Hut 8 disclosed Beacon Point's 1,000 MW utility capacity is secured under an interconnection agreement with AEP Texas; track energization, grid/interconnection constraints, and regulated utility exposure. |
 | ACS Group | ACS.MC | Construction / datacenter infrastructure delivery | High-quality DCD evidence that ACS/GIP-linked Coravel has a 1.7 GW datacenter development portfolio and a ~140 MW hyperscaler agreement at Dallas-Fort Worth, with ACS subsidiary Turner Construction leading campus delivery; monitor for primary ACS filings and backlog economics. |
 | BlackRock / Global Infrastructure Partners | BLK | Infrastructure sponsor / datacenter platform capital | GIP-backed Coravel adds an infrastructure-fund route into hyperscaler datacenter platforms; BLK exposure is indirect and likely less pure than ACS/Turner or dedicated datacenter developers. |
@@ -62,6 +68,7 @@ Use this as a curated index of public and material private entities in the AI su
 | Lambda | GPU cloud | Demand signal for accelerators and cloud pricing. |
 | Cerebras | AI accelerator | Potential competitive/architecture signal. |
 | Groq | AI inference accelerator | Potential inference-specialist signal. |
+| Volta / Volta Tydal AS | AI infrastructure / compute platform tenant | Bitdeer named Volta Tydal AS as tenant for the 121 IT MW Tydal, Norway AI/HPC lease; obligations are expected to be supported by about $1.3B of letters of credit, but credit quality, end-customer identity, and final financing/contract conditions need validation. |
 
 ## Company note template
 

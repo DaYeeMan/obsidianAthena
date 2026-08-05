@@ -4,7 +4,7 @@ source_kind: paper
 asset_classes: [equities, futures, crypto, market-microstructure]
 implementation_class: foundational
 importance: medium
-last_reviewed: "2026-07-02"
+last_reviewed: "2026-08-03"
 tags: [quant-source, market-microstructure, liquidity, market-impact, price-discovery, heavy-tails]
 concepts: [liquidity-tail-risk, price-impact, adverse-selection, order-flow, heavy-tailed-liquidity]
 ---
@@ -13,7 +13,11 @@ concepts: [liquidity-tail-risk, price-impact, adverse-selection, order-flow, hea
 
 ## Citation / Link
 
-Umut Çetin, Mingwei Lin, Giulia Livieri, “When large trades are not news: Liquidity tail risk and price discovery,” arXiv:2607.01198v1, 2026-07-01. https://arxiv.org/abs/2607.01198v1
+Umut Çetin, Mingwei Lin, Giulia Livieri, “When large trades are not (automatically) news: liquidity tail risk and price discovery,” arXiv:2607.01198v3, updated 2026-07-31. https://arxiv.org/abs/2607.01198v3
+
+## 2026-08-03 Version Maintenance
+
+The daily arXiv feed surfaced v3. API metadata now reports the title as “When large trades are not (automatically) news: liquidity tail risk and price discovery.” The abstract preserves the same core mechanism — heavy-tailed uninformed liquidity demand can make large trades less immediately informative and flatten/slacken price discovery — and adds empirical AAPL 10-level order-book diagnostics: farther-out crossover diagnostics and persistent bid-ask spreads following large heavy-tailed trades. This strengthens the note as a liquidity-state cost/price-discovery reference, but does not turn it into standalone alpha.
 
 ## Summary
 
