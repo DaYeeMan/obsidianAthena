@@ -4,7 +4,7 @@ source_kind: paper / crypto perpetual liquidation-cascade early-warning diagnost
 asset_classes: [crypto, bitcoin, perpetual-futures, risk-management, market-microstructure]
 implementation_class: foundational / retail-adaptable with exchange data
 importance: medium
-last_reviewed: "2026-07-30"
+last_reviewed: "2026-08-05"
 tags: [quant-source, crypto, perpetual-futures, liquidation-cascades, early-warning-signals, risk-management]
 concepts: [critical-slowing-down, liquidation-cascade-warning, leverage-state-variable, endogenous-vs-exogenous-cascades]
 ---
@@ -15,7 +15,15 @@ concepts: [critical-slowing-down, liquidation-cascade-warning, leverage-state-va
 
 Ramon Marc Garcia Seuma, “Where does the criticality live? Early-warning signals are event-heterogeneous across seven crypto-perpetual liquidation cascades,” arXiv:2607.27070v1, submitted 2026-07-29. https://arxiv.org/abs/2607.27070v1
 
-Comment: 13 pages, 7 figures. Semantic Scholar lookup was rate-limited during this run, so citation counts were not recorded.
+Ramon Marc Garcia Seuma, “Measuring the engine of a liquidation cascade: subcritical branching inside a first-order transition,” arXiv:2608.03616v1, submitted 2026-08-04. https://arxiv.org/abs/2608.03616v1
+
+Comments: the first paper is 13 pages and 7 figures. The second paper is 13 pages, 5 figures, 3 tables, and is Part II of the same series. Semantic Scholar lookup returned HTTP 429 during the 2026-08-05 run, so citation counts were not recorded.
+
+## 2026-08-05 Series Update
+
+Part II strengthens the earlier no-universal-warning conclusion. The new abstract studies seven major crypto-perpetual liquidation cascades from 2022-2025 and directly observes the October 2025 crash on a transparent venue. Its key claim is that the cascade ran deeply subcritical inside that venue: branching-ratio estimates were around 0.1-0.2, forced selling was concentrated after onset, and 63% of forced selling was absorbed off-book by the venue backstop. Across seven events, the abrupt ordered-phase jump was scale-robust, while susceptibility did not diverge. The paper argues severity was driven by shock times map-in-path times liquidity withdrawal, not by a universal pre-cascade critical multiplier.
+
+For this library, the update downgrades scalar early-warning optimism further. Crypto risk throttles should treat liquidation cascades as venue/liquidity-state stress events: backstop design, open-interest clearing, forced-flow absorption, price impact, and liquidity withdrawal may matter more than a single critical-slowing-down indicator.
 
 ## Summary
 
