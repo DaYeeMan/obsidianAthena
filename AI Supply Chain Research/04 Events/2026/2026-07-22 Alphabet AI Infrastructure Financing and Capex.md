@@ -9,7 +9,7 @@ segments: [Demand Model Labs and Cloud, Datacenter Power Cooling and Constructio
 companies: [Alphabet, Google Cloud]
 public_exposures: [GOOGL, GOOG, NVDA, AMD, AVGO, MRVL, TSM, ANET, VRT, ETN, SU.PA, ABB, PWR, MOD]
 created: 2026-07-23
-last_reviewed: 2026-07-23
+last_reviewed: 2026-08-11
 superseded_by:
 ---
 
@@ -27,12 +27,14 @@ superseded_by:
 - Alphabet additionally entered into a June 2026 short-term lease agreement with an approximately $5.8 billion non-cancelable commitment expected to commence in Q3 2026.
 - The 10-Q says Google Cloud product sales are primarily TPU systems and that Alphabet has signed a limited number of agreements to supply TPU systems to customers requiring or providing on-premises infrastructure for specialized, high-scale workloads; revenue recognition began in Q2 2026, with the significant majority expected in 2027.
 - The 10-Q describes credit derivative/backstop agreements with third parties relating to data centers, where Alphabet may assume underlying leases or sublease to third parties under specified default scenarios.
+- Alphabet filed a Form 8-K on August 10, 2026 disclosing that it closed a $25.0 billion underwritten public offering of U.S. dollar-denominated senior notes. The notes span 2028-2066 maturities, including fixed coupons from 4.500% due 2028 to 6.500% due 2066 plus floating-rate tranches due 2028 and 2029. The filing does not explicitly earmark proceeds for AI infrastructure, but it is a material balance-sheet financing follow-up against Alphabet's already-disclosed AI/global-compute capex and datacenter lease commitments.
 
 ## Source links
 
 - Primary: Alphabet July 22, 2026 Form 8-K: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm
 - Primary: Alphabet Q2 2026 Exhibit 99.1 results release: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 - Primary: Alphabet Q2 2026 Form 10-Q filed July 23, 2026: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm
+- Primary follow-up financing filing: Alphabet August 10, 2026 Form 8-K senior notes closing: https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm
 
 ## Affected supply-chain nodes
 
@@ -44,6 +46,7 @@ superseded_by:
 ## Interpretation
 
 - This is a high-signal hyperscaler capex and financing event: Alphabet is no longer only funding AI infrastructure from operating cash flow, but has disclosed a very large equity/preferred raise plus debt issuance while capex and non-commenced datacenter leases step sharply higher.
+- The August 10 $25.0B senior-notes closing reinforces the financing side of the same thesis, but because the 8-K itself does not allocate proceeds to AI infrastructure and adds no new capex, lease, MW, TPU, or supplier fields, treat it as a financing follow-up rather than a standalone new AI supply-chain catalyst.
 - The $80.6 billion first-half capex and $85.2 billion non-commenced datacenter lease commitments support the current model that power/datacenter capacity is a binding deployment layer for AI compute, not merely a downstream real-estate detail.
 - The TPU-system disclosure adds a custom-silicon commercialization signal: Google Cloud is selling TPU systems for specialized high-scale on-premises infrastructure, with most associated revenue still ahead in 2027.
 - The filing does not identify specific datacenter locations, MW/critical IT load, server vendors, accelerator mix, or power/cooling suppliers, so supplier-level allocation must be inferred cautiously.
@@ -66,6 +69,7 @@ superseded_by:
 ## Confidence and uncertainty
 
 - Confidence: high that Alphabet disclosed materially higher AI infrastructure funding, capex, datacenter lease commitments, and TPU-system revenue timing; primary SEC filings support the facts.
+- Confidence on the Aug. 10 debt close is high as a financing fact; confidence that proceeds are specifically incremental AI-infrastructure funding is medium because the filing does not provide use-of-proceeds language tied to AI.
 - What remains uncertain: specific MW/critical IT load, geographic distribution, power-procurement terms, landlord/developer identities, server/GPU/TPU mix, networking and cooling suppliers, timing of lease commencements by project, and whether high capex converts into durable cloud revenue/margins.
 
 ## Follow-up triggers
@@ -80,3 +84,4 @@ superseded_by:
 | Date | Change | Evidence |
 |---|---|---|
 | 2026-07-23 | Created event note from primary Alphabet SEC filings; Discord alert sent because the same earnings/filing cycle disclosed a high-signal AI infrastructure capital raise, capex step-up, datacenter lease commitments, and TPU-system revenue timing. | Alphabet July 22, 2026 Form 8-K and Exhibit 99.1; Alphabet Q2 2026 Form 10-Q filed July 23, 2026. |
+| 2026-08-11 | Added Aug. 10 $25.0B senior-notes closing as a balance-sheet financing follow-up to the existing Alphabet AI-infrastructure capex/lease event. No Discord alert because the filing does not explicitly earmark proceeds for AI infrastructure and discloses no new capex guide, lease/MW, customer, supplier, or delivered-capacity field. | Alphabet August 10, 2026 Form 8-K. |

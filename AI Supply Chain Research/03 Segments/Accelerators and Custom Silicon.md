@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-02
+last_updated: 2026-08-09
 ---
 
 # Accelerators and Custom Silicon
@@ -25,6 +25,7 @@ NVDA, AMD, INTC, AVGO, MRVL, ARM, hyperscaler internal silicon teams, Cerebras, 
 
 _Add material event backlinks here._
 
+- [[04 Events/2026/2026-08-04 AMD Q2 2026 Data Center AI Accelerator Ramp|2026-08-04: AMD Q2 2026 results show Data Center revenue more than doubled as Instinct deployments and Helios ramp]] — primary SEC-furnished accelerator revenue/rackscale evidence: Data Center revenue $6.7B, up 107% YoY and 58% of company revenue, Instinct deployments scaling, Helios beginning to ramp, Data Center expected to accelerate in 2H 2026, and SEC-furnished slide language referencing Anthropic and up to 2 GW of AMD Instinct GPUs in Helios racks; GPU units, HBM supplier mix, and package allocation remain undisclosed.
 - [[04 Events/2026/2026-07-28 Core Scientific AMD AI Infrastructure Partnership|2026-07-28: Core Scientific and AMD announce AI infrastructure partnership for 530 MW initial capacity]] — primary evidence that AMD is securing AI-ready datacenter capacity to support end-customer deployments of AMD AI solutions, including Instinct GPUs, EPYC CPUs, and ROCm software; actual GPU counts, model mix, and HBM/foundry allocation remain undisclosed.
 - [[04 Events/2026/2026-07-31 Amazon AWS AI Infrastructure Commitments and Capex|2026-07-31: Amazon discloses AWS AI infrastructure commitments, capex, and OpenAI/Anthropic chip-linked contracts]] — primary custom-silicon demand signal because Amazon explicitly says the expanded OpenAI and Anthropic AWS commitments include contractual obligations related to AWS-chip performance; chip mix, unit counts, foundry/packaging allocation, and HBM needs remain undisclosed.
 - [[04 Events/2026/2026-07-29 Meta Microsoft AI Infrastructure Capex and Lease Commitments|2026-07-29: Meta and Microsoft disclose hyperscaler-scale AI infrastructure capex and lease commitments]] — primary hyperscaler demand evidence that should pull through accelerators/custom silicon over time, but vendor mix, GPU/ASIC counts, HBM attachment, and foundry/packaging allocation are not disclosed.
@@ -38,6 +39,8 @@ _Add material event backlinks here._
 - [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin|2026-03-16: Micron HBM4 in high-volume production for NVIDIA Vera Rubin]] — memory-side evidence for the Vera Rubin platform supply chain; monitor NVIDIA ramp timing and whether HBM4 supply diversity de-risks shipments.
 
 ## Current assessment
+
+2026-08-09 update: AMD's Q2 2026 primary filing moves the AMD accelerator thesis from capacity reservation alone toward revenue conversion: Data Center revenue was $6.7B, up 107% YoY, management said Instinct deployments are scaling and Helios is beginning to ramp, and SEC-furnished slide language references Anthropic and up to 2 GW of AMD Instinct GPUs in Helios racks. This strengthens AMD's competitive-positioning signal versus NVIDIA/custom silicon, but the disclosure still does not quantify Instinct units, HBM generation/supplier mix, TSMC/packaging allocation, or rack shipment cadence.
 
 2026-08-02 update: Core Scientific/AMD adds a primary capacity-side demand signal for AMD's accelerator ecosystem. AMD is securing more than 500 MW / about 530 MW of U.S. AI-ready infrastructure beginning in 2027, plus additional reservation rights, to support customer deployments of AMD AI solutions. The signal is capacity/procurement rather than shipment-volume evidence: actual Instinct GPU counts, model mix, HBM attachment, foundry/packaging allocation, and customer deployments remain undisclosed.
 

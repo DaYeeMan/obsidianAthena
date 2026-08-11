@@ -9,7 +9,7 @@ segments: [Demand Model Labs and Cloud, Datacenter Power Cooling and Constructio
 companies: [CleanSpark]
 public_exposures: [CLSK, VRT, ETN, SU.PA, ABB, PWR, MOD]
 created: 2026-07-14
-last_reviewed: 2026-07-14
+last_reviewed: 2026-08-07
 superseded_by:
 ---
 
@@ -25,11 +25,17 @@ superseded_by:
 - CleanSpark says the tenant also executed a letter of intent and exclusivity arrangement covering CleanSpark's Texas portfolio: 718 acres with up to 885 MW of secured and planned power capacity, including the Sealy and Brazoria campuses.
 - The 8-K states that CleanSpark must satisfy specified financing, construction, delivery milestones, covenants, and conditions; failure to meet applicable milestones may result in rent abatements or termination.
 - The tenant is confidential; CleanSpark identifies it only as a high-investment-grade leading global technology company.
+- CleanSpark filed an August 6, 2026 Form 8-K with Exhibit 99.1 reporting fiscal Q3 2026 results and saying it had ordered and pre-paid all long-lead items required to meet the Sandersville Ready-for-Service date.
+- The same August 6 release says the anticipated equity portion of the Sandersville project has been fully funded and that securing long-lead equipment plus equity funding has "materially de-risked execution" while preserving balance-sheet flexibility.
+- CleanSpark's June 30, 2026 Form 10-Q reiterates that it needs substantial additional capital for Sandersville development and that failure to satisfy applicable milestones could cause rent abatements or termination; treat the August 6 update as equity/procurement de-risking, not full project-finance closure.
 
 ## Source links
 
 - Primary SEC 8-K, July 14, 2026: https://www.sec.gov/Archives/edgar/data/827876/000119312526302448/clsk-20260710.htm
 - Primary SEC Exhibit 99.1 press release, July 14, 2026: https://www.sec.gov/Archives/edgar/data/827876/000119312526302448/clsk-ex99_1.htm
+- Primary SEC 8-K, August 6, 2026: https://www.sec.gov/Archives/edgar/data/827876/000119312526337999/clsk-20260806.htm
+- Primary SEC Exhibit 99.1 fiscal Q3 2026 results release, August 6, 2026: https://www.sec.gov/Archives/edgar/data/827876/000119312526337999/clsk-ex99_1.htm
+- Primary SEC Form 10-Q for quarter ended June 30, 2026, filed August 6, 2026: https://www.sec.gov/Archives/edgar/data/827876/000119312526338382/clsk-20260630.htm
 
 ## Affected supply-chain nodes
 
@@ -43,6 +49,7 @@ superseded_by:
 - This is another primary-sourced MW-scale datacenter lease, and it broadens the direct public exposure set beyond WULF, GLXY, and APLD to include CLSK.
 - The 175 MW committed load is smaller than TeraWulf/Anthropic's 401 MW lease but still material; the 885 MW Texas exclusivity arrangement is a potentially larger option on follow-on demand if it converts into binding leases.
 - The confidential tenant and milestone conditions keep execution risk high. The event should be treated as a demand/power/site-readiness signal, not proof of delivered compute capacity.
+- The August 6 filing reduces but does not remove execution risk: CleanSpark says it has pre-paid long-lead items and fully funded the expected equity portion for Sandersville, which moves the event from signed-lease evidence toward construction/procurement execution; however, substantial project funding, tenant identity, and future RFS/rent milestones still need verification.
 - The repeated emergence of 100+ MW, long-duration, investment-grade or model-lab-linked leases supports the current model that power-ready campuses and construction execution are becoming a binding layer in AI compute deployment.
 
 ## Investment / quant relevance
@@ -50,7 +57,7 @@ superseded_by:
 ### Discretionary catalyst angle
 
 - CLSK becomes a direct public-market AI datacenter lease exposure with disclosed MW, contract value, term, delivery timing, and expansion exclusivity.
-- Monitor whether CLSK secures project financing, names the tenant, orders major electrical/cooling equipment, or converts the Texas exclusivity arrangement into binding MW leases.
+- Monitor whether CLSK secures remaining project financing, names the tenant, discloses major electrical/cooling suppliers, or converts the Texas exclusivity arrangement into binding MW leases.
 - Indirect beneficiaries remain power/cooling/electrical equipment and construction suppliers if the lease proceeds into execution.
 
 ### Quant-testable hypothesis
@@ -64,13 +71,14 @@ superseded_by:
 ## Confidence and uncertainty
 
 - Confidence: high that CleanSpark filed primary SEC evidence of a 175 MW, 20-year infrastructure lease with disclosed expected contracted revenue and delivery timing.
+- Confidence: high that CleanSpark's August 6, 2026 primary SEC-furnished release says long-lead Sandersville items have been ordered/pre-paid and the anticipated equity portion has been fully funded; confidence is medium that this materially de-risks final delivery because remaining project financing, construction, interconnection, and tenant/rent milestones are still not fully disclosed.
 - What remains uncertain: tenant identity, whether the workload is explicitly AI versus broader high-density compute, financing terms, construction/interconnection execution, equipment vendors, delivery schedule durability, and whether the Texas exclusivity converts into binding leases.
 
 ## Follow-up triggers
 
-- Project financing announcements or debt/equity commitments for Sandersville buildout.
+- Remaining debt/project-finance commitments, credit support, or other funding disclosures for Sandersville buildout.
 - Tenant identification or hyperscaler/model-lab confirmation.
-- Major electrical, cooling, construction, or grid-interconnection procurement disclosures.
+- Major electrical, cooling, construction, or grid-interconnection supplier disclosures.
 - Delivery/rent-commencement milestones beginning in Q4 2027.
 - Conversion, expiry, or termination of the Texas 885 MW exclusivity arrangement.
 
@@ -78,4 +86,5 @@ superseded_by:
 
 | Date | Change | Evidence |
 |---|---|---|
+| 2026-08-07 | Updated with CleanSpark's August 6, 2026 fiscal Q3 primary SEC filing: the company says it ordered and pre-paid all long-lead Sandersville items required to meet the RFS date and fully funded the anticipated equity portion of the project; retained caveat from 10-Q that substantial additional capital and milestone execution remain required. | CleanSpark August 6, 2026 Form 8-K / Exhibit 99.1 and June 30, 2026 Form 10-Q. |
 | 2026-07-14 | Created event note from primary CleanSpark 8-K and Exhibit 99.1; high-signal same-day lease event. | CleanSpark SEC 8-K and Exhibit 99.1 filed July 14, 2026. |

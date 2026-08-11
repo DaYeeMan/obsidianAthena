@@ -9,7 +9,7 @@ segments: [Demand Model Labs and Cloud, Datacenter Power Cooling and Constructio
 companies: [MARA Holdings, HIF USA, Starwood Digital Ventures]
 public_exposures: [MARA, VRT, ETN, SU.PA, ABB, PWR, MOD]
 created: 2026-07-18
-last_reviewed: 2026-07-18
+last_reviewed: 2026-08-06
 superseded_by:
 ---
 
@@ -25,12 +25,14 @@ superseded_by:
 - The 8-K says aggregate purchase consideration is structured as post-closing milestone payments tied to project-development events including regulatory approvals/site acquisition, power authorization, and execution of a third-party data-center lease; if all milestones are achieved, aggregate purchase price would be $600 million.
 - HIF will retain a minority interest in the site upon execution of a data-center lease with a third-party tenant.
 - This event was discovered as a historical database gap on July 18, 2026; no Discord alert was sent solely because the cron discovered it after announcement date.
+- MARA's August 6, 2026 Q2 shareholder letter framed AI infrastructure as constrained by power-ready sites, said the Matagorda rights plus existing/expanded Hannibal capacity are expected to expand MARA's power portfolio up to 4.8 GW, and said lease discussions are progressing across multiple sites with management remaining confident it can sign at least one lease before year-end.
 
 ## Source links
 
 - Primary: MARA July 9, 2026 Form 8-K: https://www.sec.gov/Archives/edgar/data/1507605/000095014226002012/eh260804074_8k.htm
 - Primary: MARA July 9, 2026 Exhibit 99.1 press release: https://www.sec.gov/Archives/edgar/data/1507605/000095014226002012/eh260804074_ex9901.htm
 - SEC accession index: https://www.sec.gov/Archives/edgar/data/1507605/000095014226002012/
+- Primary update: MARA August 6, 2026 Form 8-K / Exhibit 99.1 Q2 2026 shareholder letter: https://www.sec.gov/Archives/edgar/data/1507605/000150760526000020/q226shareholderletter.htm
 
 ## Affected supply-chain nodes
 
@@ -43,6 +45,7 @@ superseded_by:
 - This is a high-materiality pipeline-capacity signal rather than a confirmed AI capacity delivery or lease event. The disclosed 1 GW / 2 GW grid-capacity timeline is large relative to recent MW-scale AI campus leases, but customer, economics, critical IT load, financing, equipment orders, and permitting remain unconfirmed.
 - The event reinforces the active model that power-ready or power-entitled sites are becoming scarce strategic assets for AI/HPC deployment and that former bitcoin-mining infrastructure operators are trying to reposition toward contracted AI datacenter campuses.
 - Because there is no named HPC tenant or executed lease, it should be tracked as an upstream site-control/power-option event, below the signal quality of TeraWulf/Anthropic, Galaxy/CoreWeave delivery, Applied Digital leases/deliveries, or CleanSpark's signed lease.
+- The August 6, 2026 Q2 letter increases confidence that MARA is actively marketing the portfolio for AI/HPC leases and quantifies the broader power platform at up to 4.8 GW, but it does not change the event into a signed-demand datapoint because management only disclosed lease discussions and a target to sign at least one lease before year-end.
 
 ## Investment / quant relevance
 
@@ -77,3 +80,4 @@ superseded_by:
 | Date | Change | Evidence |
 |---|---|---|
 | 2026-07-18 | Created event note as a historical database-gap discovery; no alert because the primary announcement/8-K was dated July 9, 2026 and no new same-day catalyst was found. | MARA July 9, 2026 Form 8-K and Exhibit 99.1. |
+| 2026-08-06 | Added Q2 2026 shareholder-letter update: MARA says Matagorda plus existing/expanded Hannibal capacity are expected to lift its power portfolio up to 4.8 GW, and that lease discussions are progressing across multiple sites with confidence in signing at least one lease before year-end; no alert because no signed tenant, critical IT load, lease economics, or financing milestone was disclosed. | MARA August 6, 2026 Form 8-K / Exhibit 99.1 shareholder letter. |
