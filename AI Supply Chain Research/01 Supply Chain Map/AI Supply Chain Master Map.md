@@ -2,7 +2,7 @@
 type: supply-chain-map
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-11
+last_updated: 2026-08-14
 confidence: medium
 ---
 
@@ -27,14 +27,14 @@ Representative public exposures: MSFT, GOOGL, AMZN, META, ORCL, CRM, NOW, ADBE, 
 - Hyperscalers control capex cadence, custom silicon roadmaps, and infrastructure utilization.
 - Neo-cloud and GPU-cloud providers can amplify near-term server/GPU demand but may carry financing and customer-concentration risk.
 
-Key entities: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Nebius, IREN, Galaxy/Helios, Applied Digital, ChronoScale, CleanSpark, MARA, Hut 8/Beacon Point, Core Scientific, Bitdeer/Tydal, Volta, Coravel/ACS/GIP, NAVER, SK Telecom, Microsoft Azure, Google Cloud/Alphabet, AWS, Oracle Cloud.
+Key entities: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Nebius/NBIS, IREN, Riot/Rockdale, Galaxy/Helios, Applied Digital, ChronoScale, CleanSpark, MARA, Hut 8/Beacon Point, Core Scientific, Bitdeer/Tydal, Volta, Coravel/ACS/GIP, NAVER, SK Telecom, Microsoft Azure, Google Cloud/Alphabet, AWS, Oracle Cloud.
 
 ### 3. Datacenter physical infrastructure
 
 - Site selection, power availability, grid interconnection queues, substations, transformers, backup power, cooling, racks, UPS, switchgear, and datacenter construction capacity.
 - Bottlenecks can shift from chips to power, cooling, permitting, and construction lead times.
 
-Representative public exposures: IREN, GLXY, APLD, CLSK, MARA, HUT, CORZ, BTDR, AEP where utility/interconnection exposure is material, ACS.MC, BLK/GIP where material, VRT, ETN, NVT, SU.PA, ABB, PRY.MI/Prysmian, ATKR until acquisition close, BW where power-generation scope is confirmed, SMCI, DELL, HPE, MOD, PWR, Quanta/Inventec/Wistron/Wiwynn/Foxconn where listed.
+Representative public exposures: NBIS/Nebius, IREN, RIOT, GLXY, APLD, CLSK, MARA, HUT, CORZ, BTDR, AEP where utility/interconnection exposure is material, ACS.MC, BLK/GIP where material, VRT, ETN, NVT, SU.PA, ABB, PRY.MI/Prysmian, ATKR until acquisition close, BW where power-generation scope is confirmed, SMCI, DELL, HPE, MOD, PWR, Quanta/Inventec/Wistron/Wiwynn/Foxconn where listed.
 
 ### 4. AI servers, ODMs, and system integration
 
@@ -99,6 +99,8 @@ Representative exposures: NVDA, AVGO, MRVL, ANET, CSCO, COHR, LITE, Fabrinet, MM
 
 | Date | Change | Evidence |
 |---|---|---|
+| 2026-08-14 | Added Nebius/NBIS as a high-signal primary AI cloud demand and contracted-power datapoint: Q2 group revenue $582.3M (+454% YoY), AI Cloud revenue $575M (+514% YoY), ARR $3.0B, four landmark AI cloud deals with average TCV >$1B and ACV $20-$25M/MW, roughly 70% of Q2 deals with prepayments covering 50%-60% of capex, 2026 contracted-power target raised to 5 GW, planned >1 GW/year deployments starting 2027, Q2 capex about $5.7B, and >$9B of 2026 customer prepayments expected. | [[04 Events/2026/2026-08-12 Nebius Q2 AI Cloud Contracted Power and Demand Inflection]]; Nebius Aug. 12, 2026 Q2 results and shareholder-letter PDFs. |
+| 2026-08-13 | Added Riot/Rockdale and IREN Horizon 1 as high-signal primary AI infrastructure datapoints: Riot signed a 191 MW / $9.1B 20-year Rockdale lease with a leading frontier AI lab, disclosed a $573M Morgan Stanley interim financing facility and delivered initial 25 MW to AMD; IREN delivered and received Microsoft acceptance for Horizon 1, the first of four 50 MW IT-load Childress deployments under the five-year $9.7B Microsoft cloud-services contract, and achieved NVIDIA Exemplar Cloud status on GB300 NVL72. | [[04 Events/2026/2026-08-10 Riot Rockdale Frontier AI Lab Lease]]; [[04 Events/2026/2026-07-20 IREN AI Cloud Customer Contracts]]; Riot and IREN August 2026 SEC filings. |
 | 2026-08-11 | Updated Bitdeer/Tydal with Aug. 10 SEC-furnished key economic/risk fields: tenant no-fee termination right at 10 years, Phase 1 / Phase 2 targets of Dec. 31, 2026 / Mar. 31, 2027, 3% escalators, company termination right if Volta misses credit-backstop milestones, broader AI-cloud/colocation pipeline optionality at Tydal Phase 3 / Rockdale / Knoxville / Wenatchee, and $1.0B ATM funding/dilution context. This refines valuation/execution risk but is not a new lease, financing close, LC close, MW increase, or delivered-load milestone. | [[04 Events/2026/2026-08-04 Bitdeer Tydal Norway AI HPC Data Center Lease]]; Bitdeer August 10, 2026 Form 6-Ks and prospectus supplement. |
 | 2026-08-11 | Added Alphabet's Aug. 10 $25.0B senior-notes closing as a financing follow-up to the existing Alphabet AI-infrastructure capex/lease event; kept below alert threshold because the filing does not explicitly allocate proceeds to AI infrastructure and adds no new capex, lease/MW, supplier, or delivered-capacity field. | [[04 Events/2026/2026-07-22 Alphabet AI Infrastructure Financing and Capex]]; Alphabet August 10, 2026 Form 8-K. |
 | 2026-08-09 | Added AMD Q2 2026 as primary accelerator/rackscale revenue-conversion evidence: record Q2 revenue of $11.536B, Data Center revenue of $6.7B up 107% YoY and 58% of company revenue, GAAP/non-GAAP gross margin of 54%/56%, management commentary that EPYC demand is accelerating, Instinct deployments are scaling, Helios is beginning to ramp, and Data Center sales are expected to accelerate in 2H 2026; AMD's SEC-furnished slides also reference Anthropic and deployment of up to 2 GW of AMD Instinct GPUs in Helios racks. | [[04 Events/2026/2026-08-04 AMD Q2 2026 Data Center AI Accelerator Ramp]]; AMD August 4, 2026 Form 8-K / Exhibits 99.1 and 99.2; AMD Q2 2026 Form 10-Q. |

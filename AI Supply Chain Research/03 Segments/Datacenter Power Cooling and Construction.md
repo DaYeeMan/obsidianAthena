@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-11
+last_updated: 2026-08-14
 ---
 
 # Datacenter Power, Cooling, and Construction
@@ -11,7 +11,7 @@ last_updated: 2026-08-11
 Converts chip/server availability into usable AI compute capacity. Can become the binding bottleneck through grid interconnection, transformers, switchgear, cooling, land, water, permitting, and skilled construction labor.
 
 ## Key entities
-Vertiv, Eaton, nVent, Schneider Electric, ABB, Siemens, MOD, PWR, Prysmian/PRY.MI, Atkore/ATKR until acquisition close, BW where generation-equipment scope is confirmed, IREN, GLXY, APLD, CLSK, MARA, HUT, CORZ, BTDR/Bitdeer Tydal, AEP/AEP Texas where interconnection exposure is material, NAVER/GAK Sejong, SK Telecom, ACS/Turner, BlackRock/GIP/Brookfield-linked platforms where material, Base Electron/Babcock & Wilcox where APLD power-generation details develop, datacenter REITs/developers, utilities, grid operators.
+Vertiv, Eaton, nVent, Schneider Electric, ABB, Siemens, MOD, PWR, Prysmian/PRY.MI, Atkore/ATKR until acquisition close, BW where generation-equipment scope is confirmed, Nebius/NBIS, IREN, RIOT/Rockdale, GLXY, APLD, CLSK, MARA, HUT, CORZ, BTDR/Bitdeer Tydal, AEP/AEP Texas where interconnection exposure is material, NAVER/GAK Sejong, SK Telecom, ACS/Turner, BlackRock/GIP/Brookfield-linked platforms where material, Base Electron/Babcock & Wilcox where APLD power-generation details develop, datacenter REITs/developers, utilities, grid operators.
 
 ## Signals to monitor
 - Utility interconnection queues and power purchase agreements.
@@ -23,6 +23,9 @@ Vertiv, Eaton, nVent, Schneider Electric, ABB, Siemens, MOD, PWR, Prysmian/PRY.M
 
 ## Recent event links
 
+- [[04 Events/2026/2026-08-12 Nebius Q2 AI Cloud Contracted Power and Demand Inflection|2026-08-12: Nebius Q2 results raise 2026 contracted power target to 5 GW after AI cloud demand inflection]] — primary company evidence that Nebius raised its 2026 contracted-power target to 5 GW, plans to deploy >1 GW/year starting 2027, expanded contracted capacity footprint in the UK/Estonia/Finland, has U.S. AI factory construction underway, expects >$9B of 2026 customer prepayments, and spent about $5.7B of Q2 capex mainly on GPUs/GPU-related hardware and datacenter expansion.
+- [[04 Events/2026/2026-07-20 IREN AI Cloud Customer Contracts|2026-08-13 update to 2026-07-20 IREN event: IREN delivers Horizon 1 to Microsoft and achieves NVIDIA Exemplar Cloud status on GB300 NVL72]] — operational AI cloud capacity evidence: the first 50 MW IT-load direct-to-chip liquid-cooled Microsoft deployment at Childress was accepted, with three additional 50 MW deployments still scheduled for 2026.
+- [[04 Events/2026/2026-08-10 Riot Rockdale Frontier AI Lab Lease|2026-08-10: Riot signs 191 MW Rockdale lease with a leading frontier AI lab and delivers initial AMD capacity]] — primary SEC-furnished evidence of a 191 MW critical-IT-load Rockdale lease, 20-year term, $9.1B base-term revenue, Dec. 2027 / Jun. 2028 phase delivery targets, $573M Morgan Stanley interim financing, and initial 25 MW AMD delivery.
 - [[04 Events/2026/2026-07-31 nVent Q2 2026 Data Center Liquid Cooling Guidance|2026-07-31: nVent reports record Q2 2026 growth and expands liquid cooling manufacturing for datacenter demand]] — primary SEC evidence that NVT reported Q2 sales +53% / organic +47%, Systems Protection sales +70% / organic +62%, adjusted ROS +110 bps, significant data-center growth, another liquid-cooling manufacturing expansion, and a full-year organic-growth guide raise to 32%-34%; no alert because this was found as a historical database gap.
 - [[04 Events/2026/2026-08-05 TeraWulf Galaxy Q2 2026 AI Datacenter Operational Updates|2026-08-05: TeraWulf and Galaxy Q2 results show AI datacenter capacity moving from leases into delivered load, revenue, and new powered-site pipelines]] — primary SEC evidence that WULF has 102 MW revenue-generating critical IT online, 336 MW under construction, activated $600M Google credit support for Fluidstack obligations, and acquired a 1 GW Muskie/Kentucky Power platform; GLXY has 133 MW Helios Phase I fully in service, expected ~$80M quarterly leasing revenue from Q3, closed $3.5B Phase II financing, and expanded its Texas AI datacenter power pipeline to >5.7 GW.
 - [[04 Events/2026/2026-08-04 Bitdeer Tydal Norway AI HPC Data Center Lease|2026-08-04: Bitdeer announces $4.7B 16-year AI/HPC data center lease for Tydal, Norway campus]] — primary SEC-furnished evidence of a 121 IT MW / estimated 133 gross MW Norway AI/HPC lease configured for NVIDIA GPUs for a leading AI lab, with Dell as technology provider, approximately $4.7B base-term contracted revenue, anticipated $1.3B LC credit support, about $500M remaining capex, and Phase 1 / Phase 2 targets of Dec. 31, 2026 / Mar. 31, 2027; Aug. 10 filings add a tenant no-fee termination right at 10 years, 3% escalators, credit-backstop milestone termination rights, a broader AI-cloud/colocation power pipeline, and $1.0B ATM funding/dilution context.
@@ -51,7 +54,11 @@ Vertiv, Eaton, nVent, Schneider Electric, ABB, Siemens, MOD, PWR, Prysmian/PRY.M
 
 ## Current assessment
 
-2026-08-08 update: nVent adds another primary supplier-side confirmation to the Vertiv/Eaton datacenter infrastructure thesis. Its July 31 SEC-furnished Q2 release showed $1.5B Q2 sales (+53% reported / +47% organic), Systems Protection sales +70% / +62% organic, adjusted operating income +61%, adjusted ROS +110 bps, CEO commentary citing significant data-center growth, and another liquid-cooling manufacturing expansion to meet continued data-center demand. Weight this as direct supplier revenue/margin/guidance evidence, but keep open questions on datacenter-only mix, backlog/order quantification, lead times, and liquid-cooling expansion scale.
+2026-08-14 update: Nebius/NBIS raises the power-capacity bar for AI cloud competitors: 5 GW of 2026 contracted power, >1 GW/year planned deployments starting 2027, expanded UK/Estonia/Finland contracted capacity, U.S. AI factory construction underway, >$9B of expected 2026 customer prepayments, and Q2 capex of about $5.7B. Weight the 5 GW figure as contracted land/power commitments rather than delivered IT load; the next proof points are partner/site identities, interconnection and energization, supplier awards, financing, and commissioned capacity.
+
+2026-08-13 update: Riot and IREN reinforce that power-rich campuses are converting into both signed future leases and accepted live AI-cloud capacity. Riot's Rockdale disclosure adds RIOT as a direct signed-lease exposure: 191 MW critical IT load, $9.1B base-term revenue, $573M interim financing, phased Dec. 2027 / Jun. 2028 delivery, and an on-time initial 25 MW AMD delivery. IREN's Horizon 1 update validates the first 50 MW IT-load Microsoft deployment at Childress and GB300 NVL72 operational readiness. Weight IREN Horizon 1 as delivered/accepted capacity; weight Riot as signed high-value future capacity until credit backstop, full project financing, equipment, and RFS/rent milestones are confirmed.
+
+2026-08-08 update: nVent adds another primary supplier-side confirmation to the Vertiv/Eaton datacenter infrastructure thesis.
 
 2026-08-07 update: CleanSpark's Aug. 6 SEC-furnished Q3 release partially de-risks the 175 MW Sandersville lease execution path: all long-lead items needed for the RFS date have been ordered and pre-paid and the anticipated equity portion has been fully funded. Weight this above a simple pipeline reiteration because it is procurement/equity evidence tied to a signed $6.6B contracted-revenue lease, but below closed full project financing and delivered/rent-commencement milestones because the 10-Q still notes substantial capital needs and milestone/termination risk.
 

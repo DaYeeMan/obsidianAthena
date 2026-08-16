@@ -15,6 +15,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Quantum Kernels and the Cross-Section of Stock Returns - Vanishing Advantage]]
   - [[Skewness Managed Anomaly Portfolios]]
 - Market microstructure
+  - [[FlowLOB - Flow-Matching Limit Order Book Generation]]
   - [[Cross-Venue Agreement Is Not Price Discovery - Equity-Perpetual Oracle Disclosure]]
   - [[Public Trader Identity - Adverse Selection and Return Predictability]]
   - [[Data-Driven Measures of High-Frequency Trading]]
@@ -37,6 +38,8 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[DEX Routing Sub-Optimality - Information-Timely Gas-Aware AMM Execution]]
   - [[Microstructural Foundations of Rough Noise]]
 - Options / volatility
+  - [[Marking-Aware Sequential VaR Recalibration for Option Books]]
+  - [[When the Fed Speaks - Volatility Surface Forecasts around FOMC]]
   - [[Velocity and Regime-Aware Detection of Intraday Options Market Manipulation]]
   - [[Sizing the Risk - Kelly, VIX, and Hybrid Approaches in Put-Writing on Index Options]]
   - [[Arbitrage-Free Multi-Maturity Risk-Neutral Marginals]]
@@ -59,6 +62,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[DEX Routing Sub-Optimality - Information-Timely Gas-Aware AMM Execution]]
   - [[Crypto Bubble Diagnostics - LPPL and PSY Tests for Bitcoin and Ether]]
   - [[OpenMarket Synchronized Polymarket-Binance Dataset]]
+  - [[Crypto Stylized Facts - Universality and Heterogeneity across Crypto and Equity Markets]]
   - [[Crypto Perpetual Liquidation Cascades - Event-Heterogeneous Early Warnings]]
   - [[Event-Linked Perpetual Futures - Mechanical Stress Tests and Taxonomy]]
   - [[Fill-Side Behavioral Concentration on Polymarket - Attribution Limits]]
@@ -66,6 +70,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Axient Leveraged Event Markets - Credit and Finality Design]]
   - [[AMM Mandate Portfolios - Verifiable Band Rebalancing]]
 - Strategy evaluation / validation
+  - [[Defensive Boosting for Online Probabilistic Forecasting]]
   - [[Robustness or Crowding - Experimental Design for Trading Strategy Capacity]]
   - [[Marginally Useful - Conformal Prediction Information Gap]]
   - [[Bias-Robust Causal Inference for Panel Data]]
@@ -77,6 +82,8 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[ARp-Focus Online Changepoint Detection under Autocorrelation]]
   - [[Predictive Extrema Unprofitable Policies - Binance Spot Timing Audit]]
 - ML/AI forecasting
+  - [[Regime-Gated Residual MoE for Cross-Sectional Volatility Forecasting]]
+  - [[Calibration Bets on the Past - Quantization Calibration for Financial Forecasting]]
   - [[Hybrid Neural-Classical Correction for Frozen Time Series Foundation Models]]
   - [[Cross-Sectional Heterogeneity in LSTM Networks for Financial Time Series]]
   - [[Generalized Mean Absolute Directional Loss for ML Trading Models]]
@@ -99,6 +106,7 @@ Sources are organized by paper/practitioner item. Use the source template for ne
   - [[Proper-Score Observation-Driven Filters for Robust Forecast Validation]]
   - [[Localized Conformal Prediction for Conditional Forecast Calibration]]
 - Portfolio/risk construction
+  - [[The Price of Permission - Classification Uncertainty in Constrained Capital Markets]]
   - [[Risk in a Data-Rich Model]]
   - [[Beyond Co-Movement - Factor-Graph Portfolio Diversification]]
   - [[Certified High-Dimensional Wasserstein Robust Portfolio Optimization]]

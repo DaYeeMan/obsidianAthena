@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-11
+last_updated: 2026-08-14
 ---
 
 # Demand, Model Labs, and Cloud
@@ -11,7 +11,7 @@ last_updated: 2026-08-11
 Demand formation, training/inference workloads, cloud capex, GPU leasing, and custom silicon roadmaps.
 
 ## Key entities
-Public: MSFT, GOOGL, AMZN, META, ORCL, AMD, NAVER, SK Telecom. Private/material: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Mistral, Volta, named/unnamed AI developers, unnamed hyperscaler/global-technology tenants when contract/lease/MW terms are primary or high-quality sourced, sovereign AI factory customers where MW/GW and funding terms are disclosed, and potential HPC tenants for power-rich campuses when filings or credible industry sources disclose GW-scale site/control rights. Public datacenter developers/former bitcoin miners with signed AI leases, AI cloud contracts, or SEC-filed project financing now include WULF, GLXY, IREN, APLD, CLSK, HUT, CORZ, and BTDR; ChronoScale/CHRN is separately trackable as APLD's spun-out accelerated-compute platform while APLD remains its controlling owner.
+Public: MSFT, GOOGL, AMZN, META, ORCL, AMD, NBIS/Nebius, NAVER, SK Telecom. Private/material: OpenAI, Anthropic, xAI, CoreWeave, Lambda, Crusoe, Mistral, Volta, named/unnamed AI developers, unnamed hyperscaler/global-technology tenants when contract/lease/MW terms are primary or high-quality sourced, sovereign AI factory customers where MW/GW and funding terms are disclosed, and potential HPC tenants for power-rich campuses when filings or credible industry sources disclose GW-scale site/control rights. Public datacenter developers/former bitcoin miners with signed AI leases, AI cloud contracts, or SEC-filed project financing now include WULF, GLXY, IREN, RIOT, APLD, CLSK, HUT, CORZ, and BTDR; ChronoScale/CHRN is separately trackable as APLD's spun-out accelerated-compute platform while APLD remains its controlling owner.
 
 ## Signals to monitor
 - Capex revisions and datacenter lease commitments.
@@ -27,6 +27,11 @@ Public: MSFT, GOOGL, AMZN, META, ORCL, AMD, NAVER, SK Telecom. Private/material:
 
 ## Recent event links
 
+_Add material event backlinks here._
+
+- [[04 Events/2026/2026-08-12 Nebius Q2 AI Cloud Contracted Power and Demand Inflection|2026-08-12: Nebius Q2 results raise 2026 contracted power target to 5 GW after AI cloud demand inflection]] — primary company evidence that NBIS disclosed Q2 revenue +454% YoY, AI Cloud revenue +514% YoY, ARR $3.0B, four landmark AI cloud deals averaging >$1B TCV each, ACV $20-$25M/MW, customer prepayments covering 50%-60% of associated capex, >$9B expected 2026 customer prepayments, 5 GW contracted-power target, planned >1 GW/year deployments starting 2027, and Q2 capex about $5.7B.
+- [[04 Events/2026/2026-07-20 IREN AI Cloud Customer Contracts|2026-08-13 update to 2026-07-20 IREN event: IREN delivers Horizon 1 to Microsoft and achieves NVIDIA Exemplar Cloud status on GB300 NVL72]] — primary SEC-furnished evidence that the first of four 50 MW IT-load direct-to-chip liquid-cooled Childress deployments under the five-year $9.7B Microsoft contract was delivered and accepted; treat as an operational AI-cloud capacity milestone, with Horizons 2-4 still to verify.
+- [[04 Events/2026/2026-08-10 Riot Rockdale Frontier AI Lab Lease|2026-08-10: Riot signs 191 MW Rockdale lease with a leading frontier AI lab and delivers initial AMD capacity]] — primary SEC-furnished evidence that RIOT has a 20-year, 191 MW critical-IT-load Rockdale lease with a frontier AI lab, expected $9.1B base-term revenue, phased 96 MW / 191 MW delivery in Dec. 2027 / Jun. 2028, and initial 25 MW delivered to AMD on time and on budget.
 - [[04 Events/2026/2026-08-04 AMD Q2 2026 Data Center AI Accelerator Ramp|2026-08-04: AMD Q2 2026 results show Data Center revenue more than doubled as Instinct deployments and Helios ramp]] — primary evidence that accelerator demand is converting into AMD Data Center revenue and rackscale deployment language, including SEC-furnished references to Anthropic and up to 2 GW of AMD Instinct GPUs in Helios racks; this complements the Core Scientific / AMD capacity-procurement event but does not disclose customer deployment timing or GPU units.
 - [[04 Events/2026/2026-08-05 TeraWulf Galaxy Q2 2026 AI Datacenter Operational Updates|2026-08-05: TeraWulf and Galaxy Q2 results show AI datacenter capacity moving from leases into delivered load, revenue, and new powered-site pipelines]] — primary SEC evidence that Fluidstack/Google-supported Lake Mariner capacity and CoreWeave-leased Helios capacity are now contributing revenue-generating critical IT load; also adds WULF's Muskie/Kentucky Power 1 GW platform and GLXY's >5.7 GW Texas AI datacenter pipeline as lower-certainty future demand/power optionality.
 - [[04 Events/2026/2026-08-04 Bitdeer Tydal Norway AI HPC Data Center Lease|2026-08-04: Bitdeer announces $4.7B 16-year AI/HPC data center lease for Tydal, Norway campus]] — primary SEC-furnished evidence that Volta leased 121 IT MW / estimated 133 gross MW at Bitdeer's Tydal, Norway campus for NVIDIA GPU-configured AI/HPC capacity serving a leading AI lab, with Dell as technology provider and approximately $4.7B base-term revenue; Aug. 10 filings add a tenant no-fee termination right at 10 years, two-phase delivery targets, broader AI-cloud/colocation pipeline fields, and $1.0B ATM funding/dilution context, while end-customer identity and final credit support remain open.
@@ -54,7 +59,11 @@ Public: MSFT, GOOGL, AMZN, META, ORCL, AMD, NAVER, SK Telecom. Private/material:
 
 ## Current assessment
 
-2026-08-09 update: AMD adds a direct accelerator-vendor demand-conversion signal to the model-lab/cloud layer. The same AMD stack now has (1) Core Scientific capacity reservations for more than 500 MW / about 530 MW beginning in 2027 and (2) primary earnings evidence that Data Center revenue more than doubled, Instinct deployments are scaling, Helios is beginning to ramp, and up-to-2 GW Anthropic/Helios deployment language appears in SEC-furnished slides. The remaining checks are customer-specific deployment timing, economics, GPU units, HBM/foundry allocation, and whether customer demand shifts share from NVIDIA or only expands total accelerator capacity.
+2026-08-14 update: Nebius/NBIS adds a primary AI-cloud demand and contracted-power signal to the model. Weight this above generic GPU-cloud growth commentary because Nebius disclosed named customers, >$1B average TCV for four landmark deals, ACV/MW pricing, customer-prepayment funding, Q2 capex, a 5 GW contracted-power target, and a >1 GW/year deployment plan starting 2027. Main caveat: contracted power is defined as contracted land/power commitments, not delivered critical IT load, so supplier/order and commissioning evidence still need verification.
+
+2026-08-13 update: Riot and IREN add two primary demand-conversion signals. Riot adds a new direct public exposure (RIOT) with a signed 191 MW / $9.1B frontier-AI-lab Rockdale lease, phased delivery schedule, Morgan Stanley interim financing, and concurrent proof that the first 25 MW for AMD was delivered on time and on budget. IREN adds an operational acceptance milestone: Horizon 1, the first of four 50 MW IT-load Microsoft deployments at Childress under the five-year $9.7B contract, was delivered and accepted, and NVIDIA testing resulted in GB300 NVL72 Exemplar Cloud status. Weight these above pipeline/LOI evidence; still track tenant identity, final credit backstop/project financing, Horizons 2-4 acceptance, margins, and supplier bill of materials.
+
+2026-08-09 update: AMD adds a direct accelerator-vendor demand-conversion signal to the model-lab/cloud layer.
 
 2026-08-07 update: CleanSpark adds a recent primary execution update for the confidential global-technology tenant path: the 175 MW Sandersville lease is still not delivered capacity, but long-lead procurement has been pre-paid and anticipated equity funding is complete. This improves confidence that signed AI/HPC demand can progress into physical buildout, while the remaining proof points are tenant identity, full financing, construction/interconnection execution, and RFS/rent commencement.
 

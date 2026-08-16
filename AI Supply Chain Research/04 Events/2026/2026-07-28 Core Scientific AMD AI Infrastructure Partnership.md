@@ -9,7 +9,7 @@ segments: [Demand Model Labs and Cloud, Datacenter Power Cooling and Constructio
 companies: [Core Scientific, AMD]
 public_exposures: [CORZ, AMD, NVDA, TSM, SK Hynix, Samsung Electronics, MU, VRT, ETN, SU.PA, ABB, PWR, MOD]
 created: 2026-08-02
-last_reviewed: 2026-08-02
+last_reviewed: 2026-08-14
 superseded_by:
 ---
 
@@ -26,6 +26,7 @@ superseded_by:
 - Core Scientific issued AMD a warrant to purchase up to 30 million Core Scientific common shares at $23.47 per share; warrant shares vest at 12,222 shares per MW of critical IT load, and about 6.5 million shares vested when the July 27 leases were executed.
 - Core Scientific's July 2026 investor deck breaks the initial approximately 530 MW leased-power footprint into Pecos (~185 MW), Dalton (~120 MW), Hunt County (~110 MW), Muskogee (~82 MW), and Auburn (~32 MW). It says initial delivery for AMD is expected in early 2027 and the full 530 MW is expected by the end of 2028.
 - The deck says Core Scientific now has about 1.1 GW of customer-contracted power and more than $24B in contracted revenue across its footprint, with significant expansion potential through the AMD relationship for over 3 GW of customer-contracted capacity.
+- On August 14, 2026 Core Scientific filed an 8-K saying it completed the previously announced August 13 acquisition of Polaris DS LLC for approximately $444.3 million in cash. The acquired assets are tied to the May 5, 2026 merger agreement, under which Polaris DS's material assets at closing were approximately 40 acres adjacent to Core Scientific's Muskogee, Oklahoma datacenter operations, an electrical substation, and electrical service agreements with Oklahoma Gas and Electric Company providing up to 440 MW of continuous electricity to the premises; the purchase price can increase by $40 million if an additional 40 MW of firm electric capacity becomes available before December 31, 2026.
 - This event was discovered by the daily monitoring job on August 2, 2026. Discord alert sent despite delayed discovery because the July 28 primary SEC-filed event was recent, not already captured, and materially updates the AMD AI accelerator / power-rich datacenter capacity model.
 
 ## Source links
@@ -34,6 +35,8 @@ superseded_by:
 - Primary SEC-filed Exhibit 99.1 press release: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/amdpr.htm
 - Primary SEC-filed Q2 2026 investor deck: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/q2fy26earningsdeck728am.htm
 - Primary SEC filing: Core Scientific Q2 2026 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm
+- Primary SEC filing: Core Scientific August 14, 2026 Form 8-K announcing Polaris DS acquisition close: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000018/core-20260813.htm
+- Primary SEC filing: Core Scientific May 5, 2026 Form 8-K announcing Polaris DS merger agreement: https://www.sec.gov/Archives/edgar/data/1839341/000162828026030918/core-20260505.htm
 
 ## Affected supply-chain nodes
 
@@ -80,3 +83,4 @@ superseded_by:
 | Date | Change | Evidence |
 |---|---|---|
 | 2026-08-02 | Created event note from recent primary SEC-filed evidence; Discord alert sent because this materially updates an active AI datacenter capacity and AMD accelerator-deployment thesis. | Core Scientific July 28, 2026 Form 8-K / Exhibit 99.1; Q2 2026 Form 10-Q; SEC-filed investor deck. |
+| 2026-08-14 | Added Core Scientific's same-day Polaris DS acquisition close as an execution/site-power follow-up: approximately $444.3M cash close for assets tied to 40 acres adjacent to Muskogee operations, substation assets, and up to 440 MW of continuous electricity under OG&E service agreements; no new Discord alert because the original agreement was from May 2026 and the close does not add a new signed AI tenant, critical-IT-load lease economics, RFS/rent milestone, or AMD reservation exercise. | Core Scientific August 14, 2026 Form 8-K; Core Scientific May 5, 2026 Form 8-K. |

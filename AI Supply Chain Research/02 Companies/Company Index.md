@@ -2,7 +2,7 @@
 type: company-index
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-08
+last_updated: 2026-08-14
 ---
 
 # Company Index
@@ -41,7 +41,9 @@ Use this as a curated index of public and material private entities in the AI su
 | Amazon | AMZN | Cloud/custom silicon | AWS AI infrastructure. |
 | Meta | META | Hyperscaler demand | Large AI cluster buyer. |
 | Oracle | ORCL | Cloud/AI infrastructure | GPU cloud and datacenter expansion. |
-| IREN | IREN | AI cloud provider / power-rich datacenter developer | Primary SEC evidence of $2.8B new AI cloud contracts, >$4B 2026 AI Cloud ARR target ~85% contracted, customer prepayments around 45% of associated GPU capex, 480 MW being delivered in 2026, and 1.2 GW targeted for 2027. |
+| Nebius Group | NBIS | AI cloud provider / contracted power and GPU capacity aggregator | Primary Aug. 2026 company evidence shows Q2 revenue +454% YoY to $582.3M, AI Cloud revenue +514% YoY to $575M, ARR $3.0B, four landmark AI cloud deals averaging >$1B TCV each, ACV $20-$25M/MW, customer prepayments covering 50%-60% of associated capex, a 5 GW 2026 contracted-power target, >1 GW/year planned deployments starting 2027, about $5.7B of Q2 capex, and >$9B expected 2026 customer prepayments. |
+| IREN | IREN | AI cloud provider / power-rich datacenter developer | Primary SEC evidence of $2.8B new AI cloud contracts, >$4B 2026 AI Cloud ARR target ~85% contracted, customer prepayments around 45% of associated GPU capex, 480 MW being delivered in 2026, and 1.2 GW targeted for 2027; Aug. 13 update says Horizon 1, the first of four 50 MW IT-load Microsoft deployments at Childress under the five-year $9.7B Microsoft contract, was delivered/accepted and achieved NVIDIA Exemplar Cloud status on GB300 NVL72. |
+| Riot Platforms | RIOT | Power-rich AI datacenter developer / former bitcoin-mining infrastructure owner | Primary Aug. 2026 SEC evidence of a 20-year 191 MW Rockdale lease with a leading frontier AI lab, expected $9.1B base-term revenue / $16.1B potential with extensions, Dec. 2027 / Jun. 2028 phased delivery targets, $573M Morgan Stanley interim financing while the credit backstop is finalized, and initial 25 MW delivered to AMD on time and on budget; track project financing, credit support, tenant identity, RFS/rent milestones, and Corsicana LOI conversion. |
 | Galaxy Digital | GLXY | Power-rich AI/HPC datacenter developer | Primary SEC evidence now shows Helios Phase I's 133 MW critical IT load fully in service by Q2 2026 quarter-end, expected ~$80M quarterly Phase I leasing revenue beginning Q3, closed $3.5B Phase II financing, CoreWeave's 526 MW contracted critical IT load across phases, and an expanded Texas AI/HPC datacenter power pipeline above 5.7 GW. |
 | TeraWulf | WULF | Power-rich AI/HPC datacenter developer | Primary SEC evidence now shows 102 MW revenue-generating critical IT capacity online at Lake Mariner, 336 MW under construction, $600M Google credit support for Fluidstack lease obligations activated after CB-3 delivery, the 401 MW Anthropic Justified lease, Muskie/Kentucky Power agreements for up to 1 GW of contracted electric service, and a 250-500 MW annual incremental critical-IT contracting target. |
 | Applied Digital | APLD | AI datacenter developer / AI Factory campuses | Primary evidence of a 1.41 GW contracted critical-IT-load portfolio, MW-specific project financing for Polaris Forge 2 and Polaris Forge 1 Building 4, 75 MW Polaris Forge 1 Building 2 operational delivery, and multi-campus contracted AI datacenter portfolio. |

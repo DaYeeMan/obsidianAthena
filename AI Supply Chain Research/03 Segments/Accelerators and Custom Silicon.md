@@ -2,7 +2,7 @@
 type: segment
 sector: AI Supply Chain
 created: 2026-07-05
-last_updated: 2026-08-09
+last_updated: 2026-08-14
 ---
 
 # Accelerators and Custom Silicon
@@ -25,6 +25,7 @@ NVDA, AMD, INTC, AVGO, MRVL, ARM, hyperscaler internal silicon teams, Cerebras, 
 
 _Add material event backlinks here._
 
+- [[04 Events/2026/2026-08-12 Nebius Q2 AI Cloud Contracted Power and Demand Inflection|2026-08-12: Nebius Q2 results raise 2026 contracted power target to 5 GW after AI cloud demand inflection]] — primary AI-cloud demand signal for NVIDIA accelerators: Nebius disclosed four landmark AI cloud deals averaging >$1B TCV each, ACV $20-$25M/MW, Q2 capex about $5.7B mainly for GPUs/GPU-related hardware and datacenter expansion, >$9B expected 2026 customer prepayments, next-generation NVIDIA architecture language with Cohere, and a Q3 capacity auction clearing Nebius's highest price to date for NVIDIA Blackwell chips; GPU unit counts, model mix, and supplier allocations remain undisclosed.
 - [[04 Events/2026/2026-08-04 AMD Q2 2026 Data Center AI Accelerator Ramp|2026-08-04: AMD Q2 2026 results show Data Center revenue more than doubled as Instinct deployments and Helios ramp]] — primary SEC-furnished accelerator revenue/rackscale evidence: Data Center revenue $6.7B, up 107% YoY and 58% of company revenue, Instinct deployments scaling, Helios beginning to ramp, Data Center expected to accelerate in 2H 2026, and SEC-furnished slide language referencing Anthropic and up to 2 GW of AMD Instinct GPUs in Helios racks; GPU units, HBM supplier mix, and package allocation remain undisclosed.
 - [[04 Events/2026/2026-07-28 Core Scientific AMD AI Infrastructure Partnership|2026-07-28: Core Scientific and AMD announce AI infrastructure partnership for 530 MW initial capacity]] — primary evidence that AMD is securing AI-ready datacenter capacity to support end-customer deployments of AMD AI solutions, including Instinct GPUs, EPYC CPUs, and ROCm software; actual GPU counts, model mix, and HBM/foundry allocation remain undisclosed.
 - [[04 Events/2026/2026-07-31 Amazon AWS AI Infrastructure Commitments and Capex|2026-07-31: Amazon discloses AWS AI infrastructure commitments, capex, and OpenAI/Anthropic chip-linked contracts]] — primary custom-silicon demand signal because Amazon explicitly says the expanded OpenAI and Anthropic AWS commitments include contractual obligations related to AWS-chip performance; chip mix, unit counts, foundry/packaging allocation, and HBM needs remain undisclosed.
@@ -39,6 +40,8 @@ _Add material event backlinks here._
 - [[04 Events/2026/2026-03-16 Micron HBM4 High Volume Production for NVIDIA Vera Rubin|2026-03-16: Micron HBM4 in high-volume production for NVIDIA Vera Rubin]] — memory-side evidence for the Vera Rubin platform supply chain; monitor NVIDIA ramp timing and whether HBM4 supply diversity de-risks shipments.
 
 ## Current assessment
+
+2026-08-14 update: Nebius adds a primary GPU-cloud demand and pricing signal for NVIDIA accelerators: four landmark AI cloud deals averaging >$1B TCV each, ACV $20-$25M/MW, Q2 capex about $5.7B mainly for GPUs/GPU-related hardware and datacenter expansion, >$9B expected 2026 customer prepayments, Cohere language tied to next-generation NVIDIA architectures, and a Q3 auction clearing Nebius's highest price to date for NVIDIA Blackwell chips. This is useful demand/pricing evidence but does not disclose GPU units, model mix, HBM supplier/generation, or delivery cadence.
 
 2026-08-09 update: AMD's Q2 2026 primary filing moves the AMD accelerator thesis from capacity reservation alone toward revenue conversion: Data Center revenue was $6.7B, up 107% YoY, management said Instinct deployments are scaling and Helios is beginning to ramp, and SEC-furnished slide language references Anthropic and up to 2 GW of AMD Instinct GPUs in Helios racks. This strengthens AMD's competitive-positioning signal versus NVIDIA/custom silicon, but the disclosure still does not quantify Instinct units, HBM generation/supplier mix, TSMC/packaging allocation, or rack shipment cadence.
 
