@@ -7,3 +7,7 @@
 Thumbs.db
 
 /.obsidian/graph.json
+/.obsidian/appearance.json
+/.obsidian/community-plugins.json
+/.obsidian/core-plugins.json
+/.obsidian/plugins/obsidian-git/obsidian_askpass.sh
